@@ -1,0 +1,1 @@
+Select String or Array SQL scripts based on your PostGIS database table configuration
