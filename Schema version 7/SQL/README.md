@@ -1,1 +1,1 @@
-Select the **correct SQL scripts** that match your database software
+Select the **SQL scripts** that match your database software
