@@ -827,7 +827,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <Graphic>
                   <ExternalGraphic>
                     <OnlineResource xlink:type="simple"
-                    xlink:href="osmmsymbols/fillRoughGrassland.svg"/>
+                    xlink:href="osmmsymbols/fillHeath.svg"/>
                     <Format>image/svg+xml</Format>
                   </ExternalGraphic>
                   <Size>60</Size>
