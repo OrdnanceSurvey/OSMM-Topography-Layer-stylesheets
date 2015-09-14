@@ -12,3 +12,5 @@ The contents of this repository are licensed under the [Open Government Licence 
 
 ![Logo](http://www.nationalarchives.gov.uk/images/infoman/ogl-symbol-41px-retina-black.png "OGL logo")
 
+##Thank Yous
+Thank you to Ben Halstead at Civica for feedback on some syntax errors in some of the SQLs. This have been corrected.
