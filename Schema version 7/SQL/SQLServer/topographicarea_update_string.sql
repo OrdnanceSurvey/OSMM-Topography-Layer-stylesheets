@@ -26,19 +26,19 @@ CASE
 	WHEN descriptivegroup = 'Rail' AND (make = 'Manmade' OR make = 'Unknown') THEN 'Rail Manmade Fill'
 	WHEN (CHARINDEX('Nonconiferous Trees', descriptiveterm) > 0 OR CHARINDEX('Nonconiferous Trees (Scattered)', descriptiveterm) > 0) AND (CHARINDEX('Coniferous Trees', descriptiveterm) > 0 OR CHARINDEX('Coniferous Trees (Scattered)', descriptiveterm) > 0) THEN 'Mixed Woodland Fill'
 	WHEN CHARINDEX('Nonconiferous Trees', descriptiveterm) > 0 OR CHARINDEX('Nonconiferous Trees (Scattered)', descriptiveterm) > 0 THEN 'Nonconiferous Tree Fill'
-	WHEN CHARINDEX('Coniferous Trees', descriptiveterm, ) > 0 OR CHARINDEX('Coniferous Trees (Scattered)', descriptiveterm) > 0 THEN 'Coniferous Tree Fill'
+	WHEN CHARINDEX('Coniferous Trees', descriptiveterm) > 0 OR CHARINDEX('Coniferous Trees (Scattered)', descriptiveterm) > 0 THEN 'Coniferous Tree Fill'
 	WHEN CHARINDEX('Orchard', descriptiveterm) > 0 THEN 'Orchard Fill'
 	WHEN CHARINDEX('Coppice Or Osiers', descriptiveterm) > 0 THEN 'Coppice Or Osiers Fill'
 	WHEN CHARINDEX('Scrub', descriptiveterm) > 0 THEN 'Scrub Fill'
 	WHEN CHARINDEX('Boulders', descriptiveterm) > 0 OR CHARINDEX(descriptiveterm, 'Boulders (Scattered)') > 0 THEN 'Boulders Fill'
 	WHEN CHARINDEX('Rock', descriptiveterm) > 0 OR CHARINDEX(descriptiveterm, 'Rock (Scattered)') > 0 THEN 'Rock Fill'
-	WHEN CHARINDEX(descriptiveterm, 'Scree') > 0 THEN 'Scree Fill'
-	WHEN CHARINDEX(descriptiveterm, 'Rough Grassland') > 0 THEN 'Rough Grassland Fill'
-	WHEN CHARINDEX(descriptiveterm, 'Heath') > 0 THEN 'Heath Fill'
-	WHEN CHARINDEX(descriptiveterm, 'Marsh Reeds Or Saltmarsh') > 0 THEN 'Marsh Fill'
+	WHEN CHARINDEX('Scree', descriptiveterm) > 0 THEN 'Scree Fill'
+	WHEN CHARINDEX('Rough Grassland', descriptiveterm) > 0 THEN 'Rough Grassland Fill'
+	WHEN CHARINDEX('Heath', descriptiveterm) > 0 THEN 'Heath Fill'
+	WHEN CHARINDEX('Marsh Reeds Or Saltmarsh', descriptiveterm) > 0 THEN 'Marsh Fill'
 	ELSE 'Unclassified' 
 END,
-style_description = 
+style_code = 
 CASE
 	WHEN CHARINDEX('Building', descriptivegroup) > 0 AND descriptiveterm IS NULL THEN 1
 	WHEN CHARINDEX('General Surface', descriptivegroup) > 0 AND descriptiveterm = 'Multi Surface' THEN 2
@@ -66,15 +66,15 @@ CASE
 	WHEN descriptivegroup = 'Rail' AND (make = 'Manmade' OR make = 'Unknown') THEN 24
 	WHEN (CHARINDEX('Nonconiferous Trees', descriptiveterm) > 0 OR CHARINDEX('Nonconiferous Trees (Scattered)', descriptiveterm) > 0) AND (CHARINDEX('Coniferous Trees', descriptiveterm) > 0 OR CHARINDEX('Coniferous Trees (Scattered)', descriptiveterm) > 0) THEN 25
 	WHEN CHARINDEX('Nonconiferous Trees', descriptiveterm) > 0 OR CHARINDEX('Nonconiferous Trees (Scattered)', descriptiveterm) > 0 THEN 26
-	WHEN CHARINDEX('Coniferous Trees', descriptiveterm, ) > 0 OR CHARINDEX('Coniferous Trees (Scattered)', descriptiveterm) > 0 THEN 27
+	WHEN CHARINDEX('Coniferous Trees', descriptiveterm) > 0 OR CHARINDEX('Coniferous Trees (Scattered)', descriptiveterm) > 0 THEN 27
 	WHEN CHARINDEX('Orchard', descriptiveterm) > 0 THEN 28
 	WHEN CHARINDEX('Coppice Or Osiers', descriptiveterm) > 0 THEN 29
 	WHEN CHARINDEX('Scrub', descriptiveterm) > 0 THEN 30
 	WHEN CHARINDEX('Boulders', descriptiveterm) > 0 OR CHARINDEX(descriptiveterm, 'Boulders (Scattered)') > 0 THEN 31
 	WHEN CHARINDEX('Rock', descriptiveterm) > 0 OR CHARINDEX(descriptiveterm, 'Rock (Scattered)') > 0 THEN 32
-	WHEN CHARINDEX(descriptiveterm, 'Scree') > 0 THEN 33
-	WHEN CHARINDEX(descriptiveterm, 'Rough Grassland') > 0 THEN 34
-	WHEN CHARINDEX(descriptiveterm, 'Heath') > 0 THEN 35
-	WHEN CHARINDEX(descriptiveterm, 'Marsh Reeds Or Saltmarsh') > 0 THEN 36
+	WHEN CHARINDEX('Scree', descriptiveterm) > 0 THEN 33
+	WHEN CHARINDEX('Rough Grassland', descriptiveterm) > 0 THEN 34
+	WHEN CHARINDEX('Heath', descriptiveterm) > 0 THEN 35
+	WHEN CHARINDEX('Marsh Reeds Or Saltmarsh', descriptiveterm) > 0 THEN 36
 	ELSE 99 
 END;
