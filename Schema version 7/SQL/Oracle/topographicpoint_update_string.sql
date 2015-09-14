@@ -17,7 +17,7 @@ CASE
 	WHEN featurecode = 10072 THEN 'Site of Heritage'
 	WHEN featurecode = 10051 THEN 'Positioned Boulder Point'
 	WHEN featurecode = 10209 THEN 'Tidal Water Point'
-	WHEN featurecode = 10100 THEN 'Diused Feature Point'
+	WHEN featurecode = 10100 THEN 'Disused Feature Point'
 	WHEN featurecode = 10159 AND descriptiveterm = 'Switch' THEN 'Rail Switch Point'
 	WHEN featurecode = 10080 AND descriptiveterm = 'Positioned Nonconiferous Tree' THEN 'Positioned Nonconiferous Tree Point'	
 	WHEN (featurecode = 10120 OR featurecode = 10176 OR featurecode = 10159) THEN 'Inland Water Point'
