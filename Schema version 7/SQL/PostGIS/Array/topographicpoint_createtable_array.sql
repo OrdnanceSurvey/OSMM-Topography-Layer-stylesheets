@@ -26,7 +26,7 @@ END AS style_description,
 CASE
 	WHEN featurecode = 10197 THEN 1
 	WHEN featurecode = 10085 THEN 2
-	WHEN (featurecode = 10048 OR featurecode = 10132 OR featurecode = 10080) AND descriptiveterm = '{"Positioned Nonconiferous Tree"}' THEN
+	WHEN (featurecode = 10048 OR featurecode = 10132 OR featurecode = 10080) AND descriptiveterm = '{"Positioned Nonconiferous Tree"}' THEN 3
 	WHEN featurecode = 10088 THEN 4
 	WHEN featurecode = 10186 AND descriptiveterm IS NULL THEN 5
 	WHEN featurecode = 10179 THEN 6
