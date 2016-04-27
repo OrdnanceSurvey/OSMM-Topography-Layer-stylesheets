@@ -34,7 +34,7 @@ CASE
 	WHEN featurecode = 10158 THEN 8
 	WHEN featurecode = 10050 THEN 9
 	WHEN featurecode = 10094 THEN 10
-	WHEN featurecode = 10080 AND descriptiveterm = '{Structure}' THEN THEN 11
+	WHEN featurecode = 10080 AND descriptiveterm = '{Structure}' THEN 11
 	WHEN featurecode = 10129 THEN 12
 	WHEN featurecode = 10186 AND  descriptiveterm = '{"Triangulation Point Or Pillar"}' THEN 13
 	WHEN featurecode = 10191 THEN 5
