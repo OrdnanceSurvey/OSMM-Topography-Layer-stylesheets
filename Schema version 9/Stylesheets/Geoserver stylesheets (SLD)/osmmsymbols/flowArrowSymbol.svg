@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg2" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" sodipodi:docname="flowArrowSymbol.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape" sodipodi:version="0.32" inkscape:version="0.46"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="4.063px" height="1.125px"
+	 viewBox="0 0 4.063 1.125" enable-background="new 0 0 4.063 1.125" xml:space="preserve">
+<g id="flowArrowSymbol" transform="translate(6.25e-2,0.5625)">
+	<g id="polyline4">
+		<rect x="0" y="-0.043" fill="#0099FF" width="3.438" height="0.087"/>
+	</g>
+	<g id="polyline6">
+		<polygon fill="#0099FF" points="0.469,0.53 -0.061,0 0.469,-0.531 0.531,-0.469 0.062,0 0.531,0.469 		"/>
+	</g>
+	<g id="polyline8">
+		<polygon fill="#0099FF" points="3.32,0.53 2.788,0 2.82,-0.031 3.32,-0.531 3.38,-0.469 2.911,0 3.38,0.469 		"/>
+	</g>
+	<g id="polyline10">
+		<polygon fill="#0099FF" points="3.907,0.53 3.376,0 3.407,-0.031 3.907,-0.531 3.968,-0.469 3.499,0 3.968,0.469 		"/>
+	</g>
+</g>
+</svg>
