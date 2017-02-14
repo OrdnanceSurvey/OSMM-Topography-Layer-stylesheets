@@ -14,7 +14,7 @@ CASE
 	WHEN descriptiveterm = '{"Boundary Post Or Stone"}' THEN 'Boundary Post Point'
 	WHEN descriptiveterm = '{"Triangulation Point Or Pillar"}' THEN 'Triangulation Point Or Pillar Point'
 	WHEN descriptivegroup = '{"Historic Interest"}' THEN 'Historic Point'
-	WHEN descriptivegroup = '{Landform}' THEN 'Landform Point'
+	WHEN (descriptivegroup = '{Landform}' OR descriptiveterm = '{"Positioned Boulder"}') THEN 'Landform Point'
 	WHEN descriptivegroup @> '{"Tidal Water"}' THEN 'Tidal Water Point'
 	WHEN descriptivegroup @> '{Structure}' THEN 'Structure Point'
 
@@ -39,7 +39,7 @@ CASE
 	WHEN descriptiveterm = '{"Boundary Post Or Stone"}' THEN 11
 	WHEN descriptiveterm = '{"Triangulation Point Or Pillar"}' THEN 12
 	WHEN descriptivegroup = '{"Historic Interest"}' THEN 13
-	WHEN descriptivegroup = '{Landform}' THEN 14
+	WHEN (descriptivegroup = '{Landform}' OR descriptiveterm = '{"Positioned Boulder"}') THEN 14
 	WHEN descriptivegroup @> '{"Tidal Water"}' THEN 15
 	WHEN descriptivegroup @> '{Structure}' THEN 16
 ELSE 99
