@@ -43,7 +43,7 @@ END,
 colour_code = 
 CASE
 	WHEN INSTR(descriptivegroup,  'Buildings Or Structure') > 0 THEN 1
-	WHEN INSTR(descriptivegroup,  'Inland Water' THEN 2
+	WHEN INSTR(descriptivegroup,  'Inland Water') THEN 2
 	WHEN INSTR(descriptivegroup,  'Road Or Track') > 0 THEN 1
 	WHEN descriptivegroup = 'Terrain And Height' THEN 3
 	WHEN INSTR(descriptivegroup,  'Roadside') > 0 THEN 1
