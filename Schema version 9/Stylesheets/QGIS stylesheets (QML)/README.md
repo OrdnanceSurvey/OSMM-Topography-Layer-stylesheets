@@ -15,3 +15,7 @@ These stylesheets make use of Rule-based Labelling which was introduced at QGIS 
 ![Backdrop style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/QGIS%20stylesheets%20(QML)/images/Backdrop-1.png)
 
 ![Standard style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/QGIS%20stylesheets%20(QML)/images/Standard-1.png)
+
+![Outdoor style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/QGIS%20stylesheets%20(QML)/images/Outdoor-1.png)
+
+![Light style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/QGIS%20stylesheets%20(QML)/images/Light-1.png)

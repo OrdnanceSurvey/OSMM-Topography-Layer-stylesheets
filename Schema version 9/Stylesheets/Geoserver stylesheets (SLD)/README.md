@@ -12,3 +12,7 @@ For help and advice please see the [Getting Started Guide](https://github.com/Or
 ![Backdrop style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/Geoserver%20stylesheets%20(SLD)/images/Backdrop-1.png)
 
 ![Standard style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/Geoserver%20stylesheets%20(SLD)/images/Standard-1.png)
+
+![Outdoor style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/Geoserver%20stylesheets%20(SLD)/images/Outdoor-1.png)
+
+![Light style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/Geoserver%20stylesheets%20(SLD)/images/Light-1.png)
