@@ -3,7 +3,7 @@ CASE
 	--Built Environment Descriptive Term Rules
 	WHEN descriptiveterm = 'Multi Surface' THEN 'Multi Surface Fill'
 	WHEN descriptiveterm = 'Archway' THEN 'Archway Fill'
-	WHEN INSTR(descriptiveterm, 'Bridge') > 0 AND INSTR(descriptivegroup, 'Road Or Track') > 0  OR INSTR(descriptivegroup, 'Roadside') > 0 THEN 'Road Bridge Fill' --NEW
+	WHEN INSTR(descriptiveterm, 'Bridge') > 0 AND (INSTR(descriptivegroup, 'Road Or Track') > 0  OR INSTR(descriptivegroup, 'Roadside') > 0) THEN 'Road Bridge Fill' --NEW
 	WHEN INSTR(descriptiveterm, 'Bridge') > 0 AND INSTR(descriptivegroup, 'Rail') > 0 THEN 'Rail Bridge Fill' --NEW
 	WHEN INSTR(descriptiveterm, 'Bridge') > 0 THEN 'Bridge Fill' --NEW
 	WHEN INSTR(descriptiveterm, 'Level Crossing') >0 THEN 'Level Crossing Fill' --NEW
