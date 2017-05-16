@@ -110,7 +110,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#333333</CssParameter>
-              <CssParameter name="stroke-width">0.07</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -304,7 +304,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#00ccff</CssParameter>
-              <CssParameter name="stroke-width">0.07</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -325,7 +325,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.07</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -389,7 +389,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.07</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -420,7 +420,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       <!-- Line Of Posts -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>Default Line - 1:0 to 1:4,000</Name>
+          <Name>Line Of Posts - 1:0 to 1:4,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>style_code</ogc:PropertyName>
@@ -441,7 +441,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       <!-- Drain Line -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>Inland Water Line - 1:0 to 1:4,000</Name>
+          <Name>Drain Line - 1:0 to 1:4,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>style_code</ogc:PropertyName>
@@ -453,7 +453,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#00ccff</CssParameter>
-              <CssParameter name="stroke-width">0.07</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -462,7 +462,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       <!-- Normal Tidal Limit -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>Inland Water Line - 1:0 to 1:4,000</Name>
+          <Name>Normal Tidal Limit - 1:0 to 1:4,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>style_code</ogc:PropertyName>
@@ -495,7 +495,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#333333</CssParameter>
-              <CssParameter name="stroke-width">0.07</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -516,7 +516,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.07</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -581,7 +581,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
-              <CssParameter name="stroke-width">0.07</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -602,7 +602,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#00ccff</CssParameter>
-              <CssParameter name="stroke-width">0.07</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -733,7 +733,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#333333</CssParameter>
-              <CssParameter name="stroke-width">0.07</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
