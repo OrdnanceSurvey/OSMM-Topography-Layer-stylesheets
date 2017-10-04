@@ -26,7 +26,7 @@ CASE
 	WHEN INSTR(descriptiveterm, 'Scree') > 0 THEN 'Scree Fill'
 	WHEN INSTR(descriptiveterm, 'Rough Grassland') > 0 THEN 'Rough Grassland Fill'
 	WHEN INSTR(descriptiveterm, 'Heath') > 0  THEN 'Heath Fill'
-	WHEN INSTR(descriptiveterm, 'Marsh Reeds Or Saltmarsh') > 0  OR INSTR(descriptiveterm, 'Saltmarsh') > 0  THEN 'Marsh Fill'
+	WHEN INSTR(descriptiveterm, 'Marsh Reeds Or Saltmarsh') > 0  OR INSTR(descriptiveterm, 'Saltmarsh') > 0  THEN 'Saltmarsh Fill'
 	WHEN INSTR(descriptiveterm, 'Sand') > 0  THEN 'Sand Fill' --NEW
 	WHEN INSTR(descriptiveterm, 'Mud') > 0  THEN 'Mud Fill' --NEW
 	WHEN INSTR(descriptiveterm, 'Shingle') > 0  THEN 'Shingle Fill' --NEW
