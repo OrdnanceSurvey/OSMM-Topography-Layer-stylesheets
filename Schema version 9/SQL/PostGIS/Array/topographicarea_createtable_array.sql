@@ -27,7 +27,7 @@ CASE
 	WHEN descriptiveterm @> '{Scree}' THEN 'Scree Fill'
 	WHEN descriptiveterm @> '{"Rough Grassland"}' THEN 'Rough Grassland Fill'
 	WHEN descriptiveterm @> '{Heath}' THEN 'Heath Fill'
-	WHEN descriptiveterm @> '{"Marsh Reeds Or Saltmarsh"}' OR descriptiveterm @> '{Saltmarsh}' THEN 'Marsh Fill'
+	WHEN descriptiveterm @> '{"Marsh Reeds Or Saltmarsh"}' OR descriptiveterm @> '{Saltmarsh}' THEN 'Saltmarsh Fill'
 	WHEN descriptiveterm @> '{Sand}' THEN 'Sand Fill' --NEW
 	WHEN descriptiveterm @> '{Mud}' THEN 'Mud Fill' --NEW
 	WHEN descriptiveterm @> '{Shingle}' THEN 'Shingle Fill' --NEW
