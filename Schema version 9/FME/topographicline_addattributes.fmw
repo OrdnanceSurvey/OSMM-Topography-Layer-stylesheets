@@ -1,0 +1,165 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    "D:\Program Files\FME\fme.exe" D:\GIS\style\topographicline_addattributes.fmw
+#    
+#    
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   DOC_EXTENTS="1857 394"
+#!   CATEGORY=""
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   MAX_LOG_FEATURES="200"
+#!   PYTHON_COMPATIBILITY="27"
+#!   LAST_SAVE_DATE="2017-11-02T13:54:21"
+#!   USE_MARKDOWN=""
+#!   HISTORY=""
+#!   LOG_FILE=""
+#!   FME_DOCUMENT_PRIORGUID="d389cabb-d9e3-4cac-9f4b-278965795bb7,a56a6f7c-ee4b-4869-a859-b93465a53a66"
+#!   MARKDOWN_USAGE=""
+#!   IGNORE_READER_FAILURE="No"
+#!   DESCRIPTION=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   SHOW_INFO_NODES="true"
+#!   BEGIN_TCL=""
+#!   SHOW_ANNOTATIONS="true"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   TITLE=""
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   PASSWORD=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   END_PYTHON=""
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.1 (20170316 - Build 17271 - WIN64)"
+#!   VIEW_POSITION="-680.154 1148.91"
+#!   ZOOM_SCALE="102"
+#!   SOURCE="NONE"
+#!   WORKSPACE_VERSION="1"
+#!   DOC_TOP_LEFT="0 -42"
+#!   USAGE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   DESTINATION_ROUTING_FILE=""
+#!   END_TCL=""
+#!   FME_SERVER_SERVICES=""
+#!   BEGIN_PYTHON=""
+#!   FME_DOCUMENT_GUID="aae51704-3c66-4535-b00b-460d729f1147"
+#!   MARKDOWN_DESCRIPTION=""
+#!   SOURCE_ROUTING_FILE=""
+#!   FME_BUILD_NUM="17271"
+#!   DESTINATION="NONE"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   TERMINATE_REJECTED="YES"
+#! >
+#! <DATASETS>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="2"
+#!   NAME="Add Style Codes"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="0 352"
+#!   BOTTOM_RIGHT="1857 -42"
+#!   BOUNDING_RECT="0 352 1857 394"
+#!   STICKY="false"
+#!   COLOUR="0.239216,0.0627451,0.654902"
+#!   CONTENTS=""
+#! />
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="6"
+#!   TYPE="AttributeCreator"
+#!   VERSION="8"
+#!   POSITION="713.5 176.5"
+#!   BOUNDING_RECT="713.5 176.5 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17271"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="style_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="topographicline"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; style_code SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;99&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Polygon&lt;space&gt;Closing&lt;space&gt;Link&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Inferred&lt;space&gt;Property&lt;space&gt;Closing&lt;space&gt;Link&apos;2&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Bottom&lt;space&gt;Of&lt;space&gt;Slope&apos;3&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Top&lt;space&gt;Of&lt;space&gt;Slope&apos;4&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Step&apos;5&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Mean&lt;space&gt;High&lt;space&gt;Water&lt;space&gt;&lt;openparen&gt;Springs&lt;closeparen&gt;&apos;6&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Traffic&lt;space&gt;Calming&apos;7&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Standard&lt;space&gt;Gauge&lt;space&gt;Track&apos;8&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Bottom&lt;space&gt;Of&lt;space&gt;Cliff&apos;9&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Top&lt;space&gt;Of&lt;space&gt;Cliff&apos;10&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Mean&lt;space&gt;Low&lt;space&gt;Water&lt;space&gt;&lt;openparen&gt;Springs&lt;closeparen&gt;&apos;11&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Unmade&lt;space&gt;Path&lt;space&gt;Alignment&apos;12&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Overhead&lt;space&gt;Construction&apos;13&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Culvert&apos;14&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Pylon&apos;15&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Ridge&lt;space&gt;Or&lt;space&gt;Rock&lt;space&gt;Line&apos;16&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Narrow&lt;space&gt;Gauge&apos;17&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Buffer&apos;18&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Tunnel&lt;space&gt;Edge&apos;19&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Line&lt;space&gt;Of&lt;space&gt;Posts&apos;20&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Drain&apos;21&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Normal&lt;space&gt;Tidal&lt;space&gt;Limit&apos;22&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS General&lt;space&gt;Feature;TEST &lt;at&gt;Value&lt;openparen&gt;physicalpresence&lt;closeparen&gt; != Edge&lt;space&gt;&lt;solidus&gt;&lt;space&gt;Limit&apos;23&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Building;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Outline;TEST &lt;at&gt;Value&lt;openparen&gt;physicalpresence&lt;closeparen&gt; = Obstructing&apos;24&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS General&lt;space&gt;Feature;TEST &lt;at&gt;Value&lt;openparen&gt;physicalpresence&lt;closeparen&gt; = Edge&lt;space&gt;&lt;solidus&gt;&lt;space&gt;Limit&apos;25&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Road&lt;space&gt;Or&lt;space&gt;Track&apos;26&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Building;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Division;TEST &lt;at&gt;Value&lt;openparen&gt;physicalpresence&lt;closeparen&gt; = Obstructing&apos;27&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Inland&lt;space&gt;Water&apos;28&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS General&lt;space&gt;Surface;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Natural&apos;29&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Building;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Outline;TEST &lt;at&gt;Value&lt;openparen&gt;physicalpresence&lt;closeparen&gt; = Overhead&apos;30&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Landform;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Natural&apos;31&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Historic&lt;space&gt;Interest&apos;32&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Landform;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Manmade&apos;33&apos;FME_NUM_CONDITIONS34___&quot;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+FME_PYTHON_VERSION 27
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE NULL
+READER_KEYWORD NULL_SOURCE
+NULL_SOURCE_DATASET null
+
+WRITER_TYPE NULL
+WRITER_KEYWORD NULL_DEST
+NULL_DEST_DATASET null
+#! END_WB_HEADER
+
+#! START_WB_HEADER
+#! END_WB_HEADER
+
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)topographicline_addattributes.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_FILTER_MASK -1
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME topographicline_addattributes
+MACRO FME_VIEWER_APP fmedatainspector
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
