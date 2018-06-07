@@ -1389,7 +1389,7 @@
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="pattern_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="pattern_width_unit" v="MapUnit"/>
-          <prop k="svgFile" v="C:/Users/cglynn/Projects/OSMM-Topography-Layer-stylesheets/Schema version 9/Stylesheets/osmmsymbols/fillScree.svg"/>
+          <prop k="svgFile" v="osmmsymbols/fillScree.svg"/>
           <prop k="svg_outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="svg_outline_width_unit" v="MapUnit"/>
           <prop k="width" v="60"/>
