@@ -627,7 +627,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       <!--  Agricultural Land -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>Mixed Woodland - 1:0 to 1:4,000</Name>
+          <Name>Agricultural Land - 1:0 to 1:4,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>style_code</ogc:PropertyName>
