@@ -71,7 +71,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       <!--  Sand  -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>Foreshore - 1:0 to 1:4,000</Name>
+          <Name>Sand - 1:0 to 1:4,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>style_code</ogc:PropertyName>
@@ -91,7 +91,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       <!--  Mud  -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>Foreshore - 1:0 to 1:4,000</Name>
+          <Name>Mud - 1:0 to 1:4,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>style_code</ogc:PropertyName>
@@ -507,7 +507,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       <!--  Road Bridge  -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>Structure - 1:0 to 1:4,000</Name>
+          <Name>Road Bridge - 1:0 to 1:4,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>style_code</ogc:PropertyName>
@@ -527,7 +527,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       <!--  Rail Bridge  -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>Structure - 1:0 to 1:4,000</Name>
+          <Name>Rail Bridge - 1:0 to 1:4,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>style_code</ogc:PropertyName>
@@ -547,7 +547,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       <!--  Bridge  -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>Structure - 1:0 to 1:4,000</Name>
+          <Name>Bridge - 1:0 to 1:4,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>style_code</ogc:PropertyName>
@@ -567,7 +567,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       <!--  Footbridge  -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>Structure - 1:0 to 1:4,000</Name>
+          <Name>Footbridge - 1:0 to 1:4,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>style_code</ogc:PropertyName>
@@ -587,7 +587,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       <!--  Level Crossing  -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>Structure - 1:0 to 1:4,000</Name>
+          <Name>Level Crossing - 1:0 to 1:4,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>style_code</ogc:PropertyName>
@@ -1123,7 +1123,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       <!--  Canal  -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>Inland Water - 1:0 to 1:4,000</Name>
+          <Name>Canal - 1:0 to 1:4,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>style_code</ogc:PropertyName>
