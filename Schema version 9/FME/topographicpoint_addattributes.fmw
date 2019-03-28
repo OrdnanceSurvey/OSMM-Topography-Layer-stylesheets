@@ -5,54 +5,54 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "D:\Program Files\FME\fme.exe" D:\GIS\style\topographicpoint_addattributes.fmw
+#    "D:\Program Files\FME\fme.exe" "\\TQPC0347\Working Code\OSMM-Topography-Layer-stylesheets\Schema version 9\FME\topographicpoint_addattributes.fmw"
 #    
 #    
-#!   VIEW_POSITION="-723.046 658.708"
-#!   DESTINATION="NONE"
-#!   LAST_SAVE_DATE="2017-11-02T14:06:53"
-#!   DOC_TOP_LEFT="0 -42"
-#!   FME_BUILD_NUM="17271"
-#!   DOC_EXTENTS="1857 394"
-#!   MARKDOWN_USAGE=""
-#!   END_PYTHON=""
-#!   BEGIN_TCL=""
-#!   WORKSPACE_VERSION="1"
-#!   FME_DOCUMENT_GUID="8e051dca-cce3-4e63-9d15-300332c2319d"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   HISTORY=""
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   FME_DOCUMENT_PRIORGUID="d389cabb-d9e3-4cac-9f4b-278965795bb7"
-#!   SHOW_ANNOTATIONS="true"
-#!   ZOOM_SCALE="102"
-#!   USAGE=""
-#!   SHOW_INFO_NODES="true"
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   IGNORE_READER_FAILURE="No"
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   USE_MARKDOWN=""
-#!   DESTINATION_ROUTING_FILE=""
 #!   REDIRECT_TERMINATORS="NONE"
-#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.1 (20170316 - Build 17271 - WIN64)"
-#!   MAX_LOG_FEATURES="200"
-#!   PYTHON_COMPATIBILITY="27"
-#!   FME_SERVER_SERVICES=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   WORKSPACE_VERSION="1"
+#!   FME_DOCUMENT_GUID="4f3f9423-61a6-41cd-9722-7fd8de07125e"
 #!   TERMINATE_REJECTED="YES"
-#!   SOURCE_ROUTING_FILE=""
-#!   BEGIN_PYTHON=""
-#!   CATEGORY=""
-#!   PASSWORD=""
-#!   TITLE=""
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   DOC_TOP_LEFT="0 -42"
+#!   HISTORY=""
 #!   MARKDOWN_DESCRIPTION=""
-#!   SOURCE="NONE"
-#!   LOG_FILE=""
-#!   END_TCL=""
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.1 (20170316 - Build 17271 - WIN64)"
+#!   SHOW_INFO_NODES="true"
+#!   DESTINATION_ROUTING_FILE=""
+#!   PASSWORD=""
+#!   ZOOM_SCALE="102"
+#!   MAX_LOG_FEATURES="200"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   LAST_SAVE_DATE="2019-03-28T16:30:08"
+#!   FME_DOCUMENT_PRIORGUID="d389cabb-d9e3-4cac-9f4b-278965795bb7,8e051dca-cce3-4e63-9d15-300332c2319d"
+#!   DESCRIPTION=""
+#!   SHOW_ANNOTATIONS="true"
+#!   USE_MARKDOWN=""
 #!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_BUILD_NUM="17271"
+#!   VIEW_POSITION="-719.983 658.708"
+#!   CATEGORY=""
+#!   MARKDOWN_USAGE=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   END_TCL=""
+#!   DOC_EXTENTS="1857 394"
+#!   BEGIN_TCL=""
+#!   SOURCE_ROUTING_FILE=""
+#!   SOURCE="NONE"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   USAGE=""
+#!   FME_SERVER_SERVICES=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   END_PYTHON=""
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   TITLE=""
+#!   PYTHON_COMPATIBILITY="27"
+#!   BEGIN_PYTHON=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LOG_FILE=""
+#!   FME_STROKE_MAX_DEVIATION="0"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -98,16 +98,17 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="style_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="topographicpoint"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_ATTR ATTR_NAME="style_description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="topographicpoint"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; style_code SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;99&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Spot&lt;space&gt;Height&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Emergency&lt;space&gt;Telephone&apos;2&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Site&lt;space&gt;Of&lt;space&gt;Heritage&apos;3&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Culvert&apos;4&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Positioned&lt;space&gt;Nonconiferous&lt;space&gt;Tree&apos;5&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Inland&lt;space&gt;Water&apos;6&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Roadside&apos;7&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Overhead&lt;space&gt;Construction&apos;8&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Rail&apos;9&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Positioned&lt;space&gt;Coniferous&lt;space&gt;Tree&apos;10&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Boundary&lt;space&gt;Post&lt;space&gt;Or&lt;space&gt;Stone&apos;11&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Triangulation&lt;space&gt;Point&lt;space&gt;Or&lt;space&gt;Pillar&apos;12&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Historic&lt;space&gt;Interest&apos;13&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Landform;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Positioned&lt;space&gt;Boulder&apos;14&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Tidal&lt;space&gt;Water&apos;15&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Structure&apos;16&apos;FME_NUM_CONDITIONS17___&quot;  style_description SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;Unclassified&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Spot&lt;space&gt;Height&apos;Spot&lt;space&gt;Height&lt;space&gt;Point&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Emergency&lt;space&gt;Telephone&apos;Emergency&lt;space&gt;Telephone&lt;space&gt;Point&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Site&lt;space&gt;Of&lt;space&gt;Heritage&apos;Site&lt;space&gt;Of&lt;space&gt;Heritage&lt;space&gt;Point&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Culvert&apos;Culvert&lt;space&gt;Point&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Positioned&lt;space&gt;Nonconiferous&lt;space&gt;Tree&apos;Positioned&lt;space&gt;Nonconiferous&lt;space&gt;Tree&lt;space&gt;Point&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Inland&lt;space&gt;Water&apos;Inland&lt;space&gt;Water&lt;space&gt;Point&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Roadside&apos;Roadside&lt;space&gt;Point&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Overhead&lt;space&gt;Construction&apos;Overhead&lt;space&gt;Construction&lt;space&gt;Point&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Rail&apos;Rail&lt;space&gt;Point&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Positioned&lt;space&gt;Coniferous&lt;space&gt;Tree&apos;Positioned&lt;space&gt;Coniferous&lt;space&gt;Tree&lt;space&gt;Point&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Boundary&lt;space&gt;Post&lt;space&gt;Or&lt;space&gt;Stone&apos;Boundary&lt;space&gt;Post&lt;space&gt;Point&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Triangulation&lt;space&gt;Point&lt;space&gt;Or&lt;space&gt;Pillar&apos;Triangulation&lt;space&gt;Point&lt;space&gt;Or&lt;space&gt;Pillar&lt;space&gt;Point&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Historic&lt;space&gt;Interest&apos;Historic&lt;space&gt;Point&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Landform;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Positioned&lt;space&gt;Boulder&apos;Landform&lt;space&gt;Point&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Tidal&lt;space&gt;Water&apos;Tidal&lt;space&gt;Water&lt;space&gt;Point&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Structure&apos;Structure&lt;space&gt;Point&apos;FME_NUM_CONDITIONS17___&quot;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; style_code SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;99&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Spot&lt;space&gt;Height&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Emergency&lt;space&gt;Telephone&apos;2&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Site&lt;space&gt;Of&lt;space&gt;Heritage&apos;3&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Culvert&apos;4&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Positioned&lt;space&gt;Nonconiferous&lt;space&gt;Tree&apos;5&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Inland&lt;space&gt;Water&apos;6&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Roadside&apos;7&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Overhead&lt;space&gt;Construction&apos;8&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Rail&apos;9&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Positioned&lt;space&gt;Coniferous&lt;space&gt;Tree&apos;10&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Boundary&lt;space&gt;Post&lt;space&gt;Or&lt;space&gt;Stone&apos;11&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Triangulation&lt;space&gt;Point&lt;space&gt;Or&lt;space&gt;Pillar&apos;12&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Historic&lt;space&gt;Interest&apos;13&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Landform;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Positioned&lt;space&gt;Boulder&apos;14&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Tidal&lt;space&gt;Water&apos;15&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Structure&apos;16&apos;FME_NUM_CONDITIONS17___&quot;"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -146,6 +147,7 @@ FME_REPROJECTION_ENGINE FME
 FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
+FME_DEBUG MAPPING_FILE BADNEWS FME_STACK_TRACE UNGROUPED UNCORRELATED DUMP_SCHEMA XSD_VERBOSE HTTP_DEBUG FTP_DEBUG
 LOG_FILTER_MASK -1
 # -------------------------------------------------------------------------
 

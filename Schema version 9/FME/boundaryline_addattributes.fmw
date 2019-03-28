@@ -5,54 +5,54 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "D:\Program Files\FME\fme.exe" D:\GIS\style\boundaryline_addattributes.fmw
+#    "D:\Program Files\FME\fme.exe" "\\TQPC0347\Working Code\OSMM-Topography-Layer-stylesheets\Schema version 9\FME\boundaryline_addattributes.fmw"
 #    
 #    
-#!   CATEGORY=""
 #!   FME_STROKE_MAX_DEVIATION="0"
-#!   REDIRECT_TERMINATORS="NONE"
-#!   DESCRIPTION=""
-#!   MARKDOWN_DESCRIPTION=""
-#!   DESTINATION_ROUTING_FILE=""
-#!   USAGE=""
-#!   MAX_LOG_FEATURES="200"
-#!   LAST_SAVE_DATE="2017-11-02T13:48:27"
-#!   SHOW_ANNOTATIONS="true"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   LOG_FILE=""
-#!   IGNORE_READER_FAILURE="No"
-#!   SOURCE_ROUTING_FILE=""
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   SOURCE="NONE"
-#!   FME_SERVER_SERVICES=""
-#!   HISTORY=""
-#!   BEGIN_TCL=""
-#!   END_TCL=""
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   MARKDOWN_USAGE=""
-#!   BEGIN_PYTHON=""
-#!   PASSWORD=""
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   DOC_EXTENTS="1857 394"
-#!   DOC_TOP_LEFT="0 -42"
-#!   ZOOM_SCALE="137"
-#!   SHOW_INFO_NODES="true"
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   FME_DOCUMENT_PRIORGUID="d389cabb-d9e3-4cac-9f4b-278965795bb7"
 #!   ATTR_TYPE_ENCODING="SDF"
+#!   DOC_TOP_LEFT="0 -42"
+#!   FME_DOCUMENT_GUID="4830c2e9-d43d-4fb5-b3a6-c0d73ed5089e"
+#!   DESTINATION_ROUTING_FILE=""
+#!   FME_REPROJECTION_ENGINE="FME"
 #!   DESTINATION="NONE"
-#!   END_PYTHON=""
-#!   PYTHON_COMPATIBILITY="27"
-#!   FME_BUILD_NUM="17271"
-#!   VIEW_POSITION="-312.503 880.483"
-#!   USE_MARKDOWN=""
+#!   FME_DOCUMENT_PRIORGUID="d389cabb-d9e3-4cac-9f4b-278965795bb7,7dbddee9-3032-4ff9-ab33-16a51cd8b794"
 #!   LAST_SAVE_BUILD="FME(R) 2017.0.0.1 (20170316 - Build 17271 - WIN64)"
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   LAST_SAVE_DATE="2019-03-28T16:12:32"
+#!   BEGIN_TCL=""
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   TERMINATE_REJECTED="YES"
-#!   TITLE=""
-#!   FME_DOCUMENT_GUID="7dbddee9-3032-4ff9-ab33-16a51cd8b794"
+#!   FME_SERVER_SERVICES=""
+#!   SHOW_INFO_NODES="true"
+#!   MAX_LOG_FEATURES="200"
+#!   SHOW_ANNOTATIONS="true"
+#!   DOC_EXTENTS="1857 394"
+#!   ZOOM_SCALE="137"
+#!   PYTHON_COMPATIBILITY="27"
+#!   DESCRIPTION=""
+#!   LOG_FILE=""
+#!   BEGIN_PYTHON=""
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   PASSWORD=""
+#!   END_TCL=""
+#!   CATEGORY=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   VIEW_POSITION="-310.222 878.202"
 #!   WORKSPACE_VERSION="1"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   MARKDOWN_USAGE=""
+#!   MARKDOWN_DESCRIPTION=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   USAGE=""
+#!   USE_MARKDOWN=""
+#!   FME_BUILD_NUM="17271"
+#!   END_PYTHON=""
+#!   TITLE=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -98,16 +98,17 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="style_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="style_description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="boundaryline"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; style_code SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;99&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10136&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10131&apos;2&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10128&apos;3&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10127&apos;4&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10135&apos;5&apos;FME_NUM_CONDITIONS6___&quot;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; style_code SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;99&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10136&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10131&apos;2&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10128&apos;3&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10127&apos;4&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10135&apos;5&apos;FME_NUM_CONDITIONS6___&quot;  style_description SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;Unclassified&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10136&apos;Parish&lt;space&gt;Boundary&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10131&apos;District&lt;space&gt;Boundary&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10128&apos;Electoral&lt;space&gt;Boundary&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10127&apos;County&lt;space&gt;Boundary&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10135&apos;Parliamentary&lt;space&gt;Boundary&apos;FME_NUM_CONDITIONS6___&quot;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="boundaryline"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -146,6 +147,7 @@ FME_REPROJECTION_ENGINE FME
 FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
+FME_DEBUG MAPPING_FILE BADNEWS FME_STACK_TRACE UNGROUPED UNCORRELATED DUMP_SCHEMA XSD_VERBOSE HTTP_DEBUG FTP_DEBUG
 LOG_FILTER_MASK -1
 # -------------------------------------------------------------------------
 
