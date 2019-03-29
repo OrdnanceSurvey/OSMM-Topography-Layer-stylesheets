@@ -1,0 +1,172 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    "D:\Program Files\FME\fme.exe" D:\GIS\style\cartographictext_addattributes.fmw
+#    
+#    
+#!   FME_SERVER_SERVICES=""
+#!   WORKSPACE_VERSION="1"
+#!   BEGIN_PYTHON=""
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   FME_DOCUMENT_GUID="55e08ff8-1b66-4380-a7c8-2741696924d3"
+#!   MAX_LOG_FEATURES="200"
+#!   VIEW_POSITION="-723.046 658.708"
+#!   USE_MARKDOWN=""
+#!   TITLE=""
+#!   CATEGORY=""
+#!   SOURCE="NONE"
+#!   END_TCL=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_DATE="2017-11-02T13:51:07"
+#!   PASSWORD=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   SHOW_INFO_NODES="true"
+#!   MARKDOWN_DESCRIPTION=""
+#!   SHOW_ANNOTATIONS="true"
+#!   FME_DOCUMENT_PRIORGUID="d389cabb-d9e3-4cac-9f4b-278965795bb7"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   DESTINATION="NONE"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   HISTORY=""
+#!   DOC_EXTENTS="1857 394"
+#!   PYTHON_COMPATIBILITY="27"
+#!   TERMINATE_REJECTED="YES"
+#!   END_PYTHON=""
+#!   USAGE=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   BEGIN_TCL=""
+#!   DOC_TOP_LEFT="0 -42"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   ZOOM_SCALE="102"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   LOG_FILE=""
+#!   SOURCE_ROUTING_FILE=""
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.1 (20170316 - Build 17271 - WIN64)"
+#!   FME_BUILD_NUM="17271"
+#!   DESCRIPTION=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   MARKDOWN_USAGE=""
+#!   FME_REPROJECTION_ENGINE="FME"
+#! >
+#! <DATASETS>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="2"
+#!   NAME="Add Style Codes"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="0 352"
+#!   BOTTOM_RIGHT="1857 -42"
+#!   BOUNDING_RECT="0 352 1857 394"
+#!   STICKY="false"
+#!   COLOUR="0.239216,0.0627451,0.654902"
+#!   CONTENTS=""
+#! />
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="3"
+#!   TYPE="AttributeCreator"
+#!   VERSION="8"
+#!   POSITION="713.5 176.5"
+#!   BOUNDING_RECT="713.5 176.5 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17271"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="style_description" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="style_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="colour_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="font_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="rotation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="geo_x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="geo_y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="anchor" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="cartographictext"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; style_description SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;Unclassified&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Buildings&lt;space&gt;Or&lt;space&gt;Structure&apos;Building&lt;space&gt;Text&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Inland&lt;space&gt;Water&apos;Water&lt;space&gt;Text&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Road&lt;space&gt;Or&lt;space&gt;Track&apos;Road&lt;space&gt;Text&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Terrain&lt;space&gt;And&lt;space&gt;Height&apos;Height&lt;space&gt;Text&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Roadside&apos;Roadside&lt;space&gt;Text&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Structure&apos;Structure&lt;space&gt;Text&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Political&lt;space&gt;Or&lt;space&gt;Administrative&apos;Administrative&lt;space&gt;Text&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = General&lt;space&gt;Surface;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Natural&apos;General&lt;space&gt;Surface&lt;space&gt;Natural&lt;space&gt;Text&apos;BOOL_OP;COMPOSITE;COMPOSITE_TEST;(1 AND 2) OR (3 AND 4);TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = General&lt;space&gt;Surface;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Manmade;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = General&lt;space&gt;Surface;TEST make ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_&apos;General&lt;space&gt;Surface&lt;space&gt;Manmade&lt;space&gt;Text&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Landform;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Natural&apos;Landform&lt;space&gt;Natural&lt;space&gt;Text&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Foreshore&apos;Foreshore&lt;space&gt;Text&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Tidal&lt;space&gt;Water&apos;Tidal&lt;space&gt;Water&lt;space&gt;Text&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Built&lt;space&gt;Environment&apos;Built&lt;space&gt;Environment&lt;space&gt;Text&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Historic&lt;space&gt;Interest&apos;Historic&lt;space&gt;Text&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Rail&apos;Rail&lt;space&gt;Text&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS General&lt;space&gt;Feature&apos;General&lt;space&gt;Feature&lt;space&gt;Text&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Landform;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Manmade&apos;Landform&lt;space&gt;Manmade&lt;space&gt;Text&apos;FME_NUM_CONDITIONS18___&quot;  style_code SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;99&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Buildings&lt;space&gt;Or&lt;space&gt;Structure&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Inland&lt;space&gt;Water&apos;2&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Road&lt;space&gt;Or&lt;space&gt;Track&apos;3&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Terrain&lt;space&gt;And&lt;space&gt;Height&apos;4&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Roadside&apos;5&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Structure&apos;6&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Political&lt;space&gt;Or&lt;space&gt;Administrative&apos;7&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = General&lt;space&gt;Surface;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Natural&apos;8&apos;BOOL_OP;COMPOSITE;COMPOSITE_TEST;(1 AND 2) OR (3 AND 4);TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = General&lt;space&gt;Surface;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Manmade;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = General&lt;space&gt;Surface;TEST make ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_&apos;9&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Landform;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Natural&apos;10&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Foreshore&apos;11&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Tidal&lt;space&gt;Water&apos;12&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Built&lt;space&gt;Environment&apos;13&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Historic&lt;space&gt;Interest&apos;14&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Rail&apos;15&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS General&lt;space&gt;Feature&apos;16&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Landform;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Manmade&apos;17&apos;FME_NUM_CONDITIONS18___&quot;  colour_code SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Buildings&lt;space&gt;Or&lt;space&gt;Structure&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Inland&lt;space&gt;Water&apos;2&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Road&lt;space&gt;Or&lt;space&gt;Track&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Terrain&lt;space&gt;And&lt;space&gt;Height&apos;3&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Roadside&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Structure&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Political&lt;space&gt;Or&lt;space&gt;Administrative&apos;5&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = General&lt;space&gt;Surface;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Natural&apos;1&apos;BOOL_OP;COMPOSITE;COMPOSITE_TEST;(1 AND 2) OR (3 AND 4);TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = General&lt;space&gt;Surface;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Manmade;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = General&lt;space&gt;Surface;TEST make ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_&apos;1&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Landform;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Natural&apos;4&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Foreshore&apos;4&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Tidal&lt;space&gt;Water&apos;2&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Built&lt;space&gt;Environment&apos;1&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Historic&lt;space&gt;Interest&apos;1&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Rail&apos;1&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS General&lt;space&gt;Feature&apos;1&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Landform;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Manmade&apos;4&apos;FME_NUM_CONDITIONS18___&quot;  font_code SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Buildings&lt;space&gt;Or&lt;space&gt;Structure&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Inland&lt;space&gt;Water&apos;2&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Road&lt;space&gt;Or&lt;space&gt;Track&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Terrain&lt;space&gt;And&lt;space&gt;Height&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Roadside&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Structure&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Political&lt;space&gt;Or&lt;space&gt;Administrative&apos;1&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = General&lt;space&gt;Surface;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Natural&apos;1&apos;BOOL_OP;COMPOSITE;COMPOSITE_TEST;(1 AND 2) OR (3 AND 4);TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = General&lt;space&gt;Surface;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Manmade;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = General&lt;space&gt;Surface;TEST make ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_&apos;1&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Landform;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Natural&apos;1&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Foreshore&apos;1&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; CONTAINS Tidal&lt;space&gt;Water&apos;2&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Built&lt;space&gt;Environment&apos;1&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS Historic&lt;space&gt;Interest&apos;3&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; = Rail&apos;1&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptiveterm&lt;closeparen&gt; CONTAINS General&lt;space&gt;Feature&apos;1&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;descriptivegroup&lt;closeparen&gt; = Landform;TEST &lt;at&gt;Value&lt;openparen&gt;make&lt;closeparen&gt; = Manmade&apos;1&apos;FME_NUM_CONDITIONS18___&quot;  rotation SET_TO &lt;at&gt;div&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;orientation&lt;closeparen&gt;&lt;comma&gt;10&lt;closeparen&gt;  geo_x SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 0&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 1&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 2&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 3&apos;0.5&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 4&apos;0.5&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 5&apos;0.5&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 6&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 7&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 8&apos;1&apos;FME_NUM_CONDITIONS10___&quot;  geo_y SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 0&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 1&apos;0.5&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 2&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 3&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 4&apos;0.5&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 5&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 6&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 7&apos;0.5&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 8&apos;1&apos;FME_NUM_CONDITIONS10___&quot;  anchor SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 0&apos;SW&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 1&apos;W&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 2&apos;NW&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 3&apos;S&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 4&apos;&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 5&apos;N&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 6&apos;SE&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 7&apos;E&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;anchorposition&lt;closeparen&gt; = 8&apos;NE&apos;FME_NUM_CONDITIONS10___&quot;"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+FME_PYTHON_VERSION 27
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE NULL
+READER_KEYWORD NULL_SOURCE
+NULL_SOURCE_DATASET null
+
+WRITER_TYPE NULL
+WRITER_KEYWORD NULL_DEST
+NULL_DEST_DATASET null
+#! END_WB_HEADER
+
+#! START_WB_HEADER
+#! END_WB_HEADER
+
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)cartographictext_addattributes.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_FILTER_MASK -1
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME cartographictext_addattributes
+MACRO FME_VIEWER_APP fmedatainspector
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
