@@ -7,7 +7,7 @@ CASE
 	WHEN descriptiveterm = 'Bottom Of Slope' THEN 'Bottom Of Slope Line'
 	WHEN descriptiveterm = 'Top Of Slope' THEN 'Top Of Slope Line'
 	WHEN descriptiveterm = 'Step' THEN 'Step Line'
-	WHEN descriptiveterm ~ 'Mean High Water (Springs)' THEN 'Mean High Water Line'
+	WHEN descriptiveterm ~ 'Mean High Water \(Springs\)' THEN 'Mean High Water Line'
 	WHEN descriptiveterm = 'Traffic Calming' THEN 'Traffic Calming Line'
 	WHEN descriptiveterm = 'Standard Gauge Track' THEN 'Standard Gauge Track Line'
 	WHEN descriptiveterm = 'Bottom Of Cliff' THEN 'Bottom Of Cliff Line'
@@ -45,7 +45,7 @@ CASE
 	WHEN descriptiveterm = 'Bottom Of Slope' THEN 3
 	WHEN descriptiveterm = 'Top Of Slope' THEN 4
 	WHEN descriptiveterm = 'Step' THEN 5
-	WHEN descriptiveterm ~ 'Mean High Water (Springs)' THEN 6
+	WHEN descriptiveterm ~ 'Mean High Water \(Springs\)' THEN 6
 	WHEN descriptiveterm = 'Traffic Calming' THEN 7
 	WHEN descriptiveterm = 'Standard Gauge Track' THEN 8
 	WHEN descriptiveterm = 'Bottom Of Cliff' THEN 9
