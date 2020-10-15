@@ -1,0 +1,21 @@
+--SQL code to add style_description field as a Text(string) to table topographicpoint using Open field calculator
+
+CASE
+	WHEN "descriptiveTerm" = 'Spot Height' THEN 'Spot Height Point'
+	WHEN "descriptiveTerm" = 'Emergency Telephone' THEN 'Emergency Telephone Point'
+	WHEN "descriptiveTerm" ~ 'Site Of Heritage' THEN 'Site Of Heritage Point'
+	WHEN "descriptiveTerm" ~ 'Culvert' THEN 'Culvert Point'
+	WHEN "descriptiveTerm" = 'Positioned Nonconiferous Tree' THEN 'Positioned Nonconiferous Tree Point'
+	WHEN "descriptiveGroup" ~ 'Inland Water' THEN 'Inland Water Point'
+	WHEN "descriptiveGroup" ~ 'Roadside, Structure' THEN 'Roadside Point'
+	WHEN "descriptiveTerm" ~ 'Overhead Construction, Pole' THEN 'Overhead Construction Point'
+	WHEN "descriptiveGroup" ~ 'Rail, Structure' THEN 'Rail Point'
+	WHEN "descriptiveTerm" = 'Positioned Coniferous Tree' THEN 'Positioned Coniferous Tree Point'
+	WHEN "descriptiveTerm" = 'Boundary Post Or Stone' THEN 'Boundary Post Point'
+	WHEN "descriptiveTerm" = 'Triangulation Point Or Pillar' THEN 'Triangulation Point Or Pillar Point'
+	WHEN "descriptiveGroup" = 'Historic Interest' THEN 'Historic Point'
+	WHEN "descriptiveGroup" = 'Landform' OR "descriptiveTerm" = 'Positioned Boulder' THEN 'Landform Point'
+	WHEN "descriptiveGroup" ~ 'Tidal Water' THEN 'Tidal Water Point'
+	WHEN "descriptiveGroup" ~ 'Structure' THEN 'Structure Point'
+	ELSE 'Unclassified'
+END

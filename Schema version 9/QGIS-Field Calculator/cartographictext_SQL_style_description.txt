@@ -1,0 +1,22 @@
+--SQL code to add style_description field as a Text(string) to table cartographictext using Open field calculator
+
+CASE
+	WHEN "descriptiveGroup" ~ 'Buildings Or Structure' THEN 'Building Text'
+	WHEN "descriptiveGroup" ~ 'Inland Water' THEN 'Water Text'
+	WHEN "descriptiveGroup" ~ 'Road Or Track' THEN 'Road Text'
+	WHEN "descriptiveGroup" = 'Terrain And Height' THEN 'Height Text'
+	WHEN "descriptiveGroup" ~ 'Roadside' THEN 'Roadside Text'
+	WHEN "descriptiveGroup" ~ 'Structure' THEN 'Structure Text'
+	WHEN "descriptiveGroup" = 'Political Or Administrative' THEN 'Administrative Text'
+	WHEN "descriptiveGroup" = 'General Surface' AND "make" = 'Natural' THEN 'General Surface Natural Text'
+	WHEN "descriptiveGroup" = 'General Surface' AND "make" = 'Manmade' OR "descriptiveGroup" = 'General Surface' AND "make" IS NULL THEN 'General Surface Manmade Text'
+	WHEN "descriptiveGroup" = 'Landform' and "make" = 'Natural' THEN 'Landform Natural Text'
+	WHEN "descriptiveGroup" = 'Foreshore' THEN 'Foreshore Text'
+	WHEN "descriptiveGroup" ~ 'Tidal Water' THEN 'Tidal Water Text'
+	WHEN "descriptiveGroup" = 'Built Environment' THEN 'Built Environment Text'
+	WHEN "descriptiveGroup" ~ 'Historic Interest' THEN 'Historic Text'
+	WHEN "descriptiveGroup" = 'Rail' THEN 'Rail Text'
+	WHEN "descriptiveGroup" ~ 'General Feature' THEN 'General Feature Text'
+	WHEN "descriptiveGroup" = 'Landform' and "make" = 'Manmade' THEN 'Landform Manmade Text'
+	ELSE 'Unclassified' 
+	END

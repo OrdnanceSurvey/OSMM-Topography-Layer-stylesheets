@@ -1,0 +1,13 @@
+--SQL code to add anchor field as a Text(string) to table cartographictext using Open field calculator
+
+CASE
+	WHEN "anchorPosition" = 0 THEN 'SW'
+	WHEN "anchorPosition" = 1 THEN 'W'
+	WHEN "anchorPosition" = 2 THEN 'NW'
+	WHEN "anchorPosition" = 3 THEN 'S'
+	WHEN "anchorPosition" = 4 THEN ' '
+	WHEN "anchorPosition" = 5 THEN 'N'
+	WHEN "anchorPosition" = 6 THEN 'SE'
+	WHEN "anchorPosition" = 7 THEN 'E'
+	WHEN "anchorPosition" = 8 THEN 'NE'
+END

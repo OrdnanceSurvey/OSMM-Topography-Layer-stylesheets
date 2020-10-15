@@ -1,0 +1,40 @@
+--QGIS 3.10
+--SQL code to add style_code field as a Whole number (integer) (size 4) to table topographicline using Open field calculator
+CASE
+	--Descriptive Term Rules
+	WHEN "descriptiveTerm" = 'Polygon Closing Link' THEN 1
+	WHEN "descriptiveTerm" = 'Inferred Property Closing Link' THEN 2
+	WHEN "descriptiveTerm" = 'Bottom Of Slope' THEN 3
+	WHEN "descriptiveTerm" = 'Top Of Slope' THEN 4
+	WHEN "descriptiveTerm" = 'Step' THEN 5
+	WHEN "descriptiveTerm" ~ 'Mean High Water (Springs)' THEN 6
+	WHEN "descriptiveTerm" = 'Traffic Calming' THEN 7
+	WHEN "descriptiveTerm" = 'Standard Gauge Track' THEN 8
+	WHEN "descriptiveTerm" = 'Bottom Of Cliff' THEN 9
+	WHEN "descriptiveTerm" = 'Top Of Cliff' THEN 10
+	WHEN "descriptiveTerm" = 'Mean Low Water (Springs)' THEN 11
+	WHEN "descriptiveTerm" = 'Unmade Path Alignment' THEN 12
+	WHEN "descriptiveTerm" ~ 'Overhead Construction' THEN 13
+	WHEN "descriptiveTerm" = 'Culvert' THEN 14
+	WHEN "descriptiveTerm" = 'Pylon' THEN 15
+	WHEN "descriptiveTerm" = 'Ridge Or Rock Line' THEN 16	
+	WHEN "descriptiveTerm" = 'Narrow Gauge' THEN 17
+	WHEN "descriptiveTerm" = 'Buffer' THEN 18
+	WHEN "descriptiveTerm" = 'Tunnel Edge' THEN 19
+	WHEN "descriptiveTerm" ~ 'Line Of Posts' THEN 20 --NEW
+	WHEN "descriptiveTerm" = 'Drain' THEN 21 --NEW
+	WHEN "descriptiveTerm" ~ 'Normal Tidal Limit' THEN 22 --NEW
+	--Descriptive Group Rules
+	WHEN "descriptiveGroup" ~ 'General Feature' AND "physicalPresence" <> 'Edge / Limit' THEN 23
+	WHEN "descriptiveGroup" ~ 'Building' AND "descriptiveTerm" = 'Outline' AND "physicalPresence" = 'Obstructing' THEN 24
+	WHEN "descriptiveGroup" ~ 'General Feature' AND "physicalPresence" = 'Edge / Limit' THEN 25
+	WHEN "descriptiveGroup" ~ 'Road Or Track' THEN 26
+	WHEN "descriptiveGroup" ~ 'Building' AND "descriptiveTerm" = 'Division' AND "physicalPresence" = 'Obstructing' THEN 27
+	WHEN "descriptiveGroup" ~ 'Inland Water' THEN 28
+	WHEN "descriptiveGroup" ~ 'General Surface' AND "make" = 'Natural' THEN 29
+	WHEN "descriptiveGroup" ~ 'Building' AND "descriptiveTerm" = 'Outline' AND "physicalPresence" = 'Overhead' THEN 30
+	WHEN "descriptiveGroup" = 'Landform' AND "make" = 'Natural' THEN 31
+	WHEN "descriptiveGroup" = 'Historic Interest' THEN 32
+	WHEN "descriptiveGroup" = 'Landform' AND "make" = 'Manmade' THEN 33	
+	ELSE 99 
+	END

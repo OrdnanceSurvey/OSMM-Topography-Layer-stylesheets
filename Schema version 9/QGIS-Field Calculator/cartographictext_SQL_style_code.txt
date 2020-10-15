@@ -1,0 +1,22 @@
+--SQL code to add style_code field as a Whole number (integer) (size 4) to table cartographictext using Open field calculator
+
+CASE
+	WHEN "descriptiveGroup" ~ 'Buildings Or Structure' THEN 1
+	WHEN "descriptiveGroup" ~ 'Inland Water' THEN 2
+	WHEN "descriptiveGroup" ~ 'Road Or Track' THEN 3
+	WHEN "descriptiveGroup" = 'Terrain And Height' THEN 4
+	WHEN "descriptiveGroup" ~ 'Roadside' THEN 5
+	WHEN "descriptiveGroup" ~ 'Structure' THEN 6
+	WHEN "descriptiveGroup" = 'Political Or Administrative' THEN 7
+	WHEN "descriptiveGroup" = 'General Surface' AND "make" = 'Natural' THEN 8
+	WHEN "descriptiveGroup" = 'General Surface' AND "make" = 'Manmade' OR "descriptiveGroup" = 'General Surface' AND "make" IS NULL THEN 9
+	WHEN "descriptiveGroup" = 'Landform' and "make" = 'Natural' THEN 10
+	WHEN "descriptiveGroup" = 'Foreshore' THEN 11
+	WHEN "descriptiveGroup" ~ 'Tidal Water' THEN 12
+	WHEN "descriptiveGroup" = 'Built Environment' THEN 13
+	WHEN "descriptiveGroup" ~ 'Historic Interest' THEN 14
+	WHEN "descriptiveGroup" = 'Rail' THEN 15
+	WHEN "descriptiveGroup" ~ 'General Feature' THEN 16
+	WHEN "descriptiveGroup" = 'Landform' and "make" = 'Manmade' THEN 17
+	ELSE 99
+	END

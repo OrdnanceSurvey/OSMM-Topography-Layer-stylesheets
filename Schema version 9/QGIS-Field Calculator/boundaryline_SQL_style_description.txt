@@ -1,0 +1,10 @@
+--SQL code to add style_description field as a Text(string) to table boundaryline using Open field calculator
+
+CASE	
+	WHEN "featureCode" = 10136 THEN 'Parish Boundary'
+	WHEN "featureCode" = 10131 THEN 'District Boundary'
+	WHEN "featureCode" = 10128 THEN 'Electoral Boundary'
+	WHEN "featureCode" = 10127 THEN 'County Boundary'
+	WHEN "featureCode" = 10135 THEN 'Parliamentary Boundary'
+	ELSE 'Unclassified' 
+END

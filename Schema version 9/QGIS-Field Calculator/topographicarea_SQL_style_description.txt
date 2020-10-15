@@ -1,0 +1,56 @@
+--SQL code to add style_description field as a Text(string) to table topographicarea using Open field calculator
+
+CASE
+--Built Environment Descriptive Term Rules
+	WHEN "descriptiveTerm" = 'Multi Surface' THEN 'Multi Surface Fill'
+	WHEN "descriptiveTerm" = 'Archway'THEN 'Archway Fill'
+	WHEN "descriptiveTerm" ~ 'Bridge' AND ("descriptiveGroup" ~ 'Road Or Track' OR "descriptiveGroup" ~ 'Roadside') THEN 'Road Bridge Fill' --NEW
+	WHEN "descriptiveTerm" ~ 'Bridge' AND "descriptiveGroup" ~ 'Rail' THEN 'Rail Bridge Fill' --NEW
+	WHEN "descriptiveTerm" ~ 'Bridge' THEN 'Bridge Fill' --NEW
+	WHEN "descriptiveTerm" ~ 'Level Crossing' THEN 'Level Crossing Fill' --NEW
+	WHEN "descriptiveTerm" = 'Traffic Calming' THEN 'Traffic Calming Fill' --NEW
+	WHEN "descriptiveTerm" = 'Pylon' THEN 'Pylon Fill'
+	WHEN "descriptiveTerm" = 'Track' THEN 'Track Fill'
+	WHEN "descriptiveTerm" = 'Step' THEN 'Step Fill'
+	WHEN "descriptiveTerm" ~ 'Canal' THEN 'Canal Fill' --NEW
+	WHEN "descriptiveTerm" ~ 'Footbridge' THEN 'Footbridge Fill' --NEW
+	--Natural Environment Descriptive Term Rules
+	WHEN ("descriptiveTerm" ~ 'Nonconiferous Trees' OR "descriptiveTerm" ~ 'Nonconiferous Trees (Scattered)') AND ("descriptiveTerm" ~ 'Coniferous Trees' OR "descriptiveTerm" ~ 'Coniferous Trees (Scattered)') THEN 'Mixed Woodland Fill'
+	WHEN "descriptiveTerm" ~ 'Nonconiferous Trees' OR "descriptiveTerm" ~ 'Nonconiferous Trees (Scattered)' THEN 'Nonconiferous Tree Fill'
+	WHEN "descriptiveTerm" ~ 'Coniferous Trees' OR "descriptiveTerm" ~ 'Coniferous Trees (Scattered)' THEN 'Coniferous Tree Fill'
+	WHEN "descriptiveTerm" ~ 'Agricultural Land' THEN 'Agricultural Land Fill' --NEW
+	WHEN "descriptiveTerm" ~ 'Orchard' THEN 'Orchard Fill'
+	WHEN "descriptiveTerm" ~ 'Coppice Or Osiers' THEN 'Coppice Or Osiers Fill'
+	WHEN "descriptiveTerm" ~ 'Scrub' THEN 'Scrub Fill'
+	WHEN "descriptiveTerm" ~ 'Boulders' OR "descriptiveTerm" ~ 'Boulders (Scattered)' THEN 'Boulders Fill'
+	WHEN "descriptiveTerm" ~ 'Rock' OR "descriptiveTerm" ~ 'Rock (Scattered)' THEN 'Rock Fill'
+	WHEN "descriptiveTerm" ~ 'Scree' THEN 'Scree Fill'
+	WHEN "descriptiveTerm" ~ 'Rough Grassland' THEN 'Rough Grassland Fill'
+	WHEN "descriptiveTerm" ~ 'Heath' THEN 'Heath Fill'
+	WHEN "descriptiveTerm" ~ 'Marsh Reeds Or Saltmarsh' OR "descriptiveTerm" ~ 'Saltmarsh' THEN 'Saltmarsh Fill'
+	WHEN "descriptiveTerm" ~ 'Sand' THEN 'Sand Fill' --NEW
+	WHEN "descriptiveTerm" ~ 'Mud' THEN 'Mud Fill' --NEW
+	WHEN "descriptiveTerm" ~ 'Shingle' THEN 'Shingle Fill' --NEW
+	WHEN "descriptiveTerm" ~ 'Marsh' THEN 'Marsh Fill' --NEW
+	WHEN "descriptiveTerm" ~ 'Reeds' THEN 'Reeds Fill' --NEW
+	WHEN "descriptiveTerm" ~ 'Foreshore' THEN 'Foreshore Fill'
+	WHEN "descriptiveTerm" = 'Slope' THEN 'Slope Fill'
+	WHEN "descriptiveTerm" = 'Cliff' THEN 'Cliff Fill'
+	--Descriptive Group Rules
+	WHEN "descriptiveGroup" ~ 'Building' THEN 'Building Fill'
+	WHEN "descriptiveGroup" ~ 'General Surface' AND "make" = 'Natural' THEN 'Natural Fill'
+	WHEN "descriptiveGroup" ~ 'General Surface' AND ("make" = 'Manmade' OR "make" = 'Unknown') THEN 'Manmade Fill'
+	WHEN "descriptiveGroup" ~ 'Road Or Track' AND "make" = 'Manmade' THEN 'Road Or Track Fill'
+	WHEN "descriptiveGroup" ~ 'Roadside' AND "make" = 'Natural' THEN 'Roadside Natural Fill'
+	WHEN "descriptiveGroup" ~ 'Roadside' AND ("make" = 'Manmade' OR "make" = 'Unknown') THEN 'Roadside Manmade Fill'
+	WHEN "descriptiveGroup" ~ 'Inland Water' THEN 'Inland Water Fill'
+	WHEN "descriptiveGroup" ~ 'Path' THEN 'Path Fill'
+	WHEN "descriptiveGroup" ~ 'Rail' AND ("make" = 'Manmade' OR "make" = 'Unknown') THEN 'Rail Manmade Fill'
+	WHEN "descriptiveGroup" ~ 'Rail' AND "make" = 'Natural' THEN 'Rail Natural Fill'
+	WHEN "descriptiveGroup" ~ 'Structure' THEN 'Structure Fill'
+	WHEN "descriptiveGroup" = 'Glasshouse' THEN 'Glasshouse Fill'
+	WHEN "descriptiveGroup" ~ 'Landform' AND "make" = 'Natural' THEN 'Landform Natural Fill'
+	WHEN "descriptiveGroup" ~ 'Tidal Water' THEN 'Tidal Water Fill'
+	WHEN "descriptiveGroup" ~ 'Landform' AND "make" = 'Manmade' THEN 'Landform Manmade Fill'
+	ELSE 'Unclassified'
+	END

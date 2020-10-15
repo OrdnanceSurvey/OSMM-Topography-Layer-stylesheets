@@ -1,0 +1,13 @@
+--SQL code to add geo_y field as a Whole number (integer) (size 4) to table cartographictext using Open field calculator
+
+CASE
+	WHEN "anchorPosition" = 0 THEN 0	
+	WHEN "anchorPosition" = 1 THEN 0.5
+	WHEN "anchorPosition" = 2 THEN 1
+	WHEN "anchorPosition" = 3 THEN 0
+	WHEN "anchorPosition" = 4 THEN 0.5
+	WHEN "anchorPosition" = 5 THEN 1
+	WHEN "anchorPosition" = 6 THEN 0
+	WHEN "anchorPosition" = 7 THEN 0.5
+	WHEN "anchorPosition" = 8 THEN 1
+END

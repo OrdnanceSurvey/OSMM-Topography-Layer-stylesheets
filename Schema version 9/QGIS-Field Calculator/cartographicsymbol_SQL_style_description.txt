@@ -1,0 +1,11 @@
+--SQL code to add style_description field as a Text(string) to table cartographicsymbol using Open field calculator
+
+CASE
+	WHEN "featureCode" = 10091 THEN 'Culvert Symbol'
+	WHEN "featureCode" = 10082 THEN 'Direction Of Flow Symbol'
+	WHEN "featureCode" = 10130 THEN 'Boundary Half Mereing Symbol'
+	WHEN "featureCode" = 10066 OR "featureCode" = 10170 THEN 'Bench Mark Symbol'
+	WHEN "featureCode" = 10165 THEN 'Railway Switch Symbol'
+	WHEN "featureCode" = 10177 THEN 'Road Related Flow Symbol'
+	ELSE 'Unclassified'
+END

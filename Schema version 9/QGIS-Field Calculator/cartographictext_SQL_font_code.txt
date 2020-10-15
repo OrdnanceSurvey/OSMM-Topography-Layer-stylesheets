@@ -1,0 +1,22 @@
+--SQL code to add font_code field as a Whole number (integer) (size 4) to table cartographictext using Open field calculator
+
+CASE
+	WHEN "descriptiveGroup" ~ 'Buildings Or Structure' THEN 1
+	WHEN "descriptiveGroup" ~ 'Inland Water' THEN 2
+	WHEN "descriptiveGroup" ~ 'Road Or Track' THEN 1
+	WHEN "descriptiveGroup" = 'Terrain And Height' THEN 1
+	WHEN "descriptiveGroup" ~ 'Roadside' THEN 1
+	WHEN "descriptiveGroup" ~ 'Structure' THEN 1
+	WHEN "descriptiveGroup" = 'Political Or Administrative' THEN 1
+	WHEN "descriptiveGroup" = 'General Surface' AND "make" = 'Natural' THEN 1
+	WHEN "descriptiveGroup" = 'General Surface' AND "make" = 'Manmade' OR "descriptiveGroup" = 'General Surface' AND "make" IS NULL THEN 1
+	WHEN "descriptiveGroup" = 'Landform' and make = 'Natural' THEN 1
+	WHEN "descriptiveGroup" = 'Foreshore' THEN 1
+	WHEN "descriptiveGroup" ~ 'Tidal Water' THEN 2
+	WHEN "descriptiveGroup" = 'Built Environment' THEN 1
+	WHEN "descriptiveGroup" ~ 'Historic Interest' THEN 3
+	WHEN "descriptiveGroup" = 'Rail' THEN 1
+	WHEN "descriptiveGroup" ~ 'General Feature' THEN 1
+	WHEN "descriptiveGroup" = 'Landform' and "make" = 'Manmade' THEN 1
+	ELSE 1
+	END

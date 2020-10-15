@@ -1,0 +1,54 @@
+--SQL code to add style_code field as a Whole number (integer) (size 4) to table topographicarea using Open field calculator
+CASE
+	WHEN "descriptiveTerm" = 'Multi Surface' THEN 1
+	WHEN "descriptiveTerm" = 'Archway'THEN 2
+	WHEN "descriptiveTerm" ~ 'Bridge' AND ("descriptiveGroup" ~ 'Road Or Track' OR "descriptiveGroup" ~ 'Roadside') THEN 3 --NEW
+	WHEN "descriptiveTerm" ~ 'Bridge' AND "descriptiveGroup" ~ 'Rail' THEN 4 --NEW
+	WHEN "descriptiveTerm" ~ 'Bridge' THEN 5 --NEW
+	WHEN "descriptiveTerm" ~ 'Level Crossing' THEN 6 --NEW
+	WHEN "descriptiveTerm" = 'Traffic Calming' THEN 7
+	WHEN "descriptiveTerm" = 'Pylon' THEN 8
+	WHEN "descriptiveTerm" = 'Track' THEN 9
+	WHEN "descriptiveTerm" = 'Step' THEN 10
+	WHEN "descriptiveTerm" ~ 'Canal' THEN 11 --NEW
+	WHEN "descriptiveTerm" ~ 'Footbridge' THEN 12 --NEW
+	--Natural Environment Descriptive Term Rules
+	WHEN ("descriptiveTerm" ~ 'Nonconiferous Trees' OR "descriptiveTerm" ~ 'Nonconiferous Trees (Scattered)') AND ("descriptiveTerm" ~ 'Coniferous Trees' OR "descriptiveTerm" ~ 'Coniferous Trees (Scattered)') THEN 13
+	WHEN "descriptiveTerm" ~ 'Nonconiferous Trees' OR "descriptiveTerm" ~ 'Nonconiferous Trees (Scattered)' THEN 14
+	WHEN "descriptiveTerm" ~ 'Coniferous Trees' OR "descriptiveTerm" ~ 'Coniferous Trees (Scattered)' THEN 15
+	WHEN "descriptiveTerm" ~ 'Agricultural Land' THEN 16 --NEW
+	WHEN "descriptiveTerm" ~ 'Orchard' THEN 17
+	WHEN "descriptiveTerm" ~ 'Coppice Or Osiers' THEN 18
+	WHEN "descriptiveTerm" ~ 'Scrub' THEN 19
+	WHEN "descriptiveTerm" ~ 'Boulders' OR "descriptiveTerm" ~ 'Boulders (Scattered)' THEN 20
+	WHEN "descriptiveTerm" ~ 'Rock' OR "descriptiveTerm" ~ 'Rock (Scattered)' THEN 21
+	WHEN "descriptiveTerm" ~ 'Scree' THEN 22
+	WHEN "descriptiveTerm" ~ 'Rough Grassland' THEN 23
+	WHEN "descriptiveTerm" ~ 'Heath' THEN 24
+	WHEN "descriptiveTerm" ~ 'Marsh Reeds Or Saltmarsh' OR "descriptiveTerm" ~ 'Saltmarsh' THEN 25
+	WHEN "descriptiveTerm" ~ 'Sand' THEN 26 --NEW
+	WHEN "descriptiveTerm" ~ 'Mud' THEN 27 --NEW
+	WHEN "descriptiveTerm" ~ 'Shingle' THEN 28 --NEW
+	WHEN "descriptiveTerm" ~ 'Marsh' THEN 29 --NEW
+	WHEN "descriptiveTerm" ~ 'Reeds' THEN 30 --NEW
+	WHEN "descriptiveTerm" ~ 'Foreshore' THEN 31
+	WHEN "descriptiveTerm" = 'Slope' THEN 32
+	WHEN "descriptiveTerm" = 'Cliff' THEN 33
+	--Descriptive Group Rules
+	WHEN "descriptiveGroup" ~ 'Building' THEN 34
+	WHEN "descriptiveGroup" ~ 'General Surface' AND "make" = 'Natural' THEN 35
+	WHEN "descriptiveGroup" ~ 'General Surface' AND ("make" = 'Manmade' OR "make" = 'Unknown') THEN 36
+	WHEN "descriptiveGroup" ~ 'Road Or Track' AND "make" = 'Manmade' THEN 37
+	WHEN "descriptiveGroup" ~ 'Roadside' AND "make" = 'Natural' THEN 38
+	WHEN "descriptiveGroup" ~ 'Roadside' AND ("make" = 'Manmade' OR "make" = 'Unknown') THEN 39
+	WHEN "descriptiveGroup" ~ 'Inland Water' THEN 40
+	WHEN "descriptiveGroup" ~ 'Path' THEN 41
+	WHEN "descriptiveGroup" ~ 'Rail' AND ("make" = 'Manmade' OR "make" = 'Unknown') THEN 42
+	WHEN "descriptiveGroup" ~ 'Rail' AND "make" = 'Natural' THEN 43
+	WHEN "descriptiveGroup" ~ 'Structure' THEN 44
+	WHEN "descriptiveGroup" = 'Glasshouse' THEN 45
+	WHEN "descriptiveGroup" ~ 'Landform' AND "make" = 'Natural' THEN 46
+	WHEN "descriptiveGroup" ~ 'Tidal Water' THEN 47
+	WHEN "descriptiveGroup" ~ 'Landform' AND "make" = 'Manmade' THEN 48
+	ELSE 99
+	END

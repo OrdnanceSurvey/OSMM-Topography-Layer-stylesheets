@@ -1,0 +1,40 @@
+--QGIS 3.10
+--SQL code to add style_description field as a Text(string) to table topographicline using Open field calculator
+CASE
+--Descriptive Term Rules
+	WHEN "descriptiveTerm" = 'Polygon Closing Link' THEN 'Polygon Closing Line'
+	WHEN "descriptiveTerm" = 'Inferred Property Closing Link' THEN 'Property Closing Line'
+	WHEN "descriptiveTerm" = 'Bottom Of Slope' THEN 'Bottom Of Slope Line'
+	WHEN "descriptiveTerm" = 'Top Of Slope' THEN 'Top Of Slope Line'
+	WHEN "descriptiveTerm" = 'Step' THEN 'Step Line'
+	WHEN "descriptiveTerm" ~ 'Mean High Water (Springs)' THEN 'Mean High Water Line'
+	WHEN "descriptiveTerm" = 'Traffic Calming' THEN 'Traffic Calming Line'
+	WHEN "descriptiveTerm" = 'Standard Gauge Track' THEN 'Standard Gauge Track Line'
+	WHEN "descriptiveTerm" = 'Bottom Of Cliff' THEN 'Bottom Of Cliff Line'
+	WHEN "descriptiveTerm" = 'Top Of Cliff' THEN 'Top Of Cliff Line'
+	WHEN "descriptiveTerm" = 'Mean Low Water (Springs)' THEN 'Mean Low Water Line'
+	WHEN "descriptiveTerm" = 'Unmade Path Alignment' THEN 'Path Line'
+	WHEN "descriptiveTerm" ~ 'Overhead Construction' THEN 'Overhead Construction Line'
+	WHEN "descriptiveTerm" = 'Culvert' THEN 'Culvert Line'
+	WHEN "descriptiveTerm" = 'Pylon' THEN 'Pylon Line'
+	WHEN "descriptiveTerm" = 'Ridge Or Rock Line' THEN 'Ridge Or Rock Line'	
+	WHEN "descriptiveTerm" = 'Narrow Gauge' THEN 'Narrow Gauge Line'
+	WHEN "descriptiveTerm" = 'Buffer' THEN 'Railway Buffer Line'
+	WHEN "descriptiveTerm" = 'Tunnel Edge' THEN 'Tunnel Edge Line'
+	WHEN "descriptiveTerm" ~ 'Line Of Posts' THEN 'Line Of Posts Line' --NEW
+	WHEN "descriptiveTerm" = 'Drain' THEN 'Drain Line' --NEW
+	WHEN "descriptiveTerm" ~ 'Normal Tidal Limit' THEN 'Normal Tidal Limit Line' --NEW
+	--Descriptive Group Rules
+	WHEN "descriptiveGroup" ~ 'General Feature' AND "physicalPresence" <> 'Edge / Limit' THEN 'Default Line'
+	WHEN "descriptiveGroup" ~ 'Building' AND "descriptiveTerm" = 'Outline' AND "physicalPresence" = 'Obstructing' THEN 'Building Outline Line'
+	WHEN "descriptiveGroup" ~ 'General Feature' AND "physicalPresence" = 'Edge / Limit' THEN 'Edge Line'
+	WHEN "descriptiveGroup" ~ 'Road Or Track' THEN 'Road Or Track Line'
+	WHEN "descriptiveGroup" ~ 'Building' AND "descriptiveTerm" = 'Division' AND "physicalPresence" = 'Obstructing' THEN 'Building Division Line'
+	WHEN "descriptiveGroup" ~ 'Inland Water' THEN 'Inland Water Line'
+	WHEN "descriptiveGroup" ~ 'General Surface' AND "make" = 'Natural' THEN 'General Surface Natural Line'
+	WHEN "descriptiveGroup" ~ 'Building' AND "descriptiveTerm" = 'Outline' AND "physicalPresence" = 'Overhead' THEN 'Building Overhead Line'
+	WHEN "descriptiveGroup" = 'Landform' AND "make" = 'Natural' THEN 'Landform Natural Line'
+	WHEN "descriptiveGroup" = 'Historic Interest' THEN 'Historic Interest Line'
+	WHEN "descriptiveGroup" = 'Landform' AND "make" = 'Manmade' THEN 'Landform Manmade Line'	
+	ELSE 'Unclassified' 
+	END

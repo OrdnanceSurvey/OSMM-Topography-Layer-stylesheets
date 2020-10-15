@@ -1,0 +1,11 @@
+--SQL code to add style_code field as a Whole number (integer) (size 4) to table cartographicsymbol using Open field calculator
+
+CASE
+	WHEN "featureCode" = 10091 THEN 1
+	WHEN "featureCode" = 10082 THEN 2
+	WHEN "featureCode" = 10130 THEN 3
+	WHEN "featureCode" = 10066 OR "featureCode" = '10170' THEN 4
+	WHEN "featureCode" = 10165 THEN 5
+	WHEN "featureCode" = 10177 THEN 6
+	ELSE 99
+END
