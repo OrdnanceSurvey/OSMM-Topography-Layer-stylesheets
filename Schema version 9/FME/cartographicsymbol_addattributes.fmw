@@ -1,58 +1,54 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
-#    
-#    
 #    Command-line to run this workspace:
+#        "C:\Program Files\FME_2020_2_20806\fme.exe" "C:\Users\pnaylor\Desktop\WFH Work\Topo FME workbenches\OSMM-Topography-Layer-stylesheets-master\Schema version 9\FME\cartographicsymbol_addattributes.fmw"
 #    
-#    
-#    "D:\Program Files\FME\fme.exe" "\\TQPC0347\Working Code\OSMM-Topography-Layer-stylesheets\Schema version 9\FME\cartographicsymbol_addattributes.fmw"
-#    
-#    
-#!   MAX_LOG_FEATURES="200"
-#!   DESCRIPTION=""
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   SOURCE="NONE"
-#!   TERMINATE_REJECTED="YES"
-#!   HISTORY=""
-#!   DESTINATION_ROUTING_FILE=""
-#!   USAGE=""
-#!   FME_SERVER_SERVICES=""
-#!   MARKDOWN_USAGE=""
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   DOC_TOP_LEFT="0 -42"
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   PYTHON_COMPATIBILITY="27"
-#!   CATEGORY=""
-#!   BEGIN_PYTHON=""
-#!   REDIRECT_TERMINATORS="NONE"
-#!   FME_BUILD_NUM="17271"
 #!   ATTR_TYPE_ENCODING="SDF"
-#!   ZOOM_SCALE="102"
-#!   VIEW_POSITION="-1041.68 796.577"
-#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.1 (20170316 - Build 17271 - WIN64)"
-#!   TITLE=""
-#!   LOG_FILE=""
-#!   DOC_EXTENTS="1857 394"
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   SHOW_ANNOTATIONS="true"
-#!   USE_MARKDOWN=""
-#!   SHOW_INFO_NODES="true"
-#!   MARKDOWN_DESCRIPTION=""
-#!   END_TCL=""
-#!   FME_DOCUMENT_GUID="a05f9256-b3e2-448d-9cbf-a377254ee595"
-#!   PASSWORD=""
-#!   END_PYTHON=""
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   DESTINATION="NONE"
-#!   IGNORE_READER_FAILURE="No"
-#!   FME_DOCUMENT_PRIORGUID="d389cabb-d9e3-4cac-9f4b-278965795bb7,bb4a7d77-1445-421e-8f94-eaf47c902d74,4eeb4b58-c181-4315-8a22-48e194d4941d"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   SOURCE_ROUTING_FILE=""
+#!   BEGIN_PYTHON=""
 #!   BEGIN_TCL=""
-#!   LAST_SAVE_DATE="2019-03-28T16:13:43"
+#!   CATEGORY=""
+#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="1857 394"
+#!   DOC_TOP_LEFT="0 -42"
+#!   END_PYTHON=""
+#!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="20806"
+#!   FME_DOCUMENT_GUID="2263cc94-c3fc-4c0a-ad69-b9f79f3ff742"
+#!   FME_DOCUMENT_PRIORGUID="d389cabb-d9e3-4cac-9f4b-278965795bb7,bb4a7d77-1445-421e-8f94-eaf47c902d74,4eeb4b58-c181-4315-8a22-48e194d4941d,a05f9256-b3e2-448d-9cbf-a377254ee595"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2020.2.1.0 (20201130 - Build 20806 - WIN64)"
+#!   LAST_SAVE_DATE="2021-04-27T15:05:32"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="37"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="YES"
+#!   TITLE=""
+#!   USAGE=""
+#!   USE_MARKDOWN=""
+#!   VIEW_POSITION="-620.921 796.577"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="102"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -74,23 +70,26 @@
 #! <BOOKMARK
 #!   IDENTIFIER="2"
 #!   NAME="Add Style Codes"
-#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   DESCRIPTION=""
 #!   TOP_LEFT="0 352"
+#!   ORDER="500000000000000"
+#!   PALETTE_COLOR=""
 #!   BOTTOM_RIGHT="1857 -42"
 #!   BOUNDING_RECT="0 352 1857 394"
 #!   STICKY="false"
-#!   COLOUR="0.239216,0.0627451,0.654902"
+#!   COLOUR="0.18823529411764706,0.047058823529411764,0.52156862745098043,0.39215686274509803"
 #!   CONTENTS=""
-#! />
+#! >
+#! </BOOKMARK>
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
 #! <TRANSFORMER
 #!   IDENTIFIER="5"
 #!   TYPE="AttributeCreator"
 #!   VERSION="8"
-#!   POSITION="713.5 176.5"
-#!   BOUNDING_RECT="713.5 176.5 -1 -1"
-#!   ORDER="5e+14"
+#!   POSITION="1205.7434845263485 188.75502451102943"
+#!   BOUNDING_RECT="1205.7434845263485 188.75502451102943 431 71"
+#!   ORDER="500000000000000"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="17271"
@@ -99,19 +98,60 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="style_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="style_description" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; style_code SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;99&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10091&apos;1&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10082&apos;2&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10130&apos;3&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10066;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10170&apos;4&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10165&apos;5&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10177&apos;6&apos;FME_NUM_CONDITIONS7___&quot;  style_description SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;Unclassified&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10091&apos;Culvert&lt;space&gt;Symbol&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10082&apos;Direction&lt;space&gt;Of&lt;space&gt;Flow&lt;space&gt;Symbol&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10130&apos;Boundary&lt;space&gt;Half&lt;space&gt;Mereing&lt;space&gt;Symbol&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10066;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10170&apos;Bench&lt;space&gt;Mark&lt;space&gt;Symbol&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10165&apos;Railway&lt;space&gt;Switch&lt;space&gt;Symbol&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;featurecode&lt;closeparen&gt; = 10177&apos;Road&lt;space&gt;Related&lt;space&gt;Flow&lt;space&gt;Symbol&apos;FME_NUM_CONDITIONS7___&quot;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="cartographicsymbol"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="cartographicsymbol"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="3"
+#!   TYPE="BulkAttributeRenamer"
+#!   VERSION="4"
+#!   POSITION="261.440522901961 188.75502451102943"
+#!   BOUNDING_RECT="261.440522901961 188.75502451102943 472.00106825772946 71"
+#!   ORDER="500000000000001"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="20806"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="All Attributes"/>
+#!     <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CASE_CHANGE_TYPE" PARM_VALUE="lower"/>
+#!     <XFORM_PARM PARM_NAME="CASE_DISP" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MODE_CHOICE" PARM_VALUE="RENAME"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PATTERN_ACTION_DISP" PARM_VALUE="CASECHANGE"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_PATTERN" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_STR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BulkAttributeRenamer"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="4"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="5"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0,0,0,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
 #! </FEAT_LINKS>
 #! <BREAKPOINTS>
 #! </BREAKPOINTS>
@@ -122,33 +162,28 @@
 #! <LOOKUP_TABLES>
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
-FME_PYTHON_VERSION 27
+
+FME_PYTHON_VERSION 37
 #! START_HEADER
 #! START_WB_HEADER
-READER_TYPE NULL
-READER_KEYWORD NULL_SOURCE
-NULL_SOURCE_DATASET null
-
+READER_TYPE MULTI_READER
 WRITER_TYPE NULL
 WRITER_KEYWORD NULL_DEST
 NULL_DEST_DATASET null
 #! END_WB_HEADER
-
 #! START_WB_HEADER
 #! END_WB_HEADER
-
 #! END_HEADER
 
 LOG_FILENAME "$(FME_MF_DIR)cartographicsymbol_addattributes.log"
 LOG_APPEND NO
+LOG_FILTER_MASK -1
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
 FME_REPROJECTION_ENGINE FME
 FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
-FME_DEBUG MAPPING_FILE BADNEWS FME_STACK_TRACE UNGROUPED UNCORRELATED DUMP_SCHEMA XSD_VERBOSE HTTP_DEBUG FTP_DEBUG
-LOG_FILTER_MASK -1
 # -------------------------------------------------------------------------
 
 MULTI_READER_CONTINUE_ON_READER_FAILURE No
