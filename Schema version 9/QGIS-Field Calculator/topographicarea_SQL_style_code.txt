@@ -13,7 +13,8 @@ CASE
 	WHEN "descriptiveTerm" ~ 'Canal' THEN 11 --NEW
 	WHEN "descriptiveTerm" ~ 'Footbridge' THEN 12 --NEW
 	--Natural Environment Descriptive Term Rules
-	WHEN ("descriptiveTerm" ~ 'Nonconiferous Trees' OR "descriptiveTerm" ~ 'Nonconiferous Trees (Scattered)') AND ("descriptiveTerm" ~ 'Coniferous Trees' OR "descriptiveTerm" ~ 'Coniferous Trees (Scattered)') THEN 13
+	WHEN array_contains(descriptiveTerm, 'Nonconiferous Trees') AND array_contains(descriptiveTerm, 'Coniferous Trees' )
+	THEN 13
 	WHEN "descriptiveTerm" ~ 'Nonconiferous Trees' OR "descriptiveTerm" ~ 'Nonconiferous Trees (Scattered)' THEN 14
 	WHEN "descriptiveTerm" ~ 'Coniferous Trees' OR "descriptiveTerm" ~ 'Coniferous Trees (Scattered)' THEN 15
 	WHEN "descriptiveTerm" ~ 'Agricultural Land' THEN 16 --NEW
