@@ -15,10 +15,11 @@ CASE
 	WHEN "descriptiveTerm" ~ 'Canal' THEN 'Canal Fill' --NEW
 	WHEN "descriptiveTerm" ~ 'Footbridge' THEN 'Footbridge Fill' --NEW
 	--Natural Environment Descriptive Term Rules
-	WHEN array_contains(descriptiveTerm, 'Nonconiferous Trees') AND array_contains(descriptiveTerm, 'Coniferous Trees' )
-	THEN 'Mixed Woodland Fill'
-	WHEN array_contains(descriptiveTerm, 'Nonconiferous Trees') THEN 'Nonconiferous Tree Fill'
-	WHEN array_contains(descriptiveTerm, 'Coniferous Trees') THEN 'Coniferous Tree Fill'
+	WHEN ( array_contains(descriptiveTerm, 'Nonconiferous Trees') OR array_contains(descriptiveTerm, 'Nonconiferous Trees (Scattered)') )
+		AND ( array_contains(descriptiveTerm, 'Coniferous Trees') OR array_contains(descriptiveTerm, 'Coniferous Trees (Scattered)') )
+		THEN 'Mixed Woodland Fill'
+	WHEN array_contains(descriptiveTerm, 'Nonconiferous Trees') OR array_contains(descriptiveTerm, 'Nonconiferous Trees (Scattered)') THEN 'Nonconiferous Tree Fill'
+	WHEN array_contains(descriptiveTerm, 'Coniferous Trees') OR array_contains(descriptiveTerm, 'Coniferous Trees (Scattered)') THEN 'Coniferous Tree Fill'
 	WHEN "descriptiveTerm" ~ 'Agricultural Land' THEN 'Agricultural Land Fill' --NEW
 	WHEN "descriptiveTerm" ~ 'Orchard' THEN 'Orchard Fill'
 	WHEN "descriptiveTerm" ~ 'Coppice Or Osiers' THEN 'Coppice Or Osiers Fill'
