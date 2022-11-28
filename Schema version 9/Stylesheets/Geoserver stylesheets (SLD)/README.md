@@ -1,7 +1,7 @@
 # OS MasterMap Topography Layer
 *Backdrop, Standard, Outdoor and Light styles*
 
-These are SLDs for OS MasterMap Topography Layer. You will need to apply the post processing SQL scripts before using these stylesheets.
+These are **SLD** stylesheets for OS MasterMap Topography Layer. You will need to apply the post processing SQL scripts before using these stylesheets.
 
 ## Getting Started Guide
 
