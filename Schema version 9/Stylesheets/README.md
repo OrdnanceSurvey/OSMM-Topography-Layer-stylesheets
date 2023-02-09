@@ -1,3 +1,3 @@
-Select the **format of stylesheet** that you need for your software package
+This repository contains stylesheets for OS MasterMap Topography Layer
 
-For more information about data styling and visualisation, take a look at our [GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
+Select the directory that matches the **format of your data**
