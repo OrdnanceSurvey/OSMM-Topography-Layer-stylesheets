@@ -1,0 +1,198 @@
+{
+  "benchMarkSymbol": {
+    "height": 96,
+    "pixelRatio": 2,
+    "width": 96,
+    "x": 192,
+    "y": 1152
+  },
+  "boundaryMereingChangeSymbol": {
+    "height": 96,
+    "pixelRatio": 2,
+    "width": 96,
+    "x": 288,
+    "y": 1152
+  },
+  "boundaryPostSymbol": {
+    "height": 96,
+    "pixelRatio": 2,
+    "width": 96,
+    "x": 384,
+    "y": 1152
+  },
+  "culvertSymbol": {
+    "height": 96,
+    "pixelRatio": 2,
+    "width": 96,
+    "x": 480,
+    "y": 1152
+  },
+  "emergencyTelephone": {
+    "height": 96,
+    "pixelRatio": 2,
+    "width": 96,
+    "x": 576,
+    "y": 1152
+  },
+  "fillBoulders": {
+    "height": 384,
+    "pixelRatio": 2,
+    "width": 384,
+    "x": 0,
+    "y": 0
+  },
+  "fillCliff": {
+    "height": 192,
+    "pixelRatio": 2,
+    "width": 192,
+    "x": 1152,
+    "y": 768
+  },
+  "fillConiferousTrees": {
+    "height": 384,
+    "pixelRatio": 2,
+    "width": 384,
+    "x": 384,
+    "y": 0
+  },
+  "fillCoppiceOrOsiers": {
+    "height": 384,
+    "pixelRatio": 2,
+    "width": 384,
+    "x": 0,
+    "y": 384
+  },
+  "fillHeath": {
+    "height": 384,
+    "pixelRatio": 2,
+    "width": 384,
+    "x": 384,
+    "y": 384
+  },
+  "fillMarsh": {
+    "height": 384,
+    "pixelRatio": 2,
+    "width": 384,
+    "x": 768,
+    "y": 0
+  },
+  "fillMixedWoodland": {
+    "height": 384,
+    "pixelRatio": 2,
+    "width": 384,
+    "x": 1152,
+    "y": 0
+  },
+  "fillNonconiferousTrees": {
+    "height": 384,
+    "pixelRatio": 2,
+    "width": 384,
+    "x": 768,
+    "y": 384
+  },
+  "fillOrchard": {
+    "height": 192,
+    "pixelRatio": 2,
+    "width": 192,
+    "x": 1344,
+    "y": 768
+  },
+  "fillRock": {
+    "height": 384,
+    "pixelRatio": 2,
+    "width": 384,
+    "x": 1152,
+    "y": 384
+  },
+  "fillRoughGrassland": {
+    "height": 384,
+    "pixelRatio": 2,
+    "width": 384,
+    "x": 0,
+    "y": 768
+  },
+  "fillScree": {
+    "height": 384,
+    "pixelRatio": 2,
+    "width": 384,
+    "x": 384,
+    "y": 768
+  },
+  "fillScrub": {
+    "height": 384,
+    "pixelRatio": 2,
+    "width": 384,
+    "x": 768,
+    "y": 768
+  },
+  "fillSlope": {
+    "height": 192,
+    "pixelRatio": 2,
+    "width": 192,
+    "x": 0,
+    "y": 1152
+  },
+  "flowArrowSymbol": {
+    "height": 26,
+    "pixelRatio": 2,
+    "width": 96,
+    "x": 1331,
+    "y": 1152
+  },
+  "heritageSiteOfSymbol": {
+    "height": 96,
+    "pixelRatio": 2,
+    "width": 96,
+    "x": 672,
+    "y": 1152
+  },
+  "positionedBoulderSymbol": {
+    "height": 96,
+    "pixelRatio": 2,
+    "width": 96,
+    "x": 768,
+    "y": 1152
+  },
+  "positionedConiferousTreeSymbol": {
+    "height": 96,
+    "pixelRatio": 2,
+    "width": 42,
+    "x": 864,
+    "y": 1152
+  },
+  "positionedNonconiferousTreeSymbol": {
+    "height": 96,
+    "pixelRatio": 2,
+    "width": 41,
+    "x": 906,
+    "y": 1152
+  },
+  "railwaySwitchSymbol": {
+    "height": 96,
+    "pixelRatio": 2,
+    "width": 96,
+    "x": 947,
+    "y": 1152
+  },
+  "roadFlowSymbol": {
+    "height": 58,
+    "pixelRatio": 2,
+    "width": 96,
+    "x": 1235,
+    "y": 1152
+  },
+  "spotHeightSymbol": {
+    "height": 96,
+    "pixelRatio": 2,
+    "width": 96,
+    "x": 1043,
+    "y": 1152
+  },
+  "triangulationStationSymbol": {
+    "height": 96,
+    "pixelRatio": 2,
+    "width": 96,
+    "x": 1139,
+    "y": 1152
+  }
+}
