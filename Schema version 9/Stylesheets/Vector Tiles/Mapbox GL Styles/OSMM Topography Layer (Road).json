@@ -1,0 +1,2960 @@
+{
+  "version": 8,
+  "name": "OS MasterMap Topography",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "light": {"anchor": "viewport"},
+  "sources": {
+    "OSMasterMapTopography_gb_BoundaryLine": {
+      "type": "vector",
+      "url": "https://labs.os.uk/tiles/vector/osmm-topo-gb-bndyline/tiles.json"
+    },
+    "OSMasterMapTopography_gb_CartographicSymbol": {
+      "type": "vector",
+      "url": "https://labs.os.uk/tiles/vector/osmm-topo-gb-cartosymbol/tiles.json"
+    },
+    "OSMasterMapTopography_gb_CartographicText": {
+      "type": "vector",
+      "url": "https://labs.os.uk/tiles/vector/osmm-topo-gb-cartotext/tiles.json"
+    },
+    "OSMasterMapTopography_gb_TopographicArea": {
+      "type": "vector",
+      "url": "https://labs.os.uk/tiles/vector/osmm-topo-gb-topoarea/tiles.json"
+    },
+    "OSMasterMapTopography_gb_TopographicLine": {
+      "type": "vector",
+      "url": "https://labs.os.uk/tiles/vector/osmm-topo-gb-topoline/tiles.json"
+    },
+    "OSMasterMapTopography_gb_TopographicPoint": {
+      "type": "vector",
+      "url": "https://labs.os.uk/tiles/vector/osmm-topo-gb-topopoint/tiles.json"
+    }
+  },
+  "sprite": "https://labs.os.uk/tiles/styles/osmm-topo-gb-standard/sprites",
+  "glyphs": " https://labs.os.uk/tiles/fonts/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "maxzoom": 24,
+      "layout": {"visibility": "none"}
+    },
+    {
+      "id": "topographic area inland water fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 40]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(213, 239, 248, 1)"}
+    },
+    {
+      "id": "topographic area canal fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 11]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(213, 239, 248, 1)"}
+    },
+    {
+      "id": "topographic area reeds fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 30]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(213, 239, 248, 1)"}
+    },
+    {
+      "id": "topographic area marsh fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 29]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(230, 242, 244, 1)"}
+    },
+    {
+      "id": "topographic area saltmarsh fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 25]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(230, 242, 244, 1)"}
+    },
+    {
+      "id": "topographic area heath fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 24]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(233, 244, 233, 1)"}
+    },
+    {
+      "id": "topographic area rough grassland fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 23]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(233, 244, 233, 1)"}
+    },
+    {
+      "id": "topographic area scree fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 22]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(239, 239, 234, 1)"}
+    },
+    {
+      "id": "topographic area rock fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 21]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(239, 239, 234, 1)"}
+    },
+    {
+      "id": "topographic area boulders fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 20]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(239, 239, 234, 1)"}
+    },
+    {
+      "id": "topographic area scrub fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 19]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(233, 244, 233, 1)"}
+    },
+    {
+      "id": "topographic area coppice or osiers fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 18]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(209, 240, 206, 1)"}
+    },
+    {
+      "id": "topographic area orchard fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 17]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(209, 240, 206, 1)"}
+    },
+    {
+      "id": "topographic area coniferous fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 15]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(209, 240, 206, 1)"}
+    },
+    {
+      "id": "topographic area nonconiferous fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 14]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(209, 240, 206, 1)"}
+    },
+    {
+      "id": "topographic area mixed woodland fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 13]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(209, 240, 206, 1)"}
+    },
+    {
+      "id": "topographic area agricultural land fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 16]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(250, 250, 243, 1)"}
+    },
+    {
+      "id": "topographic area archway fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 2]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(250, 218, 180, 1)"}
+    },
+    {
+      "id": "topographic area level crossing fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 6]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(255, 255, 255, 1)"}
+    },
+    {
+      "id": "topographic area footbridge fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 12]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(163, 163, 163, 1)"}
+    },
+    {
+      "id": "topographic area bridge fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 5]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(189, 189, 189, 1)"}
+    },
+    {
+      "id": "topographic area rail bridge fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 4]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(179, 179, 179, 1)"}
+    },
+    {
+      "id": "topographic area road bridge fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 3]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(255, 255, 255, 1)"}
+    },
+    {
+      "id": "topographic area structure fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 44]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(232, 192, 186, 1)"}
+    },
+    {
+      "id": "topographic area pylon fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 8]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(232, 230, 197, 1)"}
+    },
+    {
+      "id": "topographic area building fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 34]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(250, 218, 180, 1)"}
+    },
+    {
+      "id": "topographic area glasshouse fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 45]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(237, 247, 237, 1)"}
+    },
+    {
+      "id": "topographic area traffic calming fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 7]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(255, 255, 255, 1)"}
+    },
+    {
+      "id": "topographic area road or track fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 37]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(255, 255, 255, 1)"}
+    },
+    {
+      "id": "topographic area step fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 10]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(209, 209, 209, 1)"}
+    },
+    {
+      "id": "topographic area track fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 9]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(209, 209, 209, 1)"}
+    },
+    {
+      "id": "topographic area path fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 41]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(209, 209, 209, 1)"}
+    },
+    {
+      "id": "topographic area rail manmade fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 42]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(191, 191, 191, 1)"}
+    },
+    {
+      "id": "topographic area rail natural fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 43]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(193, 221, 191, 1)"}
+    },
+    {
+      "id": "topographic area landform manmade fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 48]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(232, 227, 223, 1)"}
+    },
+    {
+      "id": "topographic area landform natural fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 46]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(233, 244, 233, 1)"}
+    },
+    {
+      "id": "topographic area manmade roadside fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 39]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(232, 227, 223, 1)"}
+    },
+    {
+      "id": "topographic area natural roadside fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 38]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(233, 244, 233, 1)"}
+    },
+    {
+      "id": "topographic area manmade fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 36]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(232, 227, 223, 1)"}
+    },
+    {
+      "id": "topographic area natural fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 35]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(233, 244, 233, 1)"}
+    },
+    {
+      "id": "topographic area multiple surface fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 1]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(247, 240, 213, 1)"}
+    },
+    {
+      "id": "topographic area shingle fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 28]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(239, 239, 234, 1)"}
+    },
+    {
+      "id": "topographic area mud fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 27]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(246, 246, 209, 1)"}
+    },
+    {
+      "id": "topographic area sand fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 26]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(246, 246, 209, 1)"}
+    },
+    {
+      "id": "topographic area foreshore fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 31]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(246, 246, 209, 1)"}
+    },
+    {
+      "id": "topographic area tidal water fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 47]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(213, 239, 248, 1)"}
+    },
+    {
+      "id": "topographic area unclassified fill",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 99]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(237, 218, 218, 1)"}
+    },
+    {
+      "id": "topographic area cliff pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 33]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-antialias": true,
+        "fill-translate-anchor": "map",
+        "fill-pattern": "fillCliff"
+      }
+    },
+    {
+      "id": "topographic area slope pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 32]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-antialias": true,
+        "fill-translate-anchor": "map",
+        "fill-pattern": "fillSlope"
+      }
+    },
+    {
+      "id": "topographic area reeds pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 30]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-antialias": true,
+        "fill-translate-anchor": "map",
+        "fill-pattern": "fillMarsh"
+      }
+    },
+    {
+      "id": "topographic area marsh pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 29]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-antialias": true,
+        "fill-translate-anchor": "map",
+        "fill-pattern": "fillMarsh"
+      }
+    },
+    {
+      "id": "topographic area saltmarsh pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 25]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-antialias": true,
+        "fill-translate-anchor": "map",
+        "fill-pattern": "fillMarsh"
+      }
+    },
+    {
+      "id": "topographic area heath pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 24]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-antialias": true,
+        "fill-translate-anchor": "map",
+        "fill-pattern": "fillHeath"
+      }
+    },
+    {
+      "id": "topographic area rough grassland pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 23]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-antialias": true,
+        "fill-translate-anchor": "map",
+        "fill-pattern": "fillRoughGrassland"
+      }
+    },
+    {
+      "id": "topographic area scree pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 22]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-antialias": true,
+        "fill-translate-anchor": "map",
+        "fill-pattern": "fillScree"
+      }
+    },
+    {
+      "id": "topographic area rock pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 21]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-antialias": true,
+        "fill-translate-anchor": "map",
+        "fill-pattern": "fillRock"
+      }
+    },
+    {
+      "id": "topographic area boulders pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 20]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-antialias": true,
+        "fill-translate-anchor": "map",
+        "fill-pattern": "fillBoulders"
+      }
+    },
+    {
+      "id": "topographic area scrub pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 19]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-antialias": true,
+        "fill-translate-anchor": "map",
+        "fill-pattern": "fillScrub"
+      }
+    },
+    {
+      "id": "topographic area coppice or osiers pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 18]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-antialias": true,
+        "fill-translate-anchor": "map",
+        "fill-pattern": "fillCoppiceOrOsiers"
+      }
+    },
+    {
+      "id": "topographic area orchard pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 17]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-antialias": true,
+        "fill-translate-anchor": "map",
+        "fill-pattern": "fillOrchard"
+      }
+    },
+    {
+      "id": "topographic area coniferous pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 15]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-antialias": true,
+        "fill-translate-anchor": "map",
+        "fill-pattern": "fillConiferousTrees"
+      }
+    },
+    {
+      "id": "topographic area nonconiferous pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 14]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-antialias": true,
+        "fill-pattern": "fillNonconiferousTrees",
+        "fill-translate-anchor": "map"
+      }
+    },
+    {
+      "id": "topographic area mixed woodland pattern",
+      "type": "fill",
+      "source": "OSMasterMapTopography_gb_TopographicArea",
+      "source-layer": "topographic_area",
+      "filter": ["all", ["==", "style_code", 13]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": "#000000",
+        "fill-pattern": "fillMixedWoodland",
+        "fill-antialias": true
+      }
+    },
+    {
+      "id": "topographic line tunnel edge limit",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 19]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(106, 106, 106, 1)",
+        "line-width": 1,
+        "line-dasharray": [2, 1.5]
+      }
+    },
+    {
+      "id": "topographic line pylon line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 15]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(0, 0, 0, 1)", "line-width": 1.5}
+    },
+    {
+      "id": "topographic line historic line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 32]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(0, 0, 0, 1)",
+        "line-width": 1.5,
+        "line-dasharray": [3, 1]
+      }
+    },
+    {
+      "id": "topographic line unclassified line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 99]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(150, 150, 150, 1)", "line-width": 0.75}
+    },
+    {
+      "id": "topographic line landform manmade line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 33]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(208, 104, 0, 1)",
+        "line-width": 1,
+        "line-dasharray": [1, 1.5]
+      }
+    },
+    {
+      "id": "topographic line landform natural line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 31]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(208, 104, 0, 1)",
+        "line-width": 1,
+        "line-dasharray": [1, 1.5]
+      }
+    },
+    {
+      "id": "topographic line building overhead line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 30]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(75, 68, 68, 1)",
+        "line-width": 0.75,
+        "line-dasharray": [1, 1.5]
+      }
+    },
+    {
+      "id": "topographic line building division line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 27]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(86, 86, 86, 1)", "line-width": 0.75}
+    },
+    {
+      "id": "topographic line building line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 24]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(86, 86, 86, 1)", "line-width": 0.75}
+    },
+    {
+      "id": "topographic line default line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 23]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(106, 106, 106, 1)", "line-width": 0.75}
+    },
+    {
+      "id": "topographic line line of posts",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 21]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(106, 106, 106, 1)", "line-width": 1.2}
+    },
+    {
+      "id": "topographic line culvert line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 14]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(78, 170, 208, 1)", "line-width": 1.5}
+    },
+    {
+      "id": "topographic line overhead construction line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 13]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(75, 68, 68, 1)",
+        "line-width": 1.2,
+        "line-dasharray": [2, 1]
+      }
+    },
+    {
+      "id": "topographic line railway buffer line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 18]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(100, 100, 100, 1)", "line-width": 1.5}
+    },
+    {
+      "id": "topographic line narrow gauge railway line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 17]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(100, 100, 100, 1)", "line-width": 2}
+    },
+    {
+      "id": "topographic line standard gauge track",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 8]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(100, 100, 100, 1)", "line-width": 1.2}
+    },
+    {
+      "id": "topographic line inland water line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 28]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(78, 170, 208, 1)", "line-width": 1.5}
+    },
+    {
+      "id": "topographic line normal tide limit",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 22]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(78, 170, 208, 1)", "line-width": 1.5}
+    },
+    {
+      "id": "topographic line drain line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 21]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(78, 170, 208, 1)", "line-width": 1.2}
+    },
+    {
+      "id": "topographic line mean high water line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 6]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(78, 170, 208, 1)", "line-width": 2}
+    },
+    {
+      "id": "topographic line step line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 5]],
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(106, 106, 106, 1)", "line-width": 1.2}
+    },
+    {
+      "id": "topographic line top of cliff",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 10]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(204, 190, 180, 1)",
+        "line-width": 1.5,
+        "line-dasharray": [1.5, 1.5]
+      }
+    },
+    {
+      "id": "topographic line top of slope",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 4]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(190, 190, 180, 1)",
+        "line-width": 1.5,
+        "line-dasharray": [1.5, 1.5]
+      }
+    },
+    {
+      "id": "topographic line bottom of cliff",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 9]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(204, 190, 180, 1)",
+        "line-width": 1.2,
+        "line-dasharray": [1.5, 1.5]
+      }
+    },
+    {
+      "id": "topographic line bottom of slope",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 3]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(190, 190, 180, 1)",
+        "line-width": 1.2,
+        "line-dasharray": [1.5, 1.5]
+      }
+    },
+    {
+      "id": "topographic line path line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 12]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(106, 106, 106, 1)",
+        "line-width": 1.2,
+        "line-dasharray": [1, 2]
+      }
+    },
+    {
+      "id": "topographic line traffic calming",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 7]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(191, 191, 191, 1)",
+        "line-width": 1.2,
+        "line-dasharray": [1, 1.5]
+      }
+    },
+    {
+      "id": "topographic line ridge or rock line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 16]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(51, 51, 51, 1)",
+        "line-width": 1.2,
+        "line-dasharray": [1, 1.5]
+      }
+    },
+    {
+      "id": "topographic line road or track line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 26]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(102, 102, 102, 1)",
+        "line-width": 1,
+        "line-dasharray": [1, 1.5]
+      }
+    },
+    {
+      "id": "topographic line general surface natural line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 29]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(150, 150, 150, 1)",
+        "line-width": 1,
+        "line-dasharray": [1, 1.5]
+      }
+    },
+    {
+      "id": "topographic line edge line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 25]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(150, 150, 150, 1)",
+        "line-width": 1,
+        "line-dasharray": [1, 1.5]
+      }
+    },
+    {
+      "id": "topographic line property closing line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 2]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(150, 150, 150, 1)",
+        "line-width": 1,
+        "line-dasharray": [1, 1.5]
+      }
+    },
+    {
+      "id": "topographic line polygon closing line",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_TopographicLine",
+      "source-layer": "topographic_line",
+      "filter": ["all", ["==", "style_code", 1]],
+      "layout": {"visibility": "none"},
+      "paint": {
+        "line-color": "rgba(150, 150, 150, 1)",
+        "line-width": 1,
+        "line-dasharray": [1, 1.5]
+      }
+    },
+    {
+      "id": "boundary line parliamentary boundary",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_BoundaryLine",
+      "source-layer": "boundary_line",
+      "filter": ["all", ["==", "style_code", 5]],
+      "layout": {
+        "line-cap": "butt",
+        "line-join": "round",
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "rgba(255, 0, 255, 1)",
+        "line-dasharray": [7, 2],
+        "line-width": 2.4
+      }
+    },
+    {
+      "id": "boundary line electoral boundary",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_BoundaryLine",
+      "source-layer": "boundary_line",
+      "filter": ["all", ["==", "style_code", 3]],
+      "layout": {
+        "line-cap": "butt",
+        "line-join": "round",
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "rgba(255, 0, 255, 1)",
+        "line-dasharray": [6, 2],
+        "line-width": 1.6
+      }
+    },
+    {
+      "id": "boundary line district boundary",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_BoundaryLine",
+      "source-layer": "boundary_line",
+      "filter": ["all", ["==", "style_code", 2]],
+      "layout": {
+        "line-cap": "butt",
+        "line-join": "round",
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "rgba(255, 0, 255, 1)",
+        "line-dasharray": [6, 3.2],
+        "line-width": 2
+      }
+    },
+    {
+      "id": "boundary line county boundary",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_BoundaryLine",
+      "source-layer": "boundary_line",
+      "filter": ["all", ["==", "style_code", 4]],
+      "layout": {
+        "line-cap": "butt",
+        "line-join": "round",
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "rgba(255, 0, 255, 1)",
+        "line-dasharray": [6, 3],
+        "line-width": 2.4
+      }
+    },
+    {
+      "id": "boundary line parish boundary",
+      "type": "line",
+      "source": "OSMasterMapTopography_gb_BoundaryLine",
+      "source-layer": "boundary_line",
+      "filter": ["all", ["==", "style_code", 1]],
+      "layout": {
+        "line-cap": "butt",
+        "line-join": "round",
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "rgba(255, 0, 255, 1)",
+        "line-dasharray": [2, 2],
+        "line-width": 2.4
+      }
+    },
+    {
+      "id": "topographic point emergency telephone",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_TopographicPoint",
+      "source-layer": "topographic_point",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 2]],
+      "layout": {"icon-size": 0.4, "icon-image": "emergencyTelephone"},
+      "paint": {}
+    },
+    {
+      "id": "topographic point site or heritage point",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_TopographicPoint",
+      "source-layer": "topographic_point",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 3]],
+      "layout": {
+        "icon-size": 0.6,
+        "icon-image": "heritageSiteOfSymbol",
+        "visibility": "visible",
+        "text-allow-overlap": true,
+        "text-size": 16
+      },
+      "paint": {}
+    },
+    {
+      "id": "topographic point rail point",
+      "type": "circle",
+      "source": "OSMasterMapTopography_gb_TopographicPoint",
+      "source-layer": "topographic_point",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 9]],
+      "layout": {"visibility": "visible"},
+      "paint": {"circle-color": "rgba(0, 0, 0, 1)", "circle-radius": 2}
+    },
+    {
+      "id": "topographic point overhead construction point",
+      "type": "circle",
+      "source": "OSMasterMapTopography_gb_TopographicPoint",
+      "source-layer": "topographic_point",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 8]],
+      "layout": {"visibility": "visible"},
+      "paint": {"circle-color": "rgba(0, 0, 0, 1)", "circle-radius": 2}
+    },
+    {
+      "id": "topographic point roadside point",
+      "type": "circle",
+      "source": "OSMasterMapTopography_gb_TopographicPoint",
+      "source-layer": "topographic_point",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 7]],
+      "layout": {"visibility": "visible"},
+      "paint": {"circle-color": "rgba(140, 140, 140, 1)", "circle-radius": 2}
+    },
+    {
+      "id": "topographic point structure point",
+      "type": "circle",
+      "source": "OSMasterMapTopography_gb_TopographicPoint",
+      "source-layer": "topographic_point",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 16]],
+      "layout": {"visibility": "visible"},
+      "paint": {"circle-color": "rgba(0, 0, 0, 1)", "circle-radius": 2}
+    },
+    {
+      "id": "topographic point landform point",
+      "type": "circle",
+      "source": "OSMasterMapTopography_gb_TopographicPoint",
+      "source-layer": "topographic_point",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 14]],
+      "layout": {"visibility": "visible"},
+      "paint": {"circle-color": "rgba(140, 140, 140, 1)", "circle-radius": 2}
+    },
+    {
+      "id": "topographic point historic point",
+      "type": "circle",
+      "source": "OSMasterMapTopography_gb_TopographicPoint",
+      "source-layer": "topographic_point",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 13]],
+      "layout": {"visibility": "visible"},
+      "paint": {"circle-color": "rgba(0, 0, 0, 1)", "circle-radius": 2}
+    },
+    {
+      "id": "topographic point tidal water point",
+      "type": "circle",
+      "source": "OSMasterMapTopography_gb_TopographicPoint",
+      "source-layer": "topographic_point",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 15]],
+      "layout": {"visibility": "visible"},
+      "paint": {"circle-color": "rgba(0, 153, 255, 1)", "circle-radius": 2}
+    },
+    {
+      "id": "topographic point inland water point",
+      "type": "circle",
+      "source": "OSMasterMapTopography_gb_TopographicPoint",
+      "source-layer": "topographic_point",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 6]],
+      "layout": {"visibility": "visible"},
+      "paint": {"circle-color": "rgba(0, 153, 255, 1)", "circle-radius": 2}
+    },
+    {
+      "id": "topographic point positioned coniferous tree point",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_TopographicPoint",
+      "source-layer": "topographic_point",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 10]],
+      "layout": {
+        "icon-size": 0.5,
+        "icon-image": "positionedConiferousTreeSymbol"
+      },
+      "paint": {}
+    },
+    {
+      "id": "topographic point positioned nonconiferous tree point",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_TopographicPoint",
+      "source-layer": "topographic_point",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 5]],
+      "layout": {
+        "icon-image": "positionedNonconiferousTreeSymbol",
+        "icon-size": 0.5
+      },
+      "paint": {}
+    },
+    {
+      "id": "topographic point triangulation pillar",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_TopographicPoint",
+      "source-layer": "topographic_point",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 12]],
+      "layout": {"icon-size": 0.4, "icon-image": "triangulationStationSymbol"},
+      "paint": {}
+    },
+    {
+      "id": "topographic point boundary post point",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_TopographicPoint",
+      "source-layer": "topographic_point",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 11]],
+      "layout": {
+        "icon-size": 0.2,
+        "icon-image": "boundaryPostSymbol",
+        "visibility": "visible"
+      },
+      "paint": {}
+    },
+    {
+      "id": "topographic point spot height ",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_TopographicPoint",
+      "source-layer": "topographic_point",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 1]],
+      "layout": {
+        "icon-image": "spotHeightSymbol",
+        "icon-size": 0.2,
+        "visibility": "visible",
+        "text-allow-overlap": true,
+        "symbol-spacing": 250,
+        "symbol-avoid-edges": false
+      },
+      "paint": {}
+    },
+    {
+      "id": "cartographic symbol direction of traffic flow arrow",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicSymbol",
+      "source-layer": "cartographic_symbol",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 6]],
+      "layout": {
+        "icon-size": 0.5,
+        "icon-rotate": ["-", 360, ["/", ["get", "orientation"], 10]],
+        "icon-image": "roadFlowSymbol"
+      },
+      "paint": {}
+    },
+    {
+      "id": "cartographic symbol water flow arrow",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicSymbol",
+      "source-layer": "cartographic_symbol",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 2]],
+      "layout": {
+        "icon-size": 0.5,
+        "icon-rotate": ["-", 360, ["/", ["get", "orientation"], 10]],
+        "icon-image": "flowArrowSymbol"
+      },
+      "paint": {}
+    },
+    {
+      "id": "cartographic symbol boundary mereing change",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicSymbol",
+      "source-layer": "cartographic_symbol",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 3]],
+      "layout": {
+        "icon-size": 0.4,
+        "icon-rotate": ["-", 360, ["/", ["get", "orientation"], 10]],
+        "icon-image": "boundaryMereingChangeSymbol",
+        "icon-anchor": "left"
+      },
+      "paint": {}
+    },
+    {
+      "id": "cartographic symbol benchmark",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicSymbol",
+      "source-layer": "cartographic_symbol",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 4]],
+      "layout": {
+        "icon-size": 0.5,
+        "icon-rotate": ["-", 360, ["/", ["get", "orientation"], 10]],
+        "icon-image": "benchMarkSymbol",
+        "icon-anchor": "center",
+        "icon-pitch-alignment": "auto",
+        "icon-offset": [10, 0]
+      },
+      "paint": {}
+    },
+    {
+      "id": "cartographic symbol railway switch",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicSymbol",
+      "source-layer": "cartographic_symbol",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 5]],
+      "layout": {
+        "icon-size": 0.3,
+        "icon-rotate": ["-", 360, ["/", ["get", "orientation"], 10]],
+        "icon-image": "railwaySwitchSymbol"
+      },
+      "paint": {}
+    },
+    {
+      "id": "cartographic symbol culvert",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicSymbol",
+      "source-layer": "cartographic_symbol",
+      "minzoom": 17,
+      "filter": ["all", ["==", "style_code", 1]],
+      "layout": {
+        "icon-image": "culvertSymbol",
+        "icon-size": 0.3,
+        "icon-rotate": ["-", 360, ["/", ["get", "orientation"], 10]]
+      },
+      "paint": {}
+    },
+    {
+      "id": "cartographic text water text SW",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 2],
+        ["==", "anchor", "SW"],
+        ["==", "colour_code", 2]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom-left",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(28, 165, 212, 1)"}
+    },
+    {
+      "id": "cartographic text water text SE",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 2],
+        ["==", "anchor", "SE"],
+        ["==", "colour_code", 2]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom-right",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(28, 165, 212, 1)"}
+    },
+    {
+      "id": "cartographic text water text NW",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 2],
+        ["==", "anchor", "NW"],
+        ["==", "colour_code", 2]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top-left",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(28, 165, 212, 1)"}
+    },
+    {
+      "id": "cartographic text water text NE",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 2],
+        ["==", "anchor", "NE"],
+        ["==", "colour_code", 2]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top-right",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(28, 165, 212, 1)"}
+    },
+    {
+      "id": "cartographic text water text W",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 2],
+        ["==", "anchor", "W"],
+        ["==", "colour_code", 2]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "left",
+        "visibility": "visible",
+        "text-size": ["*", 5, ["get", "height"]]
+      },
+      "paint": {"text-color": "rgba(28, 165, 212, 1)"}
+    },
+    {
+      "id": "cartographic text water text E",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 2],
+        ["==", "anchor", "E"],
+        ["==", "colour_code", 2]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "right",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(28, 165, 212, 1)"}
+    },
+    {
+      "id": "cartographic text water text S",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 2],
+        ["==", "anchor", "S"],
+        ["==", "colour_code", 2]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(28, 165, 212, 1)"}
+    },
+    {
+      "id": "cartographic text water text N",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 2],
+        ["==", "anchor", "N"],
+        ["==", "colour_code", 2]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(28, 165, 212, 1)"}
+    },
+    {
+      "id": "cartographic text water text C",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 2],
+        ["==", "anchor", ""],
+        ["==", "colour_code", 2]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "center",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(28, 165, 212, 1)"}
+    },
+    {
+      "id": "cartographic text boundary text SW",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "SW"],
+        ["==", "colour_code", 5]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom-left",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(255, 152, 255, 1)"}
+    },
+    {
+      "id": "cartographic text boundary text SE",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "SE"],
+        ["==", "colour_code", 5]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom-right",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(255, 152, 255, 1)"}
+    },
+    {
+      "id": "cartographic text boundary text NW",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "NW"],
+        ["==", "colour_code", 5]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top-left",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(255, 152, 255, 1)"}
+    },
+    {
+      "id": "cartographic text boundary text NE",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "NE"],
+        ["==", "colour_code", 5]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top-right",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(255, 152, 255, 1)"}
+    },
+    {
+      "id": "cartographic text boundary text W",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "W"],
+        ["==", "colour_code", 5]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "left",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(255, 152, 255, 1)"}
+    },
+    {
+      "id": "cartographic text boundary text E",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "E"],
+        ["==", "colour_code", 5]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "right",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(255, 152, 255, 1)"}
+    },
+    {
+      "id": "cartographic text boundary text S",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "S"],
+        ["==", "colour_code", 5]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(255, 152, 255, 1)"}
+    },
+    {
+      "id": "cartographic text boundary text N",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "N"],
+        ["==", "colour_code", 5]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(255, 152, 255, 1)"}
+    },
+    {
+      "id": "cartographic text boundary text C",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", ""],
+        ["==", "colour_code", 5]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "center",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(255, 152, 255, 1)"}
+    },
+    {
+      "id": "cartographic text height text SW",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "SW"],
+        ["==", "colour_code", 3]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": 8,
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom-left",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(157, 113, 51, 1)"}
+    },
+    {
+      "id": "cartographic text height text SE",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "SE"],
+        ["==", "colour_code", 3]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom-right",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(157, 113, 51, 1)"}
+    },
+    {
+      "id": "cartographic text height text NW",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "NW"],
+        ["==", "colour_code", 3]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top-left",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(157, 113, 51, 1)"}
+    },
+    {
+      "id": "cartographic text height text NE",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "NE"],
+        ["==", "colour_code", 3]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top-right",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(157, 113, 51, 1)"}
+    },
+    {
+      "id": "cartographic text height text W",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "W"],
+        ["==", "colour_code", 3]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "left",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(157, 113, 51, 1)"}
+    },
+    {
+      "id": "cartographic text height text E",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "E"],
+        ["==", "colour_code", 3]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "right",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(157, 113, 51, 1)"}
+    },
+    {
+      "id": "cartographic text height text S",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "S"],
+        ["==", "colour_code", 3]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(157, 113, 51, 1)"}
+    },
+    {
+      "id": "cartographic text height text N",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", "N"],
+        ["==", "colour_code", 3]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(157, 113, 51, 1)"}
+    },
+    {
+      "id": "cartographic text height text C",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "font_code", 1],
+        ["==", "anchor", ""],
+        ["==", "colour_code", 3]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "center",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(157, 113, 51, 1)"}
+    },
+    {
+      "id": "cartographic text structure text SW",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "SW"],
+        ["==", "font_code", 2],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom-left",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text structure text SE",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "SE"],
+        ["==", "font_code", 2],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom-right",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text structure text NW",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "NW"],
+        ["==", "font_code", 2],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top-left",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text structure text NE",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "NE"],
+        ["==", "font_code", 2],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top-right",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text structure text W",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "W"],
+        ["==", "font_code", 2],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "left",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text structure text E",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "E"],
+        ["==", "font_code", 2],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "right",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text structure text S",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "S"],
+        ["==", "font_code", 2],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text structure text N",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "N"],
+        ["==", "font_code", 2],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text structure text C",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", ""],
+        ["==", "font_code", 2],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial Italic"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "center",
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text historic text SW",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "SW"],
+        ["==", "font_code", 3],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Times"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom-left",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text historic text SE",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "SE"],
+        ["==", "font_code", 3],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Times"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom-right",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text historic text NW",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "NW"],
+        ["==", "font_code", 3],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Times"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top-left",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text historic text NE",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "NE"],
+        ["==", "font_code", 3],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Times"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top-right",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text historic text W",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "W"],
+        ["==", "font_code", 3],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Times"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "left",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text historic text E",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "E"],
+        ["==", "font_code", 3],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Times"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "right",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text historic text S",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "S"],
+        ["==", "font_code", 3],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Times"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text historic text N",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "N"],
+        ["==", "font_code", 3],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Times"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top",
+        "text-allow-overlap": true,
+        "visibility": "visible"
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text historic text C",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", ""],
+        ["==", "font_code", 3],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Times"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "center",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text general feature text SW",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "SW"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom-left",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text general feature text SE",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "SE"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom-right",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text general feature text NW",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "NW"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top-left",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text general feature text NE",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "NE"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top-right",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text general feature text W",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "W"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "left",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text general feature text E",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "E"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "right",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text general feature text S",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "S"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text general feature text C",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", ""],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "center",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text general feature text N",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "N"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 1]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 0, 0, 1)"}
+    },
+    {
+      "id": "cartographic text natural text SW",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "SW"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 4]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom-left",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 102, 0, 1)"}
+    },
+    {
+      "id": "cartographic text natural text SE",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "SE"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 4]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom-right",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 102, 0, 1)"}
+    },
+    {
+      "id": "cartographic text natural text NW",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "NW"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 4]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top-left",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 102, 0, 1)"}
+    },
+    {
+      "id": "cartographic text natural text NE",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "NE"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 4]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top-right",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 102, 0, 1)"}
+    },
+    {
+      "id": "cartographic text natural text W",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "W"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 4]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "left",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 102, 0, 1)"}
+    },
+    {
+      "id": "cartographic text natural text E",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "E"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 4]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "right",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 102, 0, 1)"}
+    },
+    {
+      "id": "cartographic text natural text S",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "S"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 4]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "bottom",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 102, 0, 1)"}
+    },
+    {
+      "id": "cartographic text natural text N",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", "N"],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 4]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "top",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 102, 0, 1)"}
+    },
+    {
+      "id": "cartographic text natural text C",
+      "type": "symbol",
+      "source": "OSMasterMapTopography_gb_CartographicText",
+      "source-layer": "cartographic_text",
+      "minzoom": 17,
+      "filter": [
+        "all",
+        ["==", "anchor", ""],
+        ["==", "font_code", 1],
+        ["==", "colour_code", 4]
+      ],
+      "layout": {
+        "text-font": ["Arial"],
+        "text-field": ["to-string", ["get", "text_string"]],
+        "text-size": ["*", 5, ["get", "height"]],
+        "text-rotate": ["-", 360, ["get", "rotation"]],
+        "icon-allow-overlap": true,
+        "text-justify": "center",
+        "text-anchor": "center",
+        "visibility": "visible",
+        "text-allow-overlap": true
+      },
+      "paint": {"text-color": "rgba(0, 102, 0, 1)"}
+    }
+  ],
+  "id": "x6gmhz67y"
+}
