@@ -12,7 +12,7 @@ These stylesheets make use of Rule-based Labelling which was introduced at QGIS 
 
 ## Images
 
-![Backdrop style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/QGIS%20stylesheets%20(QML)/images/Backdrop-1.png)
+![Backdrop style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Backdrop-1.png)
 
 ![Standard style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/QGIS%20stylesheets%20(QML)/images/Standard-1.png)
 
