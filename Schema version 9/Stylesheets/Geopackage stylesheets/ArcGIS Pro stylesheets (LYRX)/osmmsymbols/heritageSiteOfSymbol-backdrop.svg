@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg2" inkscape:version="0.46" sodipodi:docname="heritageSiteOfSymbol.svg" sodipodi:version="0.32" inkscape:output_extension="org.inkscape.output.svg.inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="7.125px" height="7.125px"
+	 viewBox="0 0 7.125 7.125" enable-background="new 0 0 7.125 7.125" xml:space="preserve">
+<g id="heritageSiteOfSymbol" transform="translate(3.5625,3.5625)">
+	<g id="polyline4">
+		<rect x="-2.25" y="-0.043" fill="#717171" width="4.5" height="0.087"/>
+	</g>
+	<g id="polyline6">
+		<rect x="-0.043" y="-2.25" fill="#717171" width="0.087" height="4.5"/>
+	</g>
+	<g id="circle8">
+		<path fill="#717171" d="M0,3.544c-0.369,0-0.668-0.301-0.668-0.669S-0.369,2.206,0,2.206s0.669,0.301,0.669,0.669
+			S0.369,3.544,0,3.544z M0,2.294c-0.321,0-0.582,0.261-0.582,0.581S-0.321,3.456,0,3.456s0.581-0.261,0.581-0.581
+			S0.321,2.294,0,2.294z"/>
+	</g>
+	<g id="circle10">
+		<path fill="#717171" d="M0-2.207c-0.369,0-0.668-0.3-0.668-0.668S-0.369-3.543,0-3.543s0.669,0.3,0.669,0.668S0.369-2.207,0-2.207
+			z M0-3.457c-0.321,0-0.582,0.261-0.582,0.582S-0.321-2.293,0-2.293s0.581-0.261,0.581-0.582S0.321-3.457,0-3.457z"/>
+	</g>
+	<g id="circle12">
+		<path fill="#717171" d="M2.875,0.669c-0.368,0-0.669-0.3-0.669-0.669s0.301-0.668,0.669-0.668S3.544-0.369,3.544,0
+			S3.243,0.669,2.875,0.669z M2.875-0.582c-0.32,0-0.581,0.261-0.581,0.582s0.261,0.581,0.581,0.581S3.456,0.321,3.456,0
+			S3.195-0.582,2.875-0.582z"/>
+	</g>
+	<g id="circle14">
+		<path fill="#717171" d="M-2.875,0.669c-0.369,0-0.668-0.3-0.668-0.669s0.3-0.668,0.668-0.668S-2.207-0.369-2.207,0
+			S-2.506,0.669-2.875,0.669z M-2.875-0.582c-0.321,0-0.582,0.261-0.582,0.582s0.261,0.581,0.582,0.581S-2.293,0.321-2.293,0
+			S-2.554-0.582-2.875-0.582z"/>
+	</g>
+</g>
+</svg>
