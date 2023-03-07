@@ -6,31 +6,31 @@
   "sources": {
     "OSMasterMapTopography_gb_BoundaryLine": {
       "type": "vector",
-      "url": "https://labs.os.uk/tiles/vector/osmm-topo-gb-bndyline/tiles.json"
+      "url": "https://example.com/tiles/vector/osmm-topo-gb-bndyline/tiles.json"
     },
     "OSMasterMapTopography_gb_CartographicSymbol": {
       "type": "vector",
-      "url": "https://labs.os.uk/tiles/vector/osmm-topo-gb-cartosymbol/tiles.json"
+      "url": "https://example.com/tiles/vector/osmm-topo-gb-cartosymbol/tiles.json"
     },
     "OSMasterMapTopography_gb_CartographicText": {
       "type": "vector",
-      "url": "https://labs.os.uk/tiles/vector/osmm-topo-gb-cartotext/tiles.json"
+      "url": "https://example.com/tiles/vector/osmm-topo-gb-cartotext/tiles.json"
     },
     "OSMasterMapTopography_gb_TopographicArea": {
       "type": "vector",
-      "url": "https://labs.os.uk/tiles/vector/osmm-topo-gb-topoarea/tiles.json"
+      "url": "https://example.com/tiles/vector/osmm-topo-gb-topoarea/tiles.json"
     },
     "OSMasterMapTopography_gb_TopographicLine": {
       "type": "vector",
-      "url": "https://labs.os.uk/tiles/vector/osmm-topo-gb-topoline/tiles.json"
+      "url": "https://example.com/tiles/vector/osmm-topo-gb-topoline/tiles.json"
     },
     "OSMasterMapTopography_gb_TopographicPoint": {
       "type": "vector",
-      "url": "https://labs.os.uk/tiles/vector/osmm-topo-gb-topopoint/tiles.json"
+      "url": "https://example.com/tiles/vector/osmm-topo-gb-topopoint/tiles.json"
     }
   },
-  "sprite": "https://labs.os.uk/tiles/styles/osmm-topo-gb-standard/sprites",
-  "glyphs": " https://labs.os.uk/tiles/fonts/{fontstack}/{range}.pbf",
+ "sprite": "insert your hosted sprite location url here",
+  "glyphs": "insert your hosted glyph location url here",
   "layers": [
     {
       "id": "background",
