@@ -291,7 +291,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       <!--  Rail Manmade -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>Rail Natural - 1:0 to 1:4,000</Name>
+          <Name>Rail Manmade - 1:0 to 1:4,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>style_code</ogc:PropertyName>
