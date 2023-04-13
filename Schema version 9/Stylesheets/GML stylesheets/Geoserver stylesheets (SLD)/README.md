@@ -13,10 +13,21 @@ If using the SLDs in GeoServer with the data loaded into an Oracle database you 
 
 ## Images
 
-![Backdrop style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/Geoserver%20stylesheets%20(SLD)/images/Backdrop-1.png)
+**Backdrop style**
 
-![Standard style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/Geoserver%20stylesheets%20(SLD)/images/Standard-1.png)
+![Backdrop style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Backdrop-1.png)
 
-![Outdoor style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/Geoserver%20stylesheets%20(SLD)/images/Outdoor-1.png)
 
-![Light style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/Geoserver%20stylesheets%20(SLD)/images/Light-1.png)
+**Standard style**
+
+![Standard style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Standard-1.png)
+
+
+**Outdoor style**
+
+![Outdoor style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Outdoor-1.png)
+
+
+**Light style**
+
+![Light style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Light-1.png)
