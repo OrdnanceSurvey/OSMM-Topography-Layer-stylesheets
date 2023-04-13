@@ -16,10 +16,21 @@ Switching this option off may help speed up redraw times. In order to get Cliff 
 
 ## Images
 
-![Backdrop style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/ESRI%20stylesheets%20(LYR)/images/Backdrop-1.png)
+**Backdrop style**
 
-![Standard style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/ESRI%20stylesheets%20(LYR)/images/Standard-1.png)
+![Backdrop style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Backdrop-1.png)
 
-![Outdoor style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/ESRI%20stylesheets%20(LYR)/images/Outdoor-1.png)
 
-![Light style](https://raw.githubusercontent.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/master/Schema%20version%209/Stylesheets/ESRI%20stylesheets%20(LYR)/images/Light-1.png)
+**Standard style**
+
+![Standard style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Standard-1.png)
+
+
+**Outdoor style**
+
+![Outdoor style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Outdoor-1.png)
+
+
+**Light style**
+
+![Light style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Light-1.png)
