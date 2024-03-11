@@ -3,6 +3,8 @@
 
 These are **LYRX** files for OS MasterMap Topography Layer for the GeoPackage data format.
 
+We have added a new greyscale style for users to test and provide feedback via issues. After user testing we will provide this style in QML, LYR and SLD flavours too.
+
 ## Getting Started Guide
 
 For help and advice please see the [Getting Started Guide](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Getting%20Started%20Guide%20-%20Styling%20OSMM%20Topography%20Layer.pdf)
