@@ -18,16 +18,6 @@ Switching this option off may help speed up redraw times. In order to get Cliff 
 
 ## Images
 
-**Backdrop style**
-
-![Backdrop style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Backdrop-1.png)
-
-
-**Standard style**
-
-![Standard style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Standard-1.png)
-
-
 **Outdoor style**
 
 ![Outdoor style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/470a201c1943684c88f8089f5f98972e2d2936cb/Schema%20version%209/Stylesheets/GML%20stylesheets/ESRI%20stylesheets%20(LYR)/images/Outdoor-2.png)
@@ -41,3 +31,13 @@ Switching this option off may help speed up redraw times. In order to get Cliff 
 **Road style**
 
 ![Road style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/470a201c1943684c88f8089f5f98972e2d2936cb/Schema%20version%209/Stylesheets/GML%20stylesheets/ESRI%20stylesheets%20(LYR)/images/Road-1.png)
+
+
+**Backdrop style**
+
+![Backdrop style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Backdrop-1.png)
+
+
+**Standard style**
+
+![Standard style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Standard-1.png)
