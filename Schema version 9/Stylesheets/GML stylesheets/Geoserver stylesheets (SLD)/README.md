@@ -1,5 +1,5 @@
 # OS MasterMap Topography Layer
-*Standard, Road, Outdoor and Light styles*
+*Outdoor, Road, Light, Backdrop and Standard Styles*
 
 These are **SLD** stylesheets for OS MasterMap Topography Layer. You will need to apply the post processing SQL scripts before using these stylesheets.
 
@@ -15,6 +15,21 @@ If using the SLDs in GeoServer with the data loaded into an Oracle database you 
 
 ## Images
 
+**Outdoor style**
+
+![Outdoor style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/2427903f608a6cc14f2eb665831f33361a73ac4c/Schema%20version%209/Stylesheets/GML%20stylesheets/Geoserver%20stylesheets%20(SLD)/images/Outdoor-2.png)
+
+
+**Light style**
+
+![Light style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/2427903f608a6cc14f2eb665831f33361a73ac4c/Schema%20version%209/Stylesheets/GML%20stylesheets/Geoserver%20stylesheets%20(SLD)/images/Light-2.png)
+
+
+**Road style**
+
+![Light style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/2427903f608a6cc14f2eb665831f33361a73ac4c/Schema%20version%209/Stylesheets/GML%20stylesheets/Geoserver%20stylesheets%20(SLD)/images/Road-1.png)
+
+
 **Backdrop style**
 
 ![Backdrop style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Backdrop-1.png)
@@ -25,11 +40,3 @@ If using the SLDs in GeoServer with the data loaded into an Oracle database you 
 ![Standard style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Standard-1.png)
 
 
-**Outdoor style**
-
-![Outdoor style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Outdoor-1.png)
-
-
-**Light style**
-
-![Light style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Light-1.png)
