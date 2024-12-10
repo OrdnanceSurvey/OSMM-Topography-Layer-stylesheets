@@ -3,7 +3,7 @@
 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>OS MasterMap Topography Layer (light style)</Name>
+    <Name>OS MasterMap Topography Layer (Road style)</Name>
     <UserStyle>
       <Title>CartographicText</Title>
       <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2024.</Abstract>
@@ -51,7 +51,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#6a6f73</CssParameter>
+              <CssParameter name="fill">#000000</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
@@ -100,7 +100,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#6a6f73</CssParameter>
+              <CssParameter name="fill">#000000</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
@@ -153,7 +153,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#6a6f73</CssParameter>
+              <CssParameter name="fill">#000000</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
@@ -206,12 +206,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#6a6f73</CssParameter>
+              <CssParameter name="fill">#000000</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
 
       <!-- Historic Text -->
       <FeatureTypeStyle>
@@ -251,7 +250,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#6a6f73</CssParameter>
+              <CssParameter name="fill">#000000</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
@@ -295,7 +294,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#8b9da9</CssParameter>
+              <CssParameter name="fill">#1ca5d4</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
@@ -333,7 +332,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#c1bcb0</CssParameter>
+              <CssParameter name="fill">#9d7133</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
@@ -376,13 +375,13 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#99aa99</CssParameter>
+              <CssParameter name="fill">#006600</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
 
-      <!-- Natural Built Environment Text -->
+            <!-- Natural Built Environment Text -->
       <FeatureTypeStyle>
         <Rule>
           <Name>Natural Built Environment text - 1:0 to 1:4,000</Name>
@@ -429,7 +428,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#99aa99</CssParameter>
+              <CssParameter name="fill">#296314</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
@@ -472,12 +471,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#ebbdeb</CssParameter>
+              <CssParameter name="fill">#ff98ff</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>

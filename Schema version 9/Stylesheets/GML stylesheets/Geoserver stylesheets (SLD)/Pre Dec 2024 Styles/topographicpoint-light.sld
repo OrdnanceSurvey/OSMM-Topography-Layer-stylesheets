@@ -3,15 +3,15 @@
 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>OS MasterMap Topography Layer (outdoor style)</Name>
+    <Name>OS MasterMap Topography Layer (light style)</Name>
     <UserStyle>
       <Title>TopographicPoint</Title>
-      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2024.</Abstract>
-
-      <!-- Spot height point -->
+      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2017.</Abstract>
+      
+      <!-- Spot Height Point -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>Spot height point</Name>
+          <Name>Spot height</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>style_code</ogc:PropertyName>
@@ -22,13 +22,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
-              <Mark>
-                <WellKnownName>circle</WellKnownName>
-                <Fill>
-                  <CssParameter name="fill">#857660</CssParameter>
-                </Fill>
-              </Mark>
-              <Size>1</Size>
+              <ExternalGraphic>
+                <OnlineResource xlink:type="simple" xlink:href="osmmsymbols/spotHeightSymbol-light.svg"/>
+                <Format>image/svg+xml</Format>
+              </ExternalGraphic>
+              <Size>3.5</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
@@ -51,7 +49,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#ff7967</CssParameter>
+                  <CssParameter name="fill">#ff9e8b</CssParameter>
                 </Fill>
               </Mark>
               <Size>1.5</Size>
@@ -75,7 +73,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/heritageSiteOfSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/heritageSiteOfSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
               <Size>4.5</Size>
@@ -83,7 +81,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <!-- Culvert Point -->
       <!-- Commented out here as they are also on the Cartographic Symbols layer -->
       <!--<FeatureTypeStyle>
@@ -100,7 +98,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/culvertSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/culvertSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
               <Size>3</Size>
@@ -114,7 +112,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>-->
-
+      
       <!-- Positioned Nonconiferous Tree Point -->
       <FeatureTypeStyle>
         <Rule>
@@ -130,15 +128,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/positionedNonconiferousTreeSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/positionedNonconiferousTreeSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
               <Size>8</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
-      </FeatureTypeStyle>
-
+      </FeatureTypeStyle>  
+      
       <!-- Inland Water Point -->
       <FeatureTypeStyle>
         <Rule>
@@ -156,7 +154,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#90cedd</CssParameter>
+                  <CssParameter name="fill">#8b9da9</CssParameter>
                 </Fill>
               </Mark>
               <Size>1.5</Size>
@@ -164,7 +162,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <!-- Roadside Point -->
       <FeatureTypeStyle>
         <Rule>
@@ -182,7 +180,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#8c8c8c</CssParameter>
+                  <CssParameter name="fill">#bababa</CssParameter>
                 </Fill>
               </Mark>
               <Size>1.5</Size>
@@ -190,7 +188,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <!-- Overhead Construction Point -->
       <FeatureTypeStyle>
         <Rule>
@@ -208,7 +206,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#8c8c8c</CssParameter>
+                  <CssParameter name="fill">#bababa</CssParameter>
                 </Fill>
               </Mark>
               <Size>1.5</Size>
@@ -216,7 +214,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <!-- Rail Point -->
       <FeatureTypeStyle>
         <Rule>
@@ -234,7 +232,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#8c8c8c</CssParameter>
+                  <CssParameter name="fill">#bababa</CssParameter>
                 </Fill>
               </Mark>
               <Size>1.5</Size>
@@ -242,7 +240,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <!-- Positioned Coniferous Tree Point -->
       <FeatureTypeStyle>
         <Rule>
@@ -258,7 +256,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/positionedConiferousTreeSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/positionedConiferousTreeSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
               <Size>8</Size>
@@ -266,7 +264,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <!-- Boundary Post Point -->
       <FeatureTypeStyle>
         <Rule>
@@ -282,7 +280,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:type="simple" xlink:href="osmmsymbols/boundaryPostSymbol-outdoor.svg"/>
+                <OnlineResource xlink:type="simple" xlink:href="osmmsymbols/boundaryPostSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
               <Size>6</Size>
@@ -306,7 +304,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:type="simple" xlink:href="osmmsymbols/triangulationStationSymbol-outdoor.svg"/>
+                <OnlineResource xlink:type="simple" xlink:href="osmmsymbols/triangulationStationSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
               <Size>4</Size>
@@ -314,7 +312,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <!-- Historic Point -->
       <FeatureTypeStyle>
         <Rule>
@@ -332,7 +330,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#8c8c8c</CssParameter>
+                  <CssParameter name="fill">#bababa</CssParameter>
                 </Fill>
               </Mark>
               <Size>1.5</Size>
@@ -358,14 +356,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#8c8c8c</CssParameter>
+                  <CssParameter name="fill">#bababa</CssParameter>
                 </Fill>
               </Mark>
               <Size>1.5</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
-      </FeatureTypeStyle>
+      </FeatureTypeStyle>  
 
       <!-- Tidal Water Point -->
       <FeatureTypeStyle>
@@ -384,7 +382,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#90cedd</CssParameter>
+                  <CssParameter name="fill">#8b9da9</CssParameter>
                 </Fill>
               </Mark>
               <Size>1.5</Size>
@@ -410,7 +408,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <Mark>
                 <WellKnownName>circle</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#8c8c8c</CssParameter>
+                  <CssParameter name="fill">#bababa</CssParameter>
                 </Fill>
               </Mark>
               <Size>1.5</Size>
@@ -418,7 +416,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>

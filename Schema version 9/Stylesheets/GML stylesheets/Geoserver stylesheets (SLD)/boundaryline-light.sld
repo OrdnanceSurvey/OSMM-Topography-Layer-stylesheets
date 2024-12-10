@@ -6,8 +6,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
     <Name>OS MasterMap Topography Layer (light style)</Name>
     <UserStyle>
       <Title>BoundaryLine</Title>
-      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2017.</Abstract>
-      
+      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2024.</Abstract>
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Parish boundary - 1:0 to 1:4,000</Name>
@@ -21,14 +21,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#ff98ff</CssParameter>
+              <CssParameter name="stroke">#EBBDEB</CssParameter>
               <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-dasharray">0.4 0.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>District boundary - 1:0 to 1:4,000</Name>
@@ -42,14 +42,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#ff98ff</CssParameter>
+              <CssParameter name="stroke">#EBBDEB</CssParameter>
               <CssParameter name="stroke-width">0.3</CssParameter>
               <CssParameter name="stroke-dasharray">1.5 0.8</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Electoral boundary - 1:0 to 1:4,000</Name>
@@ -63,14 +63,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#ff98ff</CssParameter>
+              <CssParameter name="stroke">#EBBDEB</CssParameter>
               <CssParameter name="stroke-width">0.2</CssParameter>
               <CssParameter name="stroke-dasharray">1.5 0.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>County boundary - 1:0 to 1:4,000</Name>
@@ -84,14 +84,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#ff98ff</CssParameter>
+              <CssParameter name="stroke">#EBBDEB</CssParameter>
               <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-dasharray">2.0 1.0</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
-      </FeatureTypeStyle>  
-      
+      </FeatureTypeStyle>
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Parliamentary boundary - 1:0 to 1:4,000</Name>
@@ -105,14 +105,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#ff98ff</CssParameter>
+              <CssParameter name="stroke">#EBBDEB</CssParameter>
               <CssParameter name="stroke-width">0.4</CssParameter>
               <CssParameter name="stroke-dasharray">1.8 0.5</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
-      </FeatureTypeStyle> 
-      
+      </FeatureTypeStyle>
+
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>

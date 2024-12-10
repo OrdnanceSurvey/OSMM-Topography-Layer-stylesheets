@@ -3,7 +3,7 @@
 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>OS MasterMap Topography Layer (light style)</Name>
+    <Name>OS MasterMap Topography Layer (Road style)</Name>
     <UserStyle>
       <Title>TopographicLine</Title>
       <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2024.</Abstract>
@@ -22,9 +22,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#d5d4ce</CssParameter>
+              <CssParameter name="stroke">#969696</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
-              <CssParameter name="stroke-dasharray">0.4 0.4</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -44,7 +43,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#d5d4ce</CssParameter>
+              <CssParameter name="stroke">#969696</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
               <CssParameter name="stroke-dasharray">0.4 0.4</CssParameter>
             </Stroke>
@@ -110,8 +109,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#c6c5c4</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke">#6a6a6a</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -131,7 +130,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#c7d4db</CssParameter>
+              <CssParameter name="stroke">#4eaad0</CssParameter>
               <CssParameter name="stroke-width">0.4</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -152,7 +151,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#d5d4ce</CssParameter>
+              <CssParameter name="stroke">#bfbfbf</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
               <CssParameter name="stroke-dasharray">0.5 0.5</CssParameter>
             </Stroke>
@@ -174,7 +173,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#a7a39b</CssParameter>
+              <CssParameter name="stroke">#646464</CssParameter>
               <CssParameter name="stroke-width">0.15</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -239,7 +238,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#c7d4db</CssParameter>
+              <CssParameter name="stroke">#4eaad0</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -260,7 +259,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#bfbfc0</CssParameter>
+              <CssParameter name="stroke">#6a6a6a</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
               <CssParameter name="stroke-dasharray">0.5 0.5</CssParameter>
             </Stroke>
@@ -282,7 +281,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#c4c3bf</CssParameter>
+              <CssParameter name="stroke">#4b4444</CssParameter>
               <CssParameter name="stroke-width">0.2</CssParameter>
               <CssParameter name="stroke-dasharray">2 1</CssParameter>
             </Stroke>
@@ -304,8 +303,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#c7d4db</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke">#4eaad0</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -325,7 +324,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#cfcfc9</CssParameter>
+              <CssParameter name="stroke">#000000</CssParameter>
               <CssParameter name="stroke-width">0.2</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -346,7 +345,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#c6c5c4</CssParameter>
+              <CssParameter name="stroke">#333333</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
               <CssParameter name="stroke-dasharray">0.8 0.8</CssParameter>
             </Stroke>
@@ -368,7 +367,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#a7a39b</CssParameter>
+              <CssParameter name="stroke">#646464</CssParameter>
               <CssParameter name="stroke-width">0.3</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -389,8 +388,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#a7a39b</CssParameter>
-              <CssParameter name="stroke-width">0.1</CssParameter>
+              <CssParameter name="stroke">#646464</CssParameter>
+              <CssParameter name="stroke-width">0.2</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
@@ -410,7 +409,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#a7a39b</CssParameter>
+              <CssParameter name="stroke">#6a6a6a</CssParameter>
               <CssParameter name="stroke-width">0.2</CssParameter>
               <CssParameter name="stroke-dasharray">3 1</CssParameter>
             </Stroke>
@@ -421,7 +420,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       <!-- Line Of Posts -->
       <FeatureTypeStyle>
         <Rule>
-          <Name>Line of Posts - 1:0 to 1:4,000</Name>
+          <Name>Line Of Posts - 1:0 to 1:4,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>style_code</ogc:PropertyName>
@@ -432,7 +431,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#bababa</CssParameter>
+              <CssParameter name="stroke">#6a6a6a</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -453,7 +452,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#c7d4db</CssParameter>
+              <CssParameter name="stroke">#4eaad0</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -474,7 +473,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#c7d4db</CssParameter>
+              <CssParameter name="stroke">#4eaad0</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -495,7 +494,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#d2d1d0</CssParameter>
+              <CssParameter name="stroke">#6a6a6a</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -516,7 +515,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#d2d1cb</CssParameter>
+              <CssParameter name="stroke">#565656</CssParameter>
               <CssParameter name="stroke-width">0.2</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -537,7 +536,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#cdcccb</CssParameter>
+              <CssParameter name="stroke">#969696</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
               <CssParameter name="stroke-dasharray">0.5 0.5</CssParameter>
             </Stroke>
@@ -559,7 +558,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#d5d4cd</CssParameter>
+              <CssParameter name="stroke">#666666</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
               <CssParameter name="stroke-dasharray">0.5 0.5</CssParameter>
             </Stroke>
@@ -581,7 +580,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#d2d1cb</CssParameter>
+              <CssParameter name="stroke">#565656</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -602,7 +601,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#c7d4db</CssParameter>
+              <CssParameter name="stroke">#4eaad0</CssParameter>
               <CssParameter name="stroke-width">0.2</CssParameter>
             </Stroke>
           </LineSymbolizer>
@@ -623,7 +622,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#d0cfc8</CssParameter>
+              <CssParameter name="stroke">#969696</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
               <CssParameter name="stroke-dasharray">0.5 0.5</CssParameter>
             </Stroke>
@@ -645,7 +644,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#c6c5c4</CssParameter>
+              <CssParameter name="stroke">#4b4444</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
               <CssParameter name="stroke-dasharray">0.5 0.5</CssParameter>
             </Stroke>
@@ -667,7 +666,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#c6c5c4</CssParameter>
+              <CssParameter name="stroke">#d06800</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
               <CssParameter name="stroke-dasharray">0.8 0.8</CssParameter>
             </Stroke>
@@ -689,7 +688,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#c6c5c4</CssParameter>
+              <CssParameter name="stroke">#333333</CssParameter>
               <CssParameter name="stroke-width">0.2</CssParameter>
               <CssParameter name="stroke-dasharray">3 1</CssParameter>
             </Stroke>
@@ -711,7 +710,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#c6c5c4</CssParameter>
+              <CssParameter name="stroke">#d06800</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
               <CssParameter name="stroke-dasharray">0.8 0.8</CssParameter>
             </Stroke>
@@ -733,7 +732,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#d5d4cd</CssParameter>
+              <CssParameter name="stroke">#969696</CssParameter>
               <CssParameter name="stroke-width">0.1</CssParameter>
             </Stroke>
           </LineSymbolizer>

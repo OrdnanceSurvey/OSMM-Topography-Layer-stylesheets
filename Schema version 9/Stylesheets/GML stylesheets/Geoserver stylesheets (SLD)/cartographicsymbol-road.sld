@@ -3,7 +3,7 @@
 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>OS MasterMap Topography Layer (outdoor style)</Name>
+    <Name>OS MasterMap Topography Layer (Road style)</Name>
     <UserStyle>
       <Title>CartographicSymbol</Title>
       <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2024.</Abstract>
@@ -24,7 +24,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/culvertSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/culvertSymbol.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
               <Size>1</Size>
@@ -53,7 +53,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/flowArrowSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/flowArrowSymbol.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
               <Size>2</Size>
@@ -82,11 +82,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/boundaryMereingChangeSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/boundaryMereingChangeSymbol.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
               <Size>2</Size>
-              <Rotation>-
+              <Rotation>360 -
                 <ogc:Mul>
                   <ogc:PropertyName>orientation</ogc:PropertyName>
                   <ogc:Literal>0.1</ogc:Literal>
@@ -111,10 +111,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/benchMarkSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/benchMarkSymbol.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
-              <Size>5</Size>
+              <Size>6</Size>
               <Rotation>-
                 <ogc:Mul>
                   <ogc:PropertyName>orientation</ogc:PropertyName>
@@ -140,7 +140,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/railwaySwitchSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/railwaySwitchSymbol.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
               <Size>2</Size>
@@ -169,7 +169,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/roadFlowSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/roadFlowSymbol.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
               <Size>1.75</Size>

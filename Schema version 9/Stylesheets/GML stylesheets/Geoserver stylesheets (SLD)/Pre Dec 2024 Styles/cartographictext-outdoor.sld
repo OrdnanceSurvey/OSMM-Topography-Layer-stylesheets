@@ -3,10 +3,10 @@
 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>OS MasterMap Topography Layer (light style)</Name>
+    <Name>OS MasterMap Topography Layer (outdoor style)</Name>
     <UserStyle>
       <Title>CartographicText</Title>
-      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2024.</Abstract>
+      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2017.</Abstract>
 
       <!-- General Text -->
       <FeatureTypeStyle>
@@ -35,7 +35,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <CssParameter name="font-size">
                 <ogc:Mul>
                   <ogc:PropertyName>height</ogc:PropertyName>
-                  <ogc:Literal>1.3</ogc:Literal>
+                  <ogc:Literal>1.6</ogc:Literal>
                 </ogc:Mul>
               </CssParameter>
             </Font>
@@ -51,168 +51,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#6a6f73</CssParameter>
-            </Fill>
-          </TextSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>
-
-
-      <!-- Road Text -->
-      <FeatureTypeStyle>
-        <Rule>
-          <Name>Road text - 1:0 to 1:4,000</Name>
-          <ogc:Filter>
-            <ogc:And>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>colour_code</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>font_code</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>style_code</ogc:PropertyName>
-              <ogc:Literal>3</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:And>
-          </ogc:Filter>
-          <MinScaleDenominator>0</MinScaleDenominator>
-          <MaxScaleDenominator>4000</MaxScaleDenominator>
-          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
-            </Label>
-            <Font>
-              <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">3.5</CssParameter>
-            </Font>
-            <LabelPlacement>
-              <PointPlacement>
-                <AnchorPoint>
-                  <AnchorPointX><ogc:PropertyName>geo_x</ogc:PropertyName></AnchorPointX>
-                  <AnchorPointY><ogc:PropertyName>geo_y</ogc:PropertyName></AnchorPointY>
-                </AnchorPoint>
-                <Rotation>-
-                  <ogc:PropertyName>rotation</ogc:PropertyName>
-                </Rotation>
-              </PointPlacement>
-            </LabelPlacement>
-            <Fill>
-              <CssParameter name="fill">#6a6f73</CssParameter>
+              <CssParameter name="fill">#655314</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
       
-      
-      <!-- Building Names -->
-      <FeatureTypeStyle>
-        <Rule>
-          <Name>Building text - 1:0 to 1:4,000</Name>
-          <ogc:Filter>
-            <ogc:And>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>colour_code</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>font_code</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>style_code</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsNotEqualTo>
-              <ogc:PropertyName>font</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
-            </ogc:PropertyIsNotEqualTo>
-          </ogc:And>
-          </ogc:Filter>
-          <MinScaleDenominator>0</MinScaleDenominator>
-          <MaxScaleDenominator>4000</MaxScaleDenominator>
-          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
-            </Label>
-            <Font>
-              <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">4</CssParameter>
-            </Font>
-            <LabelPlacement>
-              <PointPlacement>
-                <AnchorPoint>
-                  <AnchorPointX><ogc:PropertyName>geo_x</ogc:PropertyName></AnchorPointX>
-                  <AnchorPointY><ogc:PropertyName>geo_y</ogc:PropertyName></AnchorPointY>
-                </AnchorPoint>
-                <Rotation>-
-                  <ogc:PropertyName>rotation</ogc:PropertyName>
-                </Rotation>
-              </PointPlacement>
-            </LabelPlacement>
-            <Fill>
-              <CssParameter name="fill">#6a6f73</CssParameter>
-            </Fill>
-          </TextSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>
-      
-      
-      <!-- Building Number -->
-      <FeatureTypeStyle>
-        <Rule>
-          <Name>Building Number - 1:0 to 1:4,000</Name>
-          <ogc:Filter>
-            <ogc:And>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>colour_code</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>font_code</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>style_code</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>font</ogc:PropertyName>
-              <ogc:Literal>2</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:And>
-          </ogc:Filter>
-          <MinScaleDenominator>0</MinScaleDenominator>
-          <MaxScaleDenominator>4000</MaxScaleDenominator>
-          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
-            </Label>
-            <Font>
-              <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">3</CssParameter>
-            </Font>
-            <LabelPlacement>
-              <PointPlacement>
-                <AnchorPoint>
-                  <AnchorPointX><ogc:PropertyName>geo_x</ogc:PropertyName></AnchorPointX>
-                  <AnchorPointY><ogc:PropertyName>geo_y</ogc:PropertyName></AnchorPointY>
-                </AnchorPoint>
-                <Rotation>-
-                  <ogc:PropertyName>rotation</ogc:PropertyName>
-                </Rotation>
-              </PointPlacement>
-            </LabelPlacement>
-            <Fill>
-              <CssParameter name="fill">#6a6f73</CssParameter>
-            </Fill>
-          </TextSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>
-
-
       <!-- Historic Text -->
       <FeatureTypeStyle>
         <Rule>
@@ -251,12 +95,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#6a6f73</CssParameter>
+              <CssParameter name="fill">#7d7d7d</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <!-- Water Text -->
       <FeatureTypeStyle>
         <Rule>
@@ -295,12 +139,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#8b9da9</CssParameter>
+              <CssParameter name="fill">#318fae</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <!-- Height Text -->
       <FeatureTypeStyle>
         <Rule>
@@ -319,7 +163,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">3.5</CssParameter>
+              <CssParameter name="font-size">
+                <ogc:Mul>
+                  <ogc:PropertyName>height</ogc:PropertyName>
+                  <ogc:Literal>1.6</ogc:Literal>
+                </ogc:Mul>
+              </CssParameter>
             </Font>
             <LabelPlacement>
               <PointPlacement>
@@ -333,12 +182,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#c1bcb0</CssParameter>
+              <CssParameter name="fill">#857660</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <!-- Natural Text -->
       <FeatureTypeStyle>
         <Rule>
@@ -376,65 +225,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#99aa99</CssParameter>
+              <CssParameter name="fill">#296314</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
-      <!-- Natural Built Environment Text -->
-      <FeatureTypeStyle>
-        <Rule>
-          <Name>Natural Built Environment text - 1:0 to 1:4,000</Name>
-          <ogc:Filter>
-          <ogc:And>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>colour_code</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>font_code</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>style_code</ogc:PropertyName>
-              <ogc:Literal>8</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:And>
-          </ogc:Filter>
-          <MinScaleDenominator>0</MinScaleDenominator>
-          <MaxScaleDenominator>4000</MaxScaleDenominator>
-          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-            <Label>
-              <ogc:PropertyName>textstring</ogc:PropertyName>
-            </Label>
-            <Font>
-              <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">
-                <ogc:Mul>
-                  <ogc:PropertyName>height</ogc:PropertyName>
-                  <ogc:Literal>1.6</ogc:Literal>
-                </ogc:Mul>
-              </CssParameter>
-            </Font>
-            <LabelPlacement>
-              <PointPlacement>
-                <AnchorPoint>
-                  <AnchorPointX><ogc:PropertyName>geo_x</ogc:PropertyName></AnchorPointX>
-                  <AnchorPointY><ogc:PropertyName>geo_y</ogc:PropertyName></AnchorPointY>
-                </AnchorPoint>
-                <Rotation>-
-                  <ogc:PropertyName>rotation</ogc:PropertyName>
-                </Rotation>
-              </PointPlacement>
-            </LabelPlacement>
-            <Fill>
-              <CssParameter name="fill">#99aa99</CssParameter>
-            </Fill>
-          </TextSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>
-
+      
       <!-- Boundary Text -->
       <FeatureTypeStyle>
         <Rule>
@@ -472,12 +268,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#ebbdeb</CssParameter>
+              <CssParameter name="fill">#ff98ff</CssParameter>
             </Fill>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>

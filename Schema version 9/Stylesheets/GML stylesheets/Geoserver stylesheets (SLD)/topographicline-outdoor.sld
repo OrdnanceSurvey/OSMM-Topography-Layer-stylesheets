@@ -6,7 +6,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
     <Name>OS MasterMap Topography Layer (outdoor style)</Name>
     <UserStyle>
       <Title>TopographicLine</Title>
-      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2017.</Abstract>
+      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2024.</Abstract>
 
       <!-- Polygon Closing Line -->
       <FeatureTypeStyle>
@@ -73,7 +73,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Top Of Slope -->
       <FeatureTypeStyle>
         <Rule>
@@ -95,7 +95,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Step Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -137,7 +137,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Traffic Calming -->
       <FeatureTypeStyle>
         <Rule>
@@ -159,7 +159,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Standard Gauge Track Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -180,7 +180,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Bottom Of Cliff -->
       <FeatureTypeStyle>
         <Rule>
@@ -202,7 +202,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Top Of Cliff -->
       <FeatureTypeStyle>
         <Rule>
@@ -224,7 +224,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Mean Low Water -->
       <FeatureTypeStyle>
         <Rule>
@@ -289,7 +289,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Culvert Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -310,7 +310,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Pylon Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -330,7 +330,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Stroke>
           </LineSymbolizer>
         </Rule>
-      </FeatureTypeStyle> 
+      </FeatureTypeStyle>
 
       <!-- Ridge Or Rock Line -->
       <FeatureTypeStyle>
@@ -373,8 +373,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Stroke>
           </LineSymbolizer>
         </Rule>
-      </FeatureTypeStyle>   
-      
+      </FeatureTypeStyle>
+
       <!-- Railway Buffer Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -395,7 +395,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Tunnel Edge Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -480,7 +480,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Default Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -496,12 +496,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#7a7977</CssParameter>
-              <CssParameter name="stroke-width">0.2</CssParameter>
+              <CssParameter name="stroke-width">0.1</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Building Outline -->
       <FeatureTypeStyle>
         <Rule>
@@ -522,7 +522,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Edge Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -544,7 +544,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Road Or Track Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -566,7 +566,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Building Division Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -587,7 +587,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Inland Water Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -608,7 +608,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-            
+
       <!-- General Surface Natural Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -630,7 +630,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Builiding Overhead Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -652,7 +652,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-                            
+
       <!-- Landform Natural Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -673,8 +673,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Stroke>
           </LineSymbolizer>
         </Rule>
-      </FeatureTypeStyle>   
-            
+      </FeatureTypeStyle>
+
       <!-- Historic Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -696,7 +696,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-            
+
       <!-- Landform Manmade Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -718,7 +718,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Unclassified Line -->
       <FeatureTypeStyle>
         <Rule>
@@ -739,7 +739,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>

@@ -3,13 +3,13 @@
 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>OS MasterMap Topography Layer (outdoor style)</Name>
+    <Name>OS MasterMap Topography Layer (light style)</Name>
     <UserStyle>
       <Title>CartographicSymbol</Title>
-      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2024.</Abstract>
-
+      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2017.</Abstract>
+      
       <!--  Cartographic Symbols  -->
-
+      
       <FeatureTypeStyle>
         <Rule>
           <Name>Culvert - 1:0 to 1:4,000</Name>
@@ -24,10 +24,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/culvertSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/culvertSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
-              <Size>1</Size>
+              <Size>3</Size>
               <Rotation>-
                 <ogc:Mul>
                   <ogc:PropertyName>orientation</ogc:PropertyName>
@@ -38,7 +38,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <FeatureTypeStyle>
         <Rule>
           <Name>Direction of water flow arrow - 1:0 to 1:4,000</Name>
@@ -53,10 +53,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/flowArrowSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/flowArrowSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
-              <Size>2</Size>
+              <Size>1.75</Size>
               <Rotation>-
                 <ogc:Mul>
                   <ogc:PropertyName>orientation</ogc:PropertyName>
@@ -67,7 +67,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <FeatureTypeStyle>
         <Rule>
           <Name>Boundary mereing change - 1:0 to 1:4,000</Name>
@@ -82,7 +82,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/boundaryMereingChangeSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/boundaryMereingChangeSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
               <Size>2</Size>
@@ -96,7 +96,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <FeatureTypeStyle>
         <Rule>
           <Name>Benchmark - 1:0 to 1:4,000</Name>
@@ -111,10 +111,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/benchMarkSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/benchMarkSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
-              <Size>5</Size>
+              <Size>3</Size>
               <Rotation>-
                 <ogc:Mul>
                   <ogc:PropertyName>orientation</ogc:PropertyName>
@@ -125,7 +125,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <FeatureTypeStyle>
         <Rule>
           <Name>Railway switch - 1:0 to 1:4,000</Name>
@@ -140,10 +140,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/railwaySwitchSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/railwaySwitchSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
-              <Size>2</Size>
+              <Size>0.5</Size>
               <Rotation>-
                 <ogc:Mul>
                   <ogc:PropertyName>orientation</ogc:PropertyName>
@@ -153,8 +153,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Graphic>
           </PointSymbolizer>
         </Rule>
-      </FeatureTypeStyle>
-
+      </FeatureTypeStyle>  
+      
       <FeatureTypeStyle>
         <Rule>
           <Name>Direction of traffic flow arrow - 1:0 to 1:4,000</Name>
@@ -169,7 +169,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
               <ExternalGraphic>
-                <OnlineResource xlink:href="osmmsymbols/roadFlowSymbol-outdoor.svg"/>
+                <OnlineResource xlink:href="osmmsymbols/roadFlowSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
               <Size>1.75</Size>
@@ -183,7 +183,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>

@@ -6,10 +6,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
     <Name>OS MasterMap Topography Layer (light style)</Name>
     <UserStyle>
       <Title>CartographicSymbol</Title>
-      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2017.</Abstract>
-      
+      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2024.</Abstract>
+
       <!--  Cartographic Symbols  -->
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Culvert - 1:0 to 1:4,000</Name>
@@ -27,7 +27,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <OnlineResource xlink:href="osmmsymbols/culvertSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
-              <Size>3</Size>
+              <Size>1</Size>
               <Rotation>-
                 <ogc:Mul>
                   <ogc:PropertyName>orientation</ogc:PropertyName>
@@ -38,7 +38,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Direction of water flow arrow - 1:0 to 1:4,000</Name>
@@ -56,18 +56,18 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <OnlineResource xlink:href="osmmsymbols/flowArrowSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
-              <Size>1.75</Size>
+              <Size>2</Size>
               <Rotation>-
                 <ogc:Mul>
                   <ogc:PropertyName>orientation</ogc:PropertyName>
                   <ogc:Literal>0.1</ogc:Literal>
                 </ogc:Mul>
-              </Rotation>
+              </Rotation>              
             </Graphic>
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Boundary mereing change - 1:0 to 1:4,000</Name>
@@ -96,7 +96,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Benchmark - 1:0 to 1:4,000</Name>
@@ -114,7 +114,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <OnlineResource xlink:href="osmmsymbols/benchMarkSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
-              <Size>3</Size>
+              <Size>7</Size>
               <Rotation>-
                 <ogc:Mul>
                   <ogc:PropertyName>orientation</ogc:PropertyName>
@@ -125,7 +125,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Railway switch - 1:0 to 1:4,000</Name>
@@ -143,18 +143,18 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <OnlineResource xlink:href="osmmsymbols/railwaySwitchSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
-              <Size>0.5</Size>
+              <Size>2</Size>
               <Rotation>-
                 <ogc:Mul>
                   <ogc:PropertyName>orientation</ogc:PropertyName>
-                  <ogc:Literal>0.025</ogc:Literal>
+                  <ogc:Literal>0.1</ogc:Literal>
                 </ogc:Mul>
               </Rotation>
             </Graphic>
           </PointSymbolizer>
         </Rule>
-      </FeatureTypeStyle>  
-      
+      </FeatureTypeStyle>
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Direction of traffic flow arrow - 1:0 to 1:4,000</Name>
@@ -172,7 +172,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <OnlineResource xlink:href="osmmsymbols/roadFlowSymbol-light.svg"/>
                 <Format>image/svg+xml</Format>
               </ExternalGraphic>
-              <Size>1.75</Size>
+              <Size>2</Size>
               <Rotation>-
                 <ogc:Mul>
                   <ogc:PropertyName>orientation</ogc:PropertyName>
@@ -183,7 +183,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>

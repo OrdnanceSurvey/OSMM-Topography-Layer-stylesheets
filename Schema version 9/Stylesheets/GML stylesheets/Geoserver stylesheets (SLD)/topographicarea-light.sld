@@ -6,8 +6,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
     <Name>OS MasterMap Topography Layer (light style)</Name>
     <UserStyle>
       <Title>TopographicArea</Title>
-      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2017.</Abstract>
-      
+      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2024.</Abstract>
+
       <!--  Unclassified  -->
       <FeatureTypeStyle>
         <Rule>
@@ -22,12 +22,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#efeee8</CssParameter>
+              <CssParameter name="fill">#f6f5f3</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>    
-      
+      </FeatureTypeStyle>
+
       <!--  Tidal Water  -->
       <FeatureTypeStyle>
         <Rule>
@@ -42,12 +42,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#c5cdd0</CssParameter>
+              <CssParameter name="fill">#D7E0E5</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>      
-      
+      </FeatureTypeStyle>
+
       <!--  Foreshore  -->
       <FeatureTypeStyle>
         <Rule>
@@ -62,11 +62,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e9e7e2</CssParameter>
+              <CssParameter name="fill">#E8E9E5</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>      
+      </FeatureTypeStyle>
 
       <!--  Sand  -->
       <FeatureTypeStyle>
@@ -82,11 +82,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e9e7e2</CssParameter>
+              <CssParameter name="fill">#EEECE7</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>  
+      </FeatureTypeStyle>
 
       <!--  Mud  -->
       <FeatureTypeStyle>
@@ -102,11 +102,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e9e7e2</CssParameter>
+              <CssParameter name="fill">#E9E7E2</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>  
+      </FeatureTypeStyle>
 
       <!--  Shingle  -->
       <FeatureTypeStyle>
@@ -122,12 +122,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e8e8e8</CssParameter>
+              <CssParameter name="fill">#EBEBEB</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>  
-      
+      </FeatureTypeStyle>
+
       <!--  Multiple surface  -->
       <FeatureTypeStyle>
         <Rule>
@@ -142,12 +142,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#f2eee4</CssParameter>
+              <CssParameter name="fill">#F5F4F2</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Natural Fill  -->
       <FeatureTypeStyle>
         <Rule>
@@ -162,12 +162,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#efece8</CssParameter>
+              <CssParameter name="fill">#F4F6F1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Manmade Fill  -->
       <FeatureTypeStyle>
         <Rule>
@@ -182,12 +182,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#eae9e8</CssParameter>
+              <CssParameter name="fill">#EFEEEB</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Natural roadside  -->
       <FeatureTypeStyle>
         <Rule>
@@ -202,12 +202,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#efece8</CssParameter>
+              <CssParameter name="fill">#F8F6F4</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Manmade roadside  -->
       <FeatureTypeStyle>
         <Rule>
@@ -222,12 +222,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#eae9e8</CssParameter>
+              <CssParameter name="fill">#EAE9E6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Landform Natural  -->
       <FeatureTypeStyle>
         <Rule>
@@ -242,12 +242,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#efece8</CssParameter>
+              <CssParameter name="fill">#EEEDEC</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Landform Manmade  -->
       <FeatureTypeStyle>
         <Rule>
@@ -262,12 +262,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#eae9e8</CssParameter>
+              <CssParameter name="fill">#EAE9E8</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>      
-      
+      </FeatureTypeStyle>
+
       <!--  Rail Natural -->
       <FeatureTypeStyle>
         <Rule>
@@ -282,12 +282,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e8e7e6</CssParameter>
+              <CssParameter name="fill">#E8E7E6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>      
-      
+      </FeatureTypeStyle>
+
       <!--  Rail Manmade -->
       <FeatureTypeStyle>
         <Rule>
@@ -302,12 +302,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e8e7e6</CssParameter>
+              <CssParameter name="fill">#E8E7E6</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>      
-      
+      </FeatureTypeStyle>
+
       <!--  Path  -->
       <FeatureTypeStyle>
         <Rule>
@@ -327,7 +327,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Track  -->
       <FeatureTypeStyle>
         <Rule>
@@ -347,7 +347,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Step  -->
       <FeatureTypeStyle>
         <Rule>
@@ -366,7 +366,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>      
+      </FeatureTypeStyle>
 
       <!--  Road or track  -->
       <FeatureTypeStyle>
@@ -386,8 +386,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>      
-      
+      </FeatureTypeStyle>
+
       <!--  Traffic Calming  -->
       <FeatureTypeStyle>
         <Rule>
@@ -407,7 +407,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Glasshouse  -->
       <FeatureTypeStyle>
         <Rule>
@@ -422,7 +422,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e1e5e1</CssParameter>
+              <CssParameter name="fill">#E1E5E1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -443,7 +443,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Building  -->
       <FeatureTypeStyle>
         <Rule>
@@ -458,12 +458,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#dddbd6</CssParameter>
+              <CssParameter name="fill">#E0DFDC</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>   
-      
+      </FeatureTypeStyle>
+
       <!--  Pylon  -->
       <FeatureTypeStyle>
         <Rule>
@@ -483,7 +483,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Structure  -->
       <FeatureTypeStyle>
         <Rule>
@@ -498,11 +498,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e0d2d1</CssParameter>
+              <CssParameter name="fill">#E9DEDD</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>    
+      </FeatureTypeStyle>
 
       <!--  Road Bridge  -->
       <FeatureTypeStyle>
@@ -522,7 +522,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>   
+      </FeatureTypeStyle>
 
       <!--  Rail Bridge  -->
       <FeatureTypeStyle>
@@ -538,11 +538,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#dedddd</CssParameter>
+              <CssParameter name="fill">#DEDDDD</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>  
+      </FeatureTypeStyle>
 
       <!--  Bridge  -->
       <FeatureTypeStyle>
@@ -558,12 +558,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e0d2d1</CssParameter>
+              <CssParameter name="fill">#E9DEDD</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>  
-      
+      </FeatureTypeStyle>
+
       <!--  Footbridge  -->
       <FeatureTypeStyle>
         <Rule>
@@ -578,11 +578,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e0d2d1</CssParameter>
+              <CssParameter name="fill">#E9DEDD</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>        
+      </FeatureTypeStyle>
 
       <!--  Level Crossing  -->
       <FeatureTypeStyle>
@@ -598,12 +598,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#ffffff</CssParameter> 
+              <CssParameter name="fill">#ffffff</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle>  
-      
+      </FeatureTypeStyle>
+
       <!--  Archway  -->
       <FeatureTypeStyle>
         <Rule>
@@ -618,7 +618,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#dddbd6</CssParameter>
+              <CssParameter name="fill">#DBDAD7</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -638,12 +638,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#dde3da</CssParameter>
+              <CssParameter name="fill">#f7f6f5</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Mixed Woodland -->
       <FeatureTypeStyle>
         <Rule>
@@ -658,7 +658,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#d8ddd4</CssParameter>
+              <CssParameter name="fill">#E1EAE1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -674,10 +674,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </Graphic>
               </GraphicFill>
             </Fill>
-          </PolygonSymbolizer> 
+          </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Nonconiferous Tree -->
       <FeatureTypeStyle>
         <Rule>
@@ -692,7 +692,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#d8ddd4</CssParameter>
+              <CssParameter name="fill">#E1EAE1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -708,10 +708,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </Graphic>
               </GraphicFill>
             </Fill>
-          </PolygonSymbolizer>      
+          </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Coniferous Tree -->
       <FeatureTypeStyle>
         <Rule>
@@ -726,7 +726,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#d8ddd4</CssParameter>
+              <CssParameter name="fill">#E1EAE1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -742,10 +742,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </Graphic>
               </GraphicFill>
             </Fill>
-          </PolygonSymbolizer> 
+          </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Orchard -->
       <FeatureTypeStyle>
         <Rule>
@@ -760,7 +760,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#d8ddd4</CssParameter>
+              <CssParameter name="fill">#E1EAE1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -776,10 +776,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </Graphic>
               </GraphicFill>
             </Fill>
-          </PolygonSymbolizer> 
+          </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Coppice Or Osiers -->
       <FeatureTypeStyle>
         <Rule>
@@ -794,7 +794,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#d8ddd4</CssParameter>
+              <CssParameter name="fill">#E1EAE1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -810,10 +810,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </Graphic>
               </GraphicFill>
             </Fill>
-          </PolygonSymbolizer> 
+          </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Scrub -->
       <FeatureTypeStyle>
         <Rule>
@@ -828,7 +828,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e9ede6</CssParameter>
+              <CssParameter name="fill">#EDF1E9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -844,10 +844,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </Graphic>
               </GraphicFill>
             </Fill>
-          </PolygonSymbolizer> 
+          </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Boulders -->
       <FeatureTypeStyle>
         <Rule>
@@ -862,7 +862,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e8e8e8</CssParameter>
+              <CssParameter name="fill">#F0F0F0</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -878,10 +878,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </Graphic>
               </GraphicFill>
             </Fill>
-          </PolygonSymbolizer> 
+          </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Rock -->
       <FeatureTypeStyle>
         <Rule>
@@ -896,7 +896,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e8e8e8</CssParameter>
+              <CssParameter name="fill">#F0F0F0</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -912,10 +912,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </Graphic>
               </GraphicFill>
             </Fill>
-          </PolygonSymbolizer> 
+          </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Scree -->
       <FeatureTypeStyle>
         <Rule>
@@ -930,7 +930,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e8e8e8</CssParameter>
+              <CssParameter name="fill">#F0F0F0</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -946,10 +946,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </Graphic>
               </GraphicFill>
             </Fill>
-          </PolygonSymbolizer> 
+          </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Rough Grassland -->
       <FeatureTypeStyle>
         <Rule>
@@ -964,7 +964,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e9ede6</CssParameter>
+              <CssParameter name="fill">#EFF3EC</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -980,10 +980,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </Graphic>
               </GraphicFill>
             </Fill>
-          </PolygonSymbolizer> 
+          </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Heath -->
       <FeatureTypeStyle>
         <Rule>
@@ -998,7 +998,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e9ede6</CssParameter>
+              <CssParameter name="fill">#EFF3EC</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -1014,10 +1014,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </Graphic>
               </GraphicFill>
             </Fill>
-          </PolygonSymbolizer> 
+          </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Saltmarsh -->
       <FeatureTypeStyle>
         <Rule>
@@ -1032,7 +1032,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e4e5e4</CssParameter>
+              <CssParameter name="fill">#E4E5E4</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -1048,7 +1048,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </Graphic>
               </GraphicFill>
             </Fill>
-          </PolygonSymbolizer> 
+          </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
 
@@ -1066,7 +1066,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#e4e5e4</CssParameter>
+              <CssParameter name="fill">#E8E8E8</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -1082,7 +1082,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </Graphic>
               </GraphicFill>
             </Fill>
-          </PolygonSymbolizer> 
+          </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
 
@@ -1100,7 +1100,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#c5cdd0</CssParameter>
+              <CssParameter name="fill">#D7E0E5</CssParameter>
             </Fill>
           </PolygonSymbolizer>
           <PolygonSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
@@ -1116,10 +1116,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </Graphic>
               </GraphicFill>
             </Fill>
-          </PolygonSymbolizer> 
+          </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Canal  -->
       <FeatureTypeStyle>
         <Rule>
@@ -1134,7 +1134,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#c5cdd0</CssParameter>
+              <CssParameter name="fill">#D7E0E5</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
@@ -1154,12 +1154,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>4000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#c5cdd0</CssParameter>
+              <CssParameter name="fill">#D7E0E5</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!--  Slope  -->
       <FeatureTypeStyle>
         <Rule>
@@ -1179,7 +1179,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <Mark>
                     <WellKnownName>shape://slash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#c2c9bf</CssParameter>
+                      <CssParameter name="stroke">#D1D9CE</CssParameter>
                       <CssParameter name="stroke-width">0.2</CssParameter>
                     </Stroke>
                   </Mark>
@@ -1189,8 +1189,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Fill>
           </PolygonSymbolizer>
         </Rule>
-      </FeatureTypeStyle> 
-      
+      </FeatureTypeStyle>
+
       <!--  Cliff  -->
       <FeatureTypeStyle>
         <Rule>
@@ -1210,7 +1210,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <Mark>
                     <WellKnownName>shape://backslash</WellKnownName>
                     <Stroke>
-                      <CssParameter name="stroke">#8d8d8d</CssParameter>
+                      <CssParameter name="stroke">#D9D9D9</CssParameter>
                       <CssParameter name="stroke-width">0.2</CssParameter>
                     </Stroke>
                   </Mark>
@@ -1221,7 +1221,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PolygonSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>

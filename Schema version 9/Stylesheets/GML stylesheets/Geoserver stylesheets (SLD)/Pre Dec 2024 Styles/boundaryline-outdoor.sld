@@ -6,8 +6,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
     <Name>OS MasterMap Topography Layer (outdoor style)</Name>
     <UserStyle>
       <Title>BoundaryLine</Title>
-      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2024.</Abstract>
-
+      <Abstract>OS MasterMap Topography Layer. Ordnance Survey. (c) Crown copyright and database rights 2017.</Abstract>
+      
       <FeatureTypeStyle>
         <Rule>
           <Name>Parish boundary - 1:0 to 1:4,000</Name>
@@ -28,7 +28,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <FeatureTypeStyle>
         <Rule>
           <Name>District boundary - 1:0 to 1:4,000</Name>
@@ -49,7 +49,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <FeatureTypeStyle>
         <Rule>
           <Name>Electoral boundary - 1:0 to 1:4,000</Name>
@@ -70,7 +70,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-
+      
       <FeatureTypeStyle>
         <Rule>
           <Name>County boundary - 1:0 to 1:4,000</Name>
@@ -90,8 +90,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Stroke>
           </LineSymbolizer>
         </Rule>
-      </FeatureTypeStyle>
-
+      </FeatureTypeStyle>  
+      
       <FeatureTypeStyle>
         <Rule>
           <Name>Parliamentary boundary - 1:0 to 1:4,000</Name>
@@ -111,8 +111,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Stroke>
           </LineSymbolizer>
         </Rule>
-      </FeatureTypeStyle>
-
+      </FeatureTypeStyle> 
+      
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
