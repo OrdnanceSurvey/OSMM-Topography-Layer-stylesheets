@@ -1,7 +1,9 @@
 # OS MasterMap Topography Layer
-*Backdrop, Standard, Outdoor and Light styles*
+*Backdrop, Standard, Outdoor, Light and Road styles*
 
 These are **QML** files for OS MasterMap Topography Layer. You will need to apply the post processing SQL scripts before using these stylesheets.
+
+In 2024 we updated our Outdoor, Road and Light styles to reflect our changes to the OS Maps API. You can read about the changes here: https://www.ordnancesurvey.co.uk/blog/base-map-style-updates. Our legacy styles for light and outdoor remain available for those who want to use them.
 
 ## Getting Started Guide
 

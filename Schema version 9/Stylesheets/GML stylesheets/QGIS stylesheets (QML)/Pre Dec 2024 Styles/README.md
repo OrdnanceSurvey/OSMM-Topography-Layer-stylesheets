@@ -1,0 +1,1 @@
+The stylesheets in this directory include the legacy styles for Light, Road and Outdoor prior to the 2024 styling update.
