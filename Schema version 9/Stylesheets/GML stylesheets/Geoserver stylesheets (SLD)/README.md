@@ -27,7 +27,7 @@ If using the SLDs in GeoServer with the data loaded into an Oracle database you 
 
 **Road style**
 
-![Light style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/2427903f608a6cc14f2eb665831f33361a73ac4c/Schema%20version%209/Stylesheets/GML%20stylesheets/Geoserver%20stylesheets%20(SLD)/images/Road-1.png)
+![Road style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/2427903f608a6cc14f2eb665831f33361a73ac4c/Schema%20version%209/Stylesheets/GML%20stylesheets/Geoserver%20stylesheets%20(SLD)/images/Road-1.png)
 
 
 **Backdrop style**
