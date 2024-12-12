@@ -1,9 +1,11 @@
 # OS MasterMap Topography Layer
-*Road, Standard, Outdoor and Light styles*
+*Road, Outdoor, Light, Standard and Greyscale styles*
 
 These are **LYRX** files for OS MasterMap Topography Layer for the GeoPackage data format.
 
-We have added a new greyscale style for users to test and provide feedback via issues. After user testing we will provide this style in QML, LYR and SLD flavours too.
+We have added a new greyscale style for users to test and provide feedback via issues. After user testing we will provide this style in QML, LYR and SLD too. 
+
+In 2024 we updated our Outdoor, Road and Light styles to reflect our changes to the OS Maps API. You can read about the changes here: https://www.ordnancesurvey.co.uk/blog/base-map-style-updates. Our legacy styles remain available for those who want to use them.
 
 ## Getting Started Guide
 
@@ -13,7 +15,17 @@ For help and advice please see the [Getting Started Guide](https://github.com/Or
 
 **Road**
 
-![Road style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/ArcGIS%20Pro%20stylesheets%20(LYRX)/images/Road.png)
+![Road style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/b6b889b37325a9fcc0d106bea2fcae6cab378172/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/ArcGIS%20Pro%20stylesheets%20(LYRX)/images/Road1.png)
+
+
+**Outdoor**
+
+![Outdoor style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/b6b889b37325a9fcc0d106bea2fcae6cab378172/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/ArcGIS%20Pro%20stylesheets%20(LYRX)/images/Outdoor1.png)
+
+
+**Light**
+
+![Light style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/b6b889b37325a9fcc0d106bea2fcae6cab378172/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/ArcGIS%20Pro%20stylesheets%20(LYRX)/images/Light1.png)
 
 
 **Standard**
@@ -21,11 +33,6 @@ For help and advice please see the [Getting Started Guide](https://github.com/Or
 ![Standard style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/ArcGIS%20Pro%20stylesheets%20(LYRX)/images/Standard.png)
 
 
-**Outdoor**
+**Greyscale**
 
-![Outdoor style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/ArcGIS%20Pro%20stylesheets%20(LYRX)/images/Outdoor.png)
-
-
-**Light**
-
-![Light style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/ArcGIS%20Pro%20stylesheets%20(LYRX)/images/Light.png)
+![Greyscale style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/b6b889b37325a9fcc0d106bea2fcae6cab378172/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/ArcGIS%20Pro%20stylesheets%20(LYRX)/images/greyscale1.png)
