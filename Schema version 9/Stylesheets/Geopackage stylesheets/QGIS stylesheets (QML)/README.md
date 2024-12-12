@@ -1,7 +1,9 @@
 # OS MasterMap Topography Layer
-*Road, Standard, Outdoor and Light styles*
+*Road, Outdoor, Light and Standard styles*
 
 These are **QML** files for OS MasterMap Topography Layer for the GeoPackage data format.
+
+In 2024 we updated our Outdoor, Road and Light styles to reflect our changes to the OS Maps API. You can read about the changes here: https://www.ordnancesurvey.co.uk/blog/base-map-style-updates. Our legacy styles remain available for those who want to use them.
 
 ## Getting Started Guide
 
@@ -14,19 +16,19 @@ These stylesheets make use of Rule-based Labelling which was introduced at QGIS 
 
 **Road style**
 
-![Road style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/images/Road.png)
+![Road style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/a6b3bfd612258c7c8bf9ccd3727ec3f326d18ec0/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/images/Road1.png)
+
+
+**Outdoor style**
+
+![Outdoor style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/a6b3bfd612258c7c8bf9ccd3727ec3f326d18ec0/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/images/Outdoor1.png)
+
+
+**Light style**
+
+![Light style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/a6b3bfd612258c7c8bf9ccd3727ec3f326d18ec0/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/images/Light1.png)
 
 
 **Standard style**
 
 ![Standard style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/images/Standard.png)
-
-
-**Outdoor style**
-
-![Outdoor style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/images/Outdoor.png)
-
-
-**Light style**
-
-![Light style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/images/Light.png)
