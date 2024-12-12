@@ -1,5 +1,5 @@
 # OS MasterMap Topography Layer
-*Road, Standard, Outdoor and Light styles*
+*Road, Outdoor, Light and Standard styles*
 
 These are **SLD** stylesheets for OS MasterMap Topography Layer.
 
@@ -15,19 +15,19 @@ If using the SLDs in GeoServer with the data loaded into an Oracle database you 
 
 **Road**
 
-![Road style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/Geoserver%20stylesheets%20(SLD)/images/Road.png)
+![Road style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/76f0fdfbb5effbef5e44c0d13da373f590729aef/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/Geoserver%20stylesheets%20(SLD)/images/Road1.png)
+
+
+**Outdoor**
+
+![Outdoor style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/76f0fdfbb5effbef5e44c0d13da373f590729aef/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/Geoserver%20stylesheets%20(SLD)/images/Outdoor1.png)
+
+
+**Light**
+
+![Light style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/76f0fdfbb5effbef5e44c0d13da373f590729aef/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/Geoserver%20stylesheets%20(SLD)/images/Light1.png)
 
 
 **Standard**
 
 ![Standard style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/Geoserver%20stylesheets%20(SLD)/images/Standard.png)
-
-
-**Outdoor**
-
-![Outdoor style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/Geoserver%20stylesheets%20(SLD)/images/Outdoor.png)
-
-
-**Light**
-
-![Light style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/Geoserver%20stylesheets%20(SLD)/images/Light.png)
