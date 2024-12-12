@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" xmlns="http://www.w3.org/2000/svg" width="2.72" height="6.2" viewBox="0 0 2.72 6.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #717171;
+      }
+    </style>
+  </defs>
+  <g id="positionedConiferousTreeSymbol">
+    <g id="polyline4">
+      <rect class="cls-1" x="1.32" y=".06" width=".09" height="3"/>
+    </g>
+    <g id="path6">
+      <path class="cls-1" d="M2.65,2.5c-.55-.14-1.02-.5-1.29-1-.27.5-.74.86-1.29,1l-.02-.08c.55-.14,1.02-.51,1.27-1.03l.04-.08.04.08c.25.51.72.89,1.27,1.03l-.02.08Z"/>
+    </g>
+    <g id="path8">
+      <path class="cls-1" d="M2.24,1.25c-.37-.17-.67-.45-.88-.8-.21.35-.51.63-.88.8l-.04-.08c.38-.18.68-.47.88-.83l.04-.07.04.07c.2.37.5.65.88.83l-.04.08Z"/>
+    </g>
+  </g>
+</svg>
