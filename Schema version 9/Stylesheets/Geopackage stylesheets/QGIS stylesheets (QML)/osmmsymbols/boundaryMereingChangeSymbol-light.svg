@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg2" xmlns="http://www.w3.org/2000/svg" width="7.26" height="1.38" viewBox="0 0 7.26 1.38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ebbdeb;
+      }
+    </style>
+  </defs>
+  <g id="boundaryMereingChangeSymbol">
+    <g id="circle4">
+      <path class="cls-1" d="M6.59,1.36c-.37,0-.67-.3-.67-.67S6.22.02,6.59.02s.67.3.67.67-.3.67-.67.67ZM6.59.11c-.32,0-.58.26-.58.58s.26.58.58.58.58-.26.58-.58-.26-.58-.58-.58Z"/>
+    </g>
+    <g id="line6">
+      <rect class="cls-1" x="3.72" y=".64" width="2.25" height=".09"/>
+    </g>
+  </g>
+</svg>
