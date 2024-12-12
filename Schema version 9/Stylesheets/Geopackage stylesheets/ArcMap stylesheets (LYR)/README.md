@@ -1,5 +1,5 @@
 # OS MasterMap Topography Layer
-*Road, Outdoor, Light and Standard styles*
+*Road, Outdoor, Light, Standard and greyscale styles*
 
 These are **LYR** files for OS MasterMap Topography Layer for the GeoPackage data format.
 
@@ -36,3 +36,11 @@ Switching this option off may help speed up redraw times. In order to get Cliff 
 **Standard style**
 
 ![Standard style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/images/Standard.png)
+
+
+**Greyscale style**
+
+![Greyscale style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/bde28649ed6e32661a292641725d5857792a5383/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/ArcMap%20stylesheets%20(LYR)/images/greyscale1.png)
+
+
+
