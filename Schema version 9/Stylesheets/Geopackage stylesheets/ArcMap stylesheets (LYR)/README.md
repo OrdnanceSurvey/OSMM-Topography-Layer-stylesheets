@@ -1,5 +1,5 @@
 # OS MasterMap Topography Layer
-*Road, Outdoor, Light, Standard and greyscale styles*
+*Road, Outdoor, Light, Standard and Greyscale styles*
 
 These are **LYR** files for OS MasterMap Topography Layer for the GeoPackage data format.
 
