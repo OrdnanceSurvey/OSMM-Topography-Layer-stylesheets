@@ -10,7 +10,9 @@ In 2024 we updated our Outdoor, Road and Light styles to reflect our changes to 
 For help and advice please see the [Getting Started Guide](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Getting%20Started%20Guide%20-%20Styling%20OSMM%20Topography%20Layer.pdf)
 
 ## Compatability note
-These stylesheets make use of Rule-based Labelling which was introduced at QGIS version 2.12
+These stylesheets are designed to work in QGIS version 3.28 or later*. The pre December 2024 stylesheets will continue to work in older versions of QGIS back to version 2.12.
+ 
+*This is due to QGIS removing backward compatibility of stylesheets created in version 3.16 or later.
 
 ## Images
 
