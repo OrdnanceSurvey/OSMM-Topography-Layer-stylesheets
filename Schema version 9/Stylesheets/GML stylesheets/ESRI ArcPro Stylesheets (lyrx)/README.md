@@ -1,5 +1,5 @@
 # OS MasterMap Topography Layer
-*Road, Outdoor and Light styles*
+*Road, Outdoor, Light and Black and White styles*
 
 These are **LYRX** files for OS MasterMap Topography Layer for the GML data format for use in Esri ArcPro. You will need to apply the post processing SQL scripts before using these stylesheets.
 
