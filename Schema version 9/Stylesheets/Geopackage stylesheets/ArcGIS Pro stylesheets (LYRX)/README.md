@@ -1,11 +1,13 @@
 # OS MasterMap Topography Layer
-*Road, Outdoor, Light, Standard and Greyscale styles*
+*Road, Outdoor, Light, Black and White, Standard and Greyscale styles*
 
 These are **LYRX** files for OS MasterMap Topography Layer for the GeoPackage data format.
 
 We have added a new greyscale style for users to test and provide feedback via issues. After user testing we will provide this style in QML, LYR and SLD too. 
 
 In 2024 we updated our Outdoor, Road and Light styles to reflect our changes to the OS Maps API. You can read about the changes here: https://www.ordnancesurvey.co.uk/blog/base-map-style-updates. Our legacy styles remain available for those who want to use them.
+
+In 2025 we added a new Black and White style.
 
 ## Getting Started Guide
 
@@ -26,6 +28,11 @@ For help and advice please see the [Getting Started Guide](https://github.com/Or
 **Light**
 
 ![Light style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/b6b889b37325a9fcc0d106bea2fcae6cab378172/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/ArcGIS%20Pro%20stylesheets%20(LYRX)/images/Light1.png)
+
+
+**Black and White**
+
+![Black and White style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/2d212c552282f2f7fed73a4258c3691887f6e90c/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/ArcGIS%20Pro%20stylesheets%20(LYRX)/images/Black%20and%20White.png)
 
 
 **Standard**
