@@ -1,9 +1,11 @@
 # OS MasterMap Topography Layer
-*Road, Outdoor, Light and Standard styles*
+*Road, Outdoor, Light, Black and White and Standard styles*
 
 These are **QML** files for OS MasterMap Topography Layer for the GeoPackage data format.
 
 In 2024 we updated our Outdoor, Road and Light styles to reflect our changes to the OS Maps API. You can read about the changes here: https://www.ordnancesurvey.co.uk/blog/base-map-style-updates. Our legacy styles remain available for those who want to use them.
+
+In 2025 we added a new Black and White style.
 
 ## Getting Started Guide
 
@@ -29,6 +31,11 @@ These stylesheets are designed to work in QGIS version 3.28 or later*. The pre D
 **Light style**
 
 ![Light style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/a6b3bfd612258c7c8bf9ccd3727ec3f326d18ec0/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/images/Light1.png)
+
+
+**Black and White style**
+
+![Black and White style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/ce9e61ff68efd1df840a4794c8d39a4a19679053/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/images/Black%20and%20White1.png)
 
 
 **Standard style**
