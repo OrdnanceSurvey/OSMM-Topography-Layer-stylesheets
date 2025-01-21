@@ -32,7 +32,7 @@ For help and advice please see the [Getting Started Guide](https://github.com/Or
 
 **Black and White**
 
-![Black and White style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/2d212c552282f2f7fed73a4258c3691887f6e90c/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/ArcGIS%20Pro%20stylesheets%20(LYRX)/images/Black%20and%20White.png)
+![Black and White style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/2d212c552282f2f7fed73a4258c3691887f6e90c/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/ArcGIS%20Pro%20stylesheets%20(LYRX)/images/Black%20and%20White1.png)
 
 
 **Standard**
