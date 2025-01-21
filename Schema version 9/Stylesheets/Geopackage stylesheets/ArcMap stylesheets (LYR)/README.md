@@ -1,9 +1,11 @@
 # OS MasterMap Topography Layer
-*Road, Outdoor, Light, Standard and Greyscale styles*
+*Road, Outdoor, Light, Black and White, Standard and Greyscale styles*
 
 These are **LYR** files for OS MasterMap Topography Layer for the GeoPackage data format.
 
 In 2024 we updated our Outdoor, Road and Light styles to reflect our changes to the OS Maps API. You can read about the changes here: https://www.ordnancesurvey.co.uk/blog/base-map-style-updates. Our legacy styles remain available for those who want to use them.
+
+In 2025 we added our new Black and White style.
 
 ## Getting Started Guide
 
@@ -31,6 +33,11 @@ Switching this option off may help speed up redraw times. In order to get Cliff 
 **Light style**
 
 ![Light style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/bc2dac6a2f9a1c82c63df59cce2874d94e6d8276/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/ArcMap%20stylesheets%20(LYR)/images/Light1.png)
+
+
+**Black and White style**
+
+![Black and White style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/e4e5aa600268ec590df929ec78896a104c0d6ade/Schema%20version%209/Stylesheets/Geopackage%20stylesheets/ArcMap%20stylesheets%20(LYR)/images/Black%20and%20White1.png)
 
 
 **Standard style**
