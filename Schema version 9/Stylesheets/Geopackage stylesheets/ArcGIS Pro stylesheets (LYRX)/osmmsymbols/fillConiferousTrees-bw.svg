@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.97 46.42">
+  <g id="ConiferousTrees">
+    <g id="roughGrassAndConiferousTreesFillSymbol">
+      <g id="coniferousTreesFillSymbol">
+        <g id="coniferousTreeFillSymbol">
+          <g id="coniferousTreeGeometry">
+            <rect x="21.3" y=".04" width=".09" height="3" fill="#6c6967"/>
+            <path d="M20.06,2.48l-.02-.08c.55-.14,1.02-.51,1.27-1.03l.04-.08.04.08c.25.51.72.89,1.27,1.03l-.02.08c-.55-.14-1.02-.5-1.29-1-.27.5-.74.86-1.29,1Z" fill="#6c6967"/>
+            <path d="M22.23,1.23c-.37-.18-.67-.45-.88-.8-.21.35-.51.63-.88.8l-.04-.08c.38-.18.68-.47.88-.83l.04-.07.04.07c.2.37.5.65.88.83l-.04.08Z" fill="#6c6967"/>
+          </g>
+        </g>
+        <g id="smallConiferousTreeFillSymbol">
+          <rect x="23.3" y="2.96" width=".09" height="1.5" fill="#6c6967"/>
+          <path d="M23.99,4.2c-.27-.06-.5-.23-.64-.46-.15.23-.37.39-.64.46l-.02-.09c.27-.06.49-.24.62-.48l.04-.07.04.07c.13.24.35.42.62.48l-.02.09Z" fill="#6c6967"/>
+          <path d="M23.78,3.58c-.18-.08-.33-.21-.43-.38-.1.16-.25.29-.43.38l-.04-.08c.18-.09.33-.23.43-.41l.04-.07.04.07c.1.18.25.32.43.41l-.04.08Z" fill="#6c6967"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="ConiferousTrees-2" data-name="ConiferousTrees" isolation="isolate">
+    <g id="roughGrassAndConiferousTreesFillSymbol-2" data-name="roughGrassAndConiferousTreesFillSymbol">
+      <g id="coniferousTreesFillSymbol-2" data-name="coniferousTreesFillSymbol">
+        <g id="coniferousTreeFillSymbol-2" data-name="coniferousTreeFillSymbol">
+          <g id="coniferousTreeGeometry-2" data-name="coniferousTreeGeometry">
+            <rect x="38.26" width=".09" height="3" fill="#6c6967"/>
+            <path d="M39.6,2.44c-.55-.14-1.02-.5-1.29-1-.27.5-.74.86-1.29,1l-.02-.08c.55-.14,1.02-.51,1.27-1.03l.04-.08.04.08c.26.51.72.89,1.27,1.03l-.02.08Z" fill="#6c6967"/>
+            <path d="M39.19,1.19c-.37-.18-.67-.45-.88-.8-.2.35-.51.63-.88.8l-.04-.08c.37-.18.68-.47.88-.83l.04-.07.04.07c.2.37.51.65.88.83l-.04.08Z" fill="#6c6967"/>
+          </g>
+        </g>
+        <g id="smallConiferousTreeFillSymbol-2" data-name="smallConiferousTreeFillSymbol">
+          <rect x="40.26" y="2.92" width=".09" height="1.5" fill="#6c6967"/>
+          <path d="M40.95,4.17c-.27-.06-.5-.23-.64-.46-.15.23-.37.39-.64.46l-.02-.09c.27-.06.49-.24.62-.48l.04-.07.04.07c.13.24.35.42.62.48l-.02.09Z" fill="#6c6967"/>
+          <path d="M39.88,3.54l-.04-.08c.19-.09.33-.23.43-.41l.04-.07.04.07c.1.17.25.32.43.41l-.04.08c-.18-.09-.33-.22-.43-.38-.1.16-.25.29-.43.38Z" fill="#6c6967"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="ConiferousTrees-3" data-name="ConiferousTrees" isolation="isolate">
+    <g id="roughGrassAndConiferousTreesFillSymbol-3" data-name="roughGrassAndConiferousTreesFillSymbol">
+      <g id="coniferousTreesFillSymbol-3" data-name="coniferousTreesFillSymbol">
+        <g id="coniferousTreeFillSymbol-3" data-name="coniferousTreeFillSymbol">
+          <g id="coniferousTreeGeometry-3" data-name="coniferousTreeGeometry">
+            <rect x="32.26" y="8" width=".09" height="3" fill="#6c6967"/>
+            <path d="M33.6,10.44c-.55-.14-1.02-.5-1.29-1-.27.5-.74.86-1.29,1l-.02-.08c.55-.14,1.02-.52,1.27-1.03l.04-.08.04.08c.25.51.72.89,1.27,1.03l-.02.08Z" fill="#6c6967"/>
+            <path d="M33.19,9.19c-.37-.18-.67-.45-.88-.8-.2.35-.51.63-.88.8l-.04-.08c.37-.18.68-.47.88-.83l.04-.07.04.07c.2.37.51.65.88.83l-.04.08Z" fill="#6c6967"/>
+          </g>
+        </g>
+        <g id="smallConiferousTreeFillSymbol-3" data-name="smallConiferousTreeFillSymbol">
+          <rect x="34.26" y="10.92" width=".09" height="1.5" fill="#6c6967"/>
+          <path d="M34.95,12.17c-.27-.06-.5-.23-.64-.46-.15.23-.37.39-.64.46l-.02-.09c.27-.06.49-.24.62-.48l.04-.07.04.07c.13.24.35.42.62.48l-.02.09Z" fill="#6c6967"/>
+          <path d="M33.88,11.54l-.04-.08c.19-.09.33-.23.43-.41l.04-.07.04.07c.1.17.25.32.43.41l-.04.08c-.18-.09-.33-.22-.43-.38-.11.16-.25.29-.43.38Z" fill="#6c6967"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="ConiferousTrees-4" data-name="ConiferousTrees" isolation="isolate">
+    <g id="roughGrassAndConiferousTreesFillSymbol-4" data-name="roughGrassAndConiferousTreesFillSymbol">
+      <g id="coniferousTreesFillSymbol-4" data-name="coniferousTreesFillSymbol">
+        <g id="coniferousTreeFillSymbol-4" data-name="coniferousTreeFillSymbol">
+          <g id="coniferousTreeGeometry-4" data-name="coniferousTreeGeometry">
+            <rect x="6.27" y="10.03" width=".09" height="3" fill="#6c6967"/>
+            <path d="M5.02,12.47l-.02-.08c.55-.14,1.02-.52,1.27-1.03l.04-.08.04.08c.25.51.72.89,1.27,1.03l-.02.08c-.55-.14-1.02-.5-1.29-1-.27.5-.74.86-1.29,1Z" fill="#6c6967"/>
+            <path d="M7.19,11.22c-.37-.18-.67-.45-.88-.8-.21.35-.51.63-.88.8l-.04-.08c.38-.18.68-.47.88-.83l.04-.07.04.07c.2.37.5.65.88.83l-.04.08Z" fill="#6c6967"/>
+          </g>
+        </g>
+        <g id="smallConiferousTreeFillSymbol-4" data-name="smallConiferousTreeFillSymbol">
+          <rect x="8.26" y="12.95" width=".09" height="1.5" fill="#6c6967"/>
+          <path d="M8.95,14.19c-.27-.06-.5-.23-.64-.46-.15.23-.37.39-.64.46l-.02-.09c.27-.06.49-.24.62-.48l.04-.07.04.07c.13.24.35.42.62.48l-.02.09Z" fill="#6c6967"/>
+          <path d="M8.74,13.56c-.18-.09-.33-.22-.43-.38-.1.16-.25.29-.43.38l-.04-.08c.19-.09.33-.23.43-.41l.04-.07.04.07c.1.18.24.32.43.41l-.04.08Z" fill="#6c6967"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="ConiferousTrees-5" data-name="ConiferousTrees" isolation="isolate">
+    <g id="roughGrassAndConiferousTreesFillSymbol-5" data-name="roughGrassAndConiferousTreesFillSymbol">
+      <g id="coniferousTreesFillSymbol-5" data-name="coniferousTreesFillSymbol">
+        <g id="coniferousTreeFillSymbol-5" data-name="coniferousTreeFillSymbol">
+          <g id="coniferousTreeGeometry-5" data-name="coniferousTreeGeometry">
+            <rect x="1.27" y="19.9" width=".09" height="3" fill="#6c6967"/>
+            <path d="M.02,22.34l-.02-.08c.55-.14,1.02-.51,1.27-1.03l.04-.08.04.08c.25.51.72.89,1.27,1.03l-.02.08c-.55-.14-1.02-.5-1.29-1-.27.5-.74.86-1.29,1Z" fill="#6c6967"/>
+            <path d="M2.19,21.09c-.37-.18-.67-.45-.88-.8-.21.35-.51.63-.88.8l-.04-.08c.38-.18.68-.47.88-.83l.04-.07.04.07c.2.37.5.65.88.83l-.04.08Z" fill="#6c6967"/>
+          </g>
+        </g>
+        <g id="smallConiferousTreeFillSymbol-5" data-name="smallConiferousTreeFillSymbol">
+          <rect x="3.26" y="22.82" width=".09" height="1.5" fill="#6c6967"/>
+          <path d="M3.95,24.07c-.27-.06-.5-.23-.64-.46-.15.23-.37.4-.64.46l-.02-.08c.27-.06.49-.24.62-.48l.04-.07.04.07c.13.24.36.42.62.48l-.02.08Z" fill="#6c6967"/>
+          <path d="M3.74,23.44c-.18-.08-.33-.22-.43-.38-.11.16-.25.29-.43.38l-.04-.08c.18-.09.33-.23.43-.41l.04-.07.04.07c.1.18.24.32.43.41l-.04.08Z" fill="#6c6967"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="ConiferousTrees-6" data-name="ConiferousTrees" isolation="isolate">
+    <g id="roughGrassAndConiferousTreesFillSymbol-6" data-name="roughGrassAndConiferousTreesFillSymbol">
+      <g id="coniferousTreesFillSymbol-6" data-name="coniferousTreesFillSymbol">
+        <g id="coniferousTreeFillSymbol-6" data-name="coniferousTreeFillSymbol">
+          <g id="coniferousTreeGeometry-6" data-name="coniferousTreeGeometry">
+            <rect x="6.27" y="33.03" width=".09" height="3" fill="#6c6967"/>
+            <path d="M5.02,35.47l-.02-.08c.55-.14,1.02-.52,1.27-1.03l.04-.08.04.08c.25.51.72.88,1.27,1.03l-.02.08c-.55-.14-1.02-.5-1.29-1-.27.5-.74.86-1.29,1Z" fill="#6c6967"/>
+            <path d="M7.19,34.22c-.37-.18-.67-.45-.88-.81-.21.35-.51.63-.88.81l-.04-.08c.38-.18.68-.47.88-.83l.04-.07.04.07c.2.37.5.65.88.83l-.04.08Z" fill="#6c6967"/>
+          </g>
+        </g>
+        <g id="smallConiferousTreeFillSymbol-6" data-name="smallConiferousTreeFillSymbol">
+          <rect x="8.26" y="35.96" width=".09" height="1.5" fill="#6c6967"/>
+          <path d="M8.95,37.2c-.27-.06-.5-.23-.64-.46-.15.23-.37.4-.64.46l-.02-.08c.27-.06.49-.24.62-.48l.04-.07.04.07c.13.24.35.42.62.48l-.02.08Z" fill="#6c6967"/>
+          <path d="M8.74,36.57c-.18-.08-.33-.22-.43-.38-.1.16-.25.29-.43.38l-.04-.08c.18-.09.33-.23.43-.41l.04-.07.04.07c.1.18.25.32.43.41l-.04.08Z" fill="#6c6967"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="ConiferousTrees-7" data-name="ConiferousTrees" isolation="isolate">
+    <g id="roughGrassAndConiferousTreesFillSymbol-7" data-name="roughGrassAndConiferousTreesFillSymbol">
+      <g id="coniferousTreesFillSymbol-7" data-name="coniferousTreesFillSymbol">
+        <g id="coniferousTreeFillSymbol-7" data-name="coniferousTreeFillSymbol">
+          <g id="coniferousTreeGeometry-7" data-name="coniferousTreeGeometry">
+            <rect x="23.27" y="31" width=".09" height="3" fill="#6c6967"/>
+            <path d="M24.6,33.44c-.55-.14-1.02-.5-1.29-1-.27.5-.74.86-1.29,1l-.02-.08c.55-.14,1.02-.51,1.27-1.03l.04-.08.04.08c.25.51.72.89,1.27,1.03l-.02.08Z" fill="#6c6967"/>
+            <path d="M24.19,32.19c-.37-.18-.67-.45-.88-.8-.21.35-.51.63-.88.8l-.04-.08c.38-.18.68-.47.88-.83l.04-.07.04.07c.2.37.5.65.88.83l-.04.08Z" fill="#6c6967"/>
+          </g>
+        </g>
+        <g id="smallConiferousTreeFillSymbol-7" data-name="smallConiferousTreeFillSymbol">
+          <rect x="25.26" y="33.92" width=".09" height="1.5" fill="#6c6967"/>
+          <path d="M25.95,35.17c-.27-.06-.5-.23-.64-.46-.15.23-.37.4-.64.46l-.02-.08c.27-.06.49-.24.62-.48l.04-.07.04.07c.13.24.35.42.62.48l-.02.08Z" fill="#6c6967"/>
+          <path d="M24.88,34.54l-.04-.08c.19-.09.33-.23.43-.4l.04-.07.04.07c.09.17.25.32.43.4l-.04.08c-.18-.08-.33-.22-.43-.38-.11.16-.25.3-.43.38Z" fill="#6c6967"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="ConiferousTrees-8" data-name="ConiferousTrees" isolation="isolate">
+    <g id="roughGrassAndConiferousTreesFillSymbol-8" data-name="roughGrassAndConiferousTreesFillSymbol">
+      <g id="coniferousTreesFillSymbol-8" data-name="coniferousTreesFillSymbol">
+        <g id="coniferousTreeFillSymbol-8" data-name="coniferousTreeFillSymbol">
+          <g id="coniferousTreeGeometry-8" data-name="coniferousTreeGeometry">
+            <rect x="38.26" y="30" width=".09" height="3" fill="#6c6967"/>
+            <path d="M39.6,32.44c-.55-.14-1.02-.5-1.29-1-.27.5-.74.86-1.29,1l-.02-.08c.55-.14,1.02-.51,1.27-1.03l.04-.08.04.08c.25.51.72.89,1.27,1.03l-.02.08Z" fill="#6c6967"/>
+            <path d="M39.19,31.19c-.37-.18-.67-.45-.88-.8-.2.35-.51.63-.88.8l-.04-.08c.37-.18.68-.47.88-.83l.04-.07.04.07c.2.37.51.65.88.83l-.04.08Z" fill="#6c6967"/>
+          </g>
+        </g>
+        <g id="smallConiferousTreeFillSymbol-8" data-name="smallConiferousTreeFillSymbol">
+          <rect x="40.26" y="32.92" width=".09" height="1.5" fill="#6c6967"/>
+          <path d="M40.95,34.17c-.27-.06-.5-.23-.64-.46-.15.23-.37.4-.64.46l-.02-.08c.27-.06.49-.24.62-.48l.04-.07.04.07c.13.24.35.42.62.48l-.02.08Z" fill="#6c6967"/>
+          <path d="M39.88,33.54l-.04-.08c.19-.09.33-.23.43-.4l.04-.07.04.07c.1.17.25.32.43.4l-.04.08c-.18-.08-.33-.22-.43-.38-.11.16-.25.3-.43.38Z" fill="#6c6967"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="ConiferousTrees-9" data-name="ConiferousTrees" isolation="isolate">
+    <g id="roughGrassAndConiferousTreesFillSymbol-9" data-name="roughGrassAndConiferousTreesFillSymbol">
+      <g id="coniferousTreesFillSymbol-9" data-name="coniferousTreesFillSymbol">
+        <g id="coniferousTreeFillSymbol-9" data-name="coniferousTreeFillSymbol">
+          <g id="coniferousTreeGeometry-9" data-name="coniferousTreeGeometry">
+            <rect x="35.26" y="42" width=".09" height="3" fill="#6c6967"/>
+            <path d="M36.6,44.44c-.55-.14-1.02-.5-1.29-1-.27.5-.74.86-1.29,1l-.02-.08c.55-.14,1.02-.51,1.27-1.03l.04-.08.04.08c.25.51.72.89,1.27,1.03l-.02.08Z" fill="#6c6967"/>
+            <path d="M36.19,43.19c-.37-.18-.67-.45-.88-.8-.2.35-.51.63-.88.8l-.04-.08c.37-.18.68-.47.88-.83l.04-.07.04.07c.2.37.51.65.88.83l-.04.08Z" fill="#6c6967"/>
+          </g>
+        </g>
+        <g id="smallConiferousTreeFillSymbol-9" data-name="smallConiferousTreeFillSymbol">
+          <rect x="37.26" y="44.92" width=".09" height="1.5" fill="#6c6967"/>
+          <path d="M37.95,46.17c-.27-.06-.5-.23-.64-.46-.15.23-.37.4-.64.46l-.02-.08c.27-.06.49-.24.62-.48l.04-.07.04.07c.13.24.35.42.62.48l-.02.08Z" fill="#6c6967"/>
+          <path d="M36.88,45.54l-.04-.08c.19-.09.33-.23.43-.4l.04-.07.04.07c.1.17.25.32.43.4l-.04.08c-.18-.08-.33-.22-.43-.38-.11.16-.25.3-.43.38Z" fill="#6c6967"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="ConiferousTrees-10" data-name="ConiferousTrees" isolation="isolate">
+    <g id="roughGrassAndConiferousTreesFillSymbol-10" data-name="roughGrassAndConiferousTreesFillSymbol">
+      <g id="coniferousTreesFillSymbol-10" data-name="coniferousTreesFillSymbol">
+        <g id="coniferousTreeFillSymbol-10" data-name="coniferousTreeFillSymbol">
+          <g id="coniferousTreeGeometry-10" data-name="coniferousTreeGeometry">
+            <rect x="1.27" y="41.98" width=".09" height="3" fill="#6c6967"/>
+            <path d="M.02,44.42l-.02-.08c.55-.14,1.02-.52,1.27-1.03l.04-.08.04.08c.25.51.72.89,1.27,1.03l-.02.08c-.55-.14-1.02-.5-1.29-1-.27.5-.74.86-1.29,1Z" fill="#6c6967"/>
+            <path d="M2.19,43.17c-.37-.18-.67-.45-.88-.81-.21.35-.51.63-.88.81l-.04-.08c.38-.18.68-.47.88-.83l.04-.07.04.07c.2.37.5.65.88.83l-.04.08Z" fill="#6c6967"/>
+          </g>
+        </g>
+        <g id="smallConiferousTreeFillSymbol-10" data-name="smallConiferousTreeFillSymbol">
+          <rect x="3.26" y="44.9" width=".09" height="1.5" fill="#6c6967"/>
+          <path d="M3.95,46.14c-.27-.06-.5-.23-.64-.46-.15.23-.37.4-.64.46l-.02-.08c.27-.06.49-.24.62-.48l.04-.07.04.07c.13.24.36.42.62.48l-.02.08Z" fill="#6c6967"/>
+          <path d="M3.74,45.51c-.18-.08-.33-.22-.43-.38-.11.16-.25.29-.43.38l-.04-.08c.18-.09.33-.23.43-.41l.04-.07.04.07c.1.18.25.32.43.41l-.04.08Z" fill="#6c6967"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="ConiferousTrees-11" data-name="ConiferousTrees" isolation="isolate">
+    <g id="roughGrassAndConiferousTreesFillSymbol-11" data-name="roughGrassAndConiferousTreesFillSymbol">
+      <g id="coniferousTreesFillSymbol-11" data-name="coniferousTreesFillSymbol">
+        <g id="coniferousTreeFillSymbol-11" data-name="coniferousTreeFillSymbol">
+          <g id="coniferousTreeGeometry-11" data-name="coniferousTreeGeometry">
+            <rect x="33.26" y="18" width=".09" height="3" fill="#6c6967"/>
+            <path d="M34.6,20.44c-.55-.14-1.02-.5-1.29-1-.27.5-.74.86-1.29,1l-.02-.08c.55-.14,1.02-.51,1.27-1.03l.04-.08.04.08c.25.51.72.89,1.27,1.03l-.02.08Z" fill="#6c6967"/>
+            <path d="M34.19,19.19c-.37-.18-.67-.45-.88-.8-.2.34-.51.63-.88.8l-.04-.08c.37-.18.68-.47.88-.83l.04-.07.04.07c.2.37.51.65.88.83l-.04.08Z" fill="#6c6967"/>
+          </g>
+        </g>
+        <g id="smallConiferousTreeFillSymbol-11" data-name="smallConiferousTreeFillSymbol">
+          <rect x="35.26" y="20.92" width=".09" height="1.5" fill="#6c6967"/>
+          <path d="M35.95,22.17c-.27-.06-.5-.23-.64-.46-.15.23-.37.39-.64.46l-.02-.09c.27-.06.49-.24.62-.48l.04-.07.04.07c.13.24.35.42.62.48l-.02.09Z" fill="#6c6967"/>
+          <path d="M34.88,21.54l-.04-.08c.19-.09.33-.23.43-.41l.04-.07.04.07c.1.17.25.32.43.41l-.04.08c-.18-.08-.33-.22-.43-.38-.11.16-.25.29-.43.38Z" fill="#6c6967"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
