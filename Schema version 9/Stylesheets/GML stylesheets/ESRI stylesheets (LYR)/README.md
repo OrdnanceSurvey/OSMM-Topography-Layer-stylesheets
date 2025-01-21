@@ -1,5 +1,5 @@
 # OS MasterMap Topography Layer
-*Backdrop, Standard, Outdoor, Road and Light styles*
+*Backdrop, Standard, Outdoor, Road, Black and White and Light styles*
 
 These are **LYR** files for OS MasterMap Topography Layer for use in ArcMap. You will need to apply the post processing SQL scripts before using these stylesheets.
 
