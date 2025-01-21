@@ -5,6 +5,8 @@ These are **LYR** files for OS MasterMap Topography Layer for use in ArcMap. You
 
 In 2024 we updated our Outdoor, Road and Light styles to reflect our changes to the OS Maps API. You can read about the changes here: https://www.ordnancesurvey.co.uk/blog/base-map-style-updates. Our legacy styles remain available for those who want to use them.
 
+In 2025 we added a new black and white style for OS MasterMap Topography Layer.
+
 ## Getting Started Guide
 
 For help and advice please see the [Getting Started Guide](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Getting%20Started%20Guide%20-%20Styling%20OSMM%20Topography%20Layer.pdf)
@@ -33,6 +35,11 @@ Switching this option off may help speed up redraw times. In order to get Cliff 
 ![Road style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/470a201c1943684c88f8089f5f98972e2d2936cb/Schema%20version%209/Stylesheets/GML%20stylesheets/ESRI%20stylesheets%20(LYR)/images/Road-1.png)
 
 
+**Black and White style**
+
+![Black and White style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/3b6e0ba42ac7d0b61c45c4df8cfc20ed4d74d305/Schema%20version%209/Stylesheets/GML%20stylesheets/ESRI%20stylesheets%20(LYR)/images/Black%20and%20White.png)
+
+
 **Backdrop style**
 
 ![Backdrop style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Backdrop-1.png)
@@ -41,3 +48,5 @@ Switching this option off may help speed up redraw times. In order to get Cliff 
 **Standard style**
 
 ![Standard style](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Schema%20version%209/Stylesheets/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/Standard-1.png)
+
+
