@@ -5,6 +5,10 @@ These are **LYRX** files for OS MasterMap Topography Layer for the GML data form
 
 These stylesheets include the 2024 updates to the Road, Outdoor and Light styles plus our new Black and White style.
 
+## Compatibility
+
+These stylesheets are designed to work with ArcPro versions 3.x. ArcPro deoes not support backward compatibility of lyrx files so if you are running an older version of ArcPro (2.x), we recommend you use the ESRI ArcMap lyr files instead.
+
 ## Getting Started Guide
 
 For help and advice please see the [Getting Started Guide](https://github.com/OrdnanceSurvey/OSMM-Topography-Layer-stylesheets/blob/master/Getting%20Started%20Guide%20-%20Styling%20OSMM%20Topography%20Layer.pdf)
