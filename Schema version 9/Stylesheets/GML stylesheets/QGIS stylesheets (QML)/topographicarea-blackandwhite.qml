@@ -362,7 +362,7 @@
             <Option name="parameters"/>
             <Option type="QString" name="pattern_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="pattern_width_unit" value="MM"/>
-            <Option type="QString" name="svgFile" value="C:/Program Files/QGIS 3.28.7/apps/qgis-ltr/svg/osmmsymbols/fillMixedWoodland-bw.svg"/>
+            <Option type="QString" name="svgFile" value="osmmsymbols/fillMixedWoodland-bw.svg"/>
             <Option type="QString" name="svg_outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="svg_outline_width_unit" value="MM"/>
             <Option type="QString" name="width" value="50"/>
@@ -417,7 +417,7 @@
             <Option name="parameters"/>
             <Option type="QString" name="pattern_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="pattern_width_unit" value="MM"/>
-            <Option type="QString" name="svgFile" value="C:/Program Files/QGIS 3.28.7/apps/qgis-ltr/svg/osmmsymbols/fillNonconiferousTrees-bw.svg"/>
+            <Option type="QString" name="svgFile" value="osmmsymbols/fillNonconiferousTrees-bw.svg"/>
             <Option type="QString" name="svg_outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="svg_outline_width_unit" value="MM"/>
             <Option type="QString" name="width" value="50"/>
@@ -472,7 +472,7 @@
             <Option name="parameters"/>
             <Option type="QString" name="pattern_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="pattern_width_unit" value="MM"/>
-            <Option type="QString" name="svgFile" value="C:/Program Files/QGIS 3.28.7/apps/qgis-ltr/svg/osmmsymbols/fillConiferousTrees-bw.svg"/>
+            <Option type="QString" name="svgFile" value="osmmsymbols/fillConiferousTrees-bw.svg"/>
             <Option type="QString" name="svg_outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="svg_outline_width_unit" value="MM"/>
             <Option type="QString" name="width" value="50"/>
@@ -558,7 +558,7 @@
             <Option name="parameters"/>
             <Option type="QString" name="pattern_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="pattern_width_unit" value="MM"/>
-            <Option type="QString" name="svgFile" value="C:/Program Files/QGIS 3.28.7/apps/qgis-ltr/svg/osmmsymbols/fillOrchard-bw.svg"/>
+            <Option type="QString" name="svgFile" value="osmmsymbols/fillOrchard-bw.svg"/>
             <Option type="QString" name="svg_outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="svg_outline_width_unit" value="MM"/>
             <Option type="QString" name="width" value="20"/>
@@ -613,7 +613,7 @@
             <Option name="parameters"/>
             <Option type="QString" name="pattern_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="pattern_width_unit" value="MM"/>
-            <Option type="QString" name="svgFile" value="C:/Program Files/QGIS 3.28.7/apps/qgis-ltr/svg/osmmsymbols/fillCoppiceOrOsiers-bw.svg"/>
+            <Option type="QString" name="svgFile" value="osmmsymbols/fillCoppiceOrOsiers-bw.svg"/>
             <Option type="QString" name="svg_outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="svg_outline_width_unit" value="MM"/>
             <Option type="QString" name="width" value="55"/>
@@ -668,7 +668,7 @@
             <Option name="parameters"/>
             <Option type="QString" name="pattern_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="pattern_width_unit" value="MM"/>
-            <Option type="QString" name="svgFile" value="C:/Program Files/QGIS 3.28.7/apps/qgis-ltr/svg/osmmsymbols/fillScrub-bw.svg"/>
+            <Option type="QString" name="svgFile" value="osmmsymbols/fillScrub-bw.svg"/>
             <Option type="QString" name="svg_outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="svg_outline_width_unit" value="MM"/>
             <Option type="QString" name="width" value="50"/>
@@ -723,7 +723,7 @@
             <Option name="parameters"/>
             <Option type="QString" name="pattern_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="pattern_width_unit" value="MM"/>
-            <Option type="QString" name="svgFile" value="C:/Program Files/QGIS 3.28.7/apps/qgis-ltr/svg/osmmsymbols/fillBoulders-bw.svg"/>
+            <Option type="QString" name="svgFile" value="osmmsymbols/fillBoulders-bw.svg"/>
             <Option type="QString" name="svg_outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="svg_outline_width_unit" value="MM"/>
             <Option type="QString" name="width" value="60"/>
@@ -809,7 +809,7 @@
             <Option name="parameters"/>
             <Option type="QString" name="pattern_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="pattern_width_unit" value="MM"/>
-            <Option type="QString" name="svgFile" value="C:/Program Files/QGIS 3.28.7/apps/qgis-ltr/svg/osmmsymbols/fillRock-bw.svg"/>
+            <Option type="QString" name="svgFile" value="osmmsymbols/fillRock-bw.svg"/>
             <Option type="QString" name="svg_outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
             <Option type="QString" name="svg_outline_width_unit" value="MM"/>
             <Option type="QString" name="width" value="40"/>
